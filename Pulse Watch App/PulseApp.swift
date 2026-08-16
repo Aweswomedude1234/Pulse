@@ -1,14 +1,14 @@
 //
-//  PulseIOSAPPApp.swift
-//  PulseIOSAPP
+//  PulseApp.swift
+//  Pulse Watch App
 //
-//  Created by Nithilan Murugesan on 5/21/26.
+//  Created by Nithilan Murugesan on 7/27/26.
 //
 
 import SwiftUI
 
 @main
-struct PulseIOSAPPApp: App {
+struct Pulse_Watch_AppApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
