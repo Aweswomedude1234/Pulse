@@ -1,0 +1,64 @@
+{
+  "source": "/Users/nithinithilanlanmurugesan/Downloads/Pulse/PulseIOSAPP/PulseIOSAPP/UI/RadarEventDetailSheet.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Sound Detail",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 69
+        }
+      },
+      {
+        "comment": "",
+        "key": "Detection",
+        "location": {
+          "startingColumn": 25,
+          "startingLine": 37
+        }
+      },
+      {
+        "comment": "",
+        "key": "Direction",
+        "location": {
+          "startingColumn": 29,
+          "startingLine": 43
+        }
+      },
+      {
+        "comment": "",
+        "key": "Proximity",
+        "location": {
+          "startingColumn": 29,
+          "startingLine": 55
+        }
+      },
+      {
+        "comment": "",
+        "key": "Transcript",
+        "location": {
+          "startingColumn": 29,
+          "startingLine": 64
+        }
+      },
+      {
+        "comment": "",
+        "key": "Front/back ambiguous — could be the mirrored direction",
+        "location": {
+          "startingColumn": 35,
+          "startingLine": 47
+        }
+      },
+      {
+        "comment": "",
+        "key": "Relative estimate only — not a distance measurement.",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 58
+        }
+      }
+    ]
+  },
+  "version": 1
+}

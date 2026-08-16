@@ -1,0 +1,4 @@
+Target dependency graph (2 targets)
+Target 'Pulse' in project 'PulseIOSAPP'
+➜ Explicit dependency on target 'Pulse Watch App' in project 'PulseIOSAPP'
+Target 'Pulse Watch App' in project 'PulseIOSAPP' (no dependencies)

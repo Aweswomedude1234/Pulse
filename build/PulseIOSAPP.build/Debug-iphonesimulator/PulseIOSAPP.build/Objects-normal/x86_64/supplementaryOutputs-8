@@ -1,0 +1,44 @@
+{
+  "/Users/nithinithilanlanmurugesan/Downloads/Pulse/Pulse/App/PulseApp.swift" : {
+    "const-values" : "/Users/nithinithilanlanmurugesan/Downloads/Pulse/PulseIOSAPP/build/PulseIOSAPP.build/Debug-iphonesimulator/PulseIOSAPP.build/Objects-normal/x86_64/PulseApp.swiftconstvalues",
+    "dependencies" : "/Users/nithinithilanlanmurugesan/Downloads/Pulse/PulseIOSAPP/build/PulseIOSAPP.build/Debug-iphonesimulator/PulseIOSAPP.build/Objects-normal/x86_64/PulseApp.d",
+    "diagnostics" : "/Users/nithinithilanlanmurugesan/Downloads/Pulse/PulseIOSAPP/build/PulseIOSAPP.build/Debug-iphonesimulator/PulseIOSAPP.build/Objects-normal/x86_64/PulseApp.dia",
+    "object" : "/Users/nithinithilanlanmurugesan/Downloads/Pulse/PulseIOSAPP/build/PulseIOSAPP.build/Debug-iphonesimulator/PulseIOSAPP.build/Objects-normal/x86_64/PulseApp.o",
+    "swift-dependencies" : "/Users/nithinithilanlanmurugesan/Downloads/Pulse/PulseIOSAPP/build/PulseIOSAPP.build/Debug-iphonesimulator/PulseIOSAPP.build/Objects-normal/x86_64/PulseApp.swiftdeps"
+  },
+  "/Users/nithinithilanlanmurugesan/Downloads/Pulse/Pulse/Audio/MelSpectrogram.swift" : {
+    "const-values" : "/Users/nithinithilanlanmurugesan/Downloads/Pulse/PulseIOSAPP/build/PulseIOSAPP.build/Debug-iphonesimulator/PulseIOSAPP.build/Objects-normal/x86_64/MelSpectrogram.swiftconstvalues",
+    "dependencies" : "/Users/nithinithilanlanmurugesan/Downloads/Pulse/PulseIOSAPP/build/PulseIOSAPP.build/Debug-iphonesimulator/PulseIOSAPP.build/Objects-normal/x86_64/MelSpectrogram.d",
+    "diagnostics" : "/Users/nithinithilanlanmurugesan/Downloads/Pulse/PulseIOSAPP/build/PulseIOSAPP.build/Debug-iphonesimulator/PulseIOSAPP.build/Objects-normal/x86_64/MelSpectrogram.dia",
+    "object" : "/Users/nithinithilanlanmurugesan/Downloads/Pulse/PulseIOSAPP/build/PulseIOSAPP.build/Debug-iphonesimulator/PulseIOSAPP.build/Objects-normal/x86_64/MelSpectrogram.o",
+    "swift-dependencies" : "/Users/nithinithilanlanmurugesan/Downloads/Pulse/PulseIOSAPP/build/PulseIOSAPP.build/Debug-iphonesimulator/PulseIOSAPP.build/Objects-normal/x86_64/MelSpectrogram.swiftdeps"
+  },
+  "/Users/nithinithilanlanmurugesan/Downloads/Pulse/Pulse/Audio/VoiceActivityDetector.swift" : {
+    "const-values" : "/Users/nithinithilanlanmurugesan/Downloads/Pulse/PulseIOSAPP/build/PulseIOSAPP.build/Debug-iphonesimulator/PulseIOSAPP.build/Objects-normal/x86_64/VoiceActivityDetector.swiftconstvalues",
+    "dependencies" : "/Users/nithinithilanlanmurugesan/Downloads/Pulse/PulseIOSAPP/build/PulseIOSAPP.build/Debug-iphonesimulator/PulseIOSAPP.build/Objects-normal/x86_64/VoiceActivityDetector.d",
+    "diagnostics" : "/Users/nithinithilanlanmurugesan/Downloads/Pulse/PulseIOSAPP/build/PulseIOSAPP.build/Debug-iphonesimulator/PulseIOSAPP.build/Objects-normal/x86_64/VoiceActivityDetector.dia",
+    "object" : "/Users/nithinithilanlanmurugesan/Downloads/Pulse/PulseIOSAPP/build/PulseIOSAPP.build/Debug-iphonesimulator/PulseIOSAPP.build/Objects-normal/x86_64/VoiceActivityDetector.o",
+    "swift-dependencies" : "/Users/nithinithilanlanmurugesan/Downloads/Pulse/PulseIOSAPP/build/PulseIOSAPP.build/Debug-iphonesimulator/PulseIOSAPP.build/Objects-normal/x86_64/VoiceActivityDetector.swiftdeps"
+  },
+  "/Users/nithinithilanlanmurugesan/Downloads/Pulse/Pulse/Core/AccessibilityManager.swift" : {
+    "const-values" : "/Users/nithinithilanlanmurugesan/Downloads/Pulse/PulseIOSAPP/build/PulseIOSAPP.build/Debug-iphonesimulator/PulseIOSAPP.build/Objects-normal/x86_64/AccessibilityManager.swiftconstvalues",
+    "dependencies" : "/Users/nithinithilanlanmurugesan/Downloads/Pulse/PulseIOSAPP/build/PulseIOSAPP.build/Debug-iphonesimulator/PulseIOSAPP.build/Objects-normal/x86_64/AccessibilityManager.d",
+    "diagnostics" : "/Users/nithinithilanlanmurugesan/Downloads/Pulse/PulseIOSAPP/build/PulseIOSAPP.build/Debug-iphonesimulator/PulseIOSAPP.build/Objects-normal/x86_64/AccessibilityManager.dia",
+    "object" : "/Users/nithinithilanlanmurugesan/Downloads/Pulse/PulseIOSAPP/build/PulseIOSAPP.build/Debug-iphonesimulator/PulseIOSAPP.build/Objects-normal/x86_64/AccessibilityManager.o",
+    "swift-dependencies" : "/Users/nithinithilanlanmurugesan/Downloads/Pulse/PulseIOSAPP/build/PulseIOSAPP.build/Debug-iphonesimulator/PulseIOSAPP.build/Objects-normal/x86_64/AccessibilityManager.swiftdeps"
+  },
+  "/Users/nithinithilanlanmurugesan/Downloads/Pulse/Pulse/Core/NotificationManager.swift" : {
+    "const-values" : "/Users/nithinithilanlanmurugesan/Downloads/Pulse/PulseIOSAPP/build/PulseIOSAPP.build/Debug-iphonesimulator/PulseIOSAPP.build/Objects-normal/x86_64/NotificationManager.swiftconstvalues",
+    "dependencies" : "/Users/nithinithilanlanmurugesan/Downloads/Pulse/PulseIOSAPP/build/PulseIOSAPP.build/Debug-iphonesimulator/PulseIOSAPP.build/Objects-normal/x86_64/NotificationManager.d",
+    "diagnostics" : "/Users/nithinithilanlanmurugesan/Downloads/Pulse/PulseIOSAPP/build/PulseIOSAPP.build/Debug-iphonesimulator/PulseIOSAPP.build/Objects-normal/x86_64/NotificationManager.dia",
+    "object" : "/Users/nithinithilanlanmurugesan/Downloads/Pulse/PulseIOSAPP/build/PulseIOSAPP.build/Debug-iphonesimulator/PulseIOSAPP.build/Objects-normal/x86_64/NotificationManager.o",
+    "swift-dependencies" : "/Users/nithinithilanlanmurugesan/Downloads/Pulse/PulseIOSAPP/build/PulseIOSAPP.build/Debug-iphonesimulator/PulseIOSAPP.build/Objects-normal/x86_64/NotificationManager.swiftdeps"
+  },
+  "/Users/nithinithilanlanmurugesan/Downloads/Pulse/Pulse/UI/Screens/AmbientMapView.swift" : {
+    "const-values" : "/Users/nithinithilanlanmurugesan/Downloads/Pulse/PulseIOSAPP/build/PulseIOSAPP.build/Debug-iphonesimulator/PulseIOSAPP.build/Objects-normal/x86_64/AmbientMapView.swiftconstvalues",
+    "dependencies" : "/Users/nithinithilanlanmurugesan/Downloads/Pulse/PulseIOSAPP/build/PulseIOSAPP.build/Debug-iphonesimulator/PulseIOSAPP.build/Objects-normal/x86_64/AmbientMapView.d",
+    "diagnostics" : "/Users/nithinithilanlanmurugesan/Downloads/Pulse/PulseIOSAPP/build/PulseIOSAPP.build/Debug-iphonesimulator/PulseIOSAPP.build/Objects-normal/x86_64/AmbientMapView.dia",
+    "object" : "/Users/nithinithilanlanmurugesan/Downloads/Pulse/PulseIOSAPP/build/PulseIOSAPP.build/Debug-iphonesimulator/PulseIOSAPP.build/Objects-normal/x86_64/AmbientMapView.o",
+    "swift-dependencies" : "/Users/nithinithilanlanmurugesan/Downloads/Pulse/PulseIOSAPP/build/PulseIOSAPP.build/Debug-iphonesimulator/PulseIOSAPP.build/Objects-normal/x86_64/AmbientMapView.swiftdeps"
+  }
+}

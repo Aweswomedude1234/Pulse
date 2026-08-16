@@ -1,0 +1,256 @@
+{
+  "source": "/Users/nithinithilanlanmurugesan/Downloads/Pulse/Pulse/UI/Screens/HomeView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Hear your world.",
+        "location": {
+          "startingColumn": 14,
+          "startingLine": 130
+        }
+      },
+      {
+        "comment": "",
+        "key": "Pause listening",
+        "location": {
+          "startingColumn": 52,
+          "startingLine": 154
+        }
+      },
+      {
+        "comment": "",
+        "key": "Start listening",
+        "location": {
+          "startingColumn": 72,
+          "startingLine": 154
+        }
+      },
+      {
+        "comment": "",
+        "key": "Welcome Back",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 87
+        }
+      },
+      {
+        "comment": "",
+        "key": "%@!",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 91
+        }
+      },
+      {
+        "comment": "",
+        "key": "%lld",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 113
+        }
+      },
+      {
+        "comment": "",
+        "key": "Active",
+        "location": {
+          "startingColumn": 45,
+          "startingLine": 145
+        }
+      },
+      {
+        "comment": "",
+        "key": "Paused",
+        "location": {
+          "startingColumn": 56,
+          "startingLine": 145
+        }
+      },
+      {
+        "comment": "",
+        "key": "Ambient sound level %lld decibels",
+        "location": {
+          "startingColumn": 33,
+          "startingLine": 171
+        }
+      },
+      {
+        "comment": "",
+        "key": "Paused",
+        "location": {
+          "startingColumn": 33,
+          "startingLine": 177
+        }
+      },
+      {
+        "comment": "",
+        "key": "%lld",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 163
+        }
+      },
+      {
+        "comment": "",
+        "key": "dB",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 167
+        }
+      },
+      {
+        "comment": "",
+        "key": "SYSTEM STATUS",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 253
+        }
+      },
+      {
+        "comment": "",
+        "key": "Active",
+        "location": {
+          "startingColumn": 53,
+          "startingLine": 258
+        }
+      },
+      {
+        "comment": "",
+        "key": "Paused",
+        "location": {
+          "startingColumn": 64,
+          "startingLine": 258
+        }
+      },
+      {
+        "comment": "",
+        "key": "Monitoring in real time",
+        "location": {
+          "startingColumn": 57,
+          "startingLine": 268
+        }
+      },
+      {
+        "comment": "",
+        "key": "Tap to resume monitoring",
+        "location": {
+          "startingColumn": 85,
+          "startingLine": 268
+        }
+      },
+      {
+        "comment": "",
+        "key": "Recent Alerts",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 359
+        }
+      },
+      {
+        "comment": "",
+        "key": "View all",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 367
+        }
+      },
+      {
+        "comment": "",
+        "key": "No alerts yet — Pulse is listening.",
+        "location": {
+          "startingColumn": 28,
+          "startingLine": 394
+        }
+      },
+      {
+        "comment": "",
+        "key": "No alerts. Activate Pulse to start monitoring.",
+        "location": {
+          "startingColumn": 28,
+          "startingLine": 395
+        }
+      },
+      {
+        "comment": "",
+        "key": "Transcribe Voice",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 431
+        }
+      },
+      {
+        "comment": "",
+        "key": "Convert speech to text in real time",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 434
+        }
+      },
+      {
+        "comment": "",
+        "key": "·",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 643
+        }
+      },
+      {
+        "comment": "",
+        "key": "%lld%%",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 652
+        }
+      },
+      {
+        "comment": "",
+        "key": "Pause listening for…",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 725
+        }
+      },
+      {
+        "comment": "",
+        "key": "Cancel",
+        "location": {
+          "startingColumn": 20,
+          "startingLine": 752
+        }
+      },
+      {
+        "comment": "",
+        "key": "CHOOSE A MODE",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 789
+        }
+      },
+      {
+        "comment": "",
+        "key": "Power Mode",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 829
+        }
+      },
+      {
+        "comment": "",
+        "key": "Done",
+        "location": {
+          "startingColumn": 20,
+          "startingLine": 834
+        }
+      },
+      {
+        "comment": "",
+        "key": "Currently running",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 851
+        }
+      }
+    ]
+  },
+  "version": 1
+}

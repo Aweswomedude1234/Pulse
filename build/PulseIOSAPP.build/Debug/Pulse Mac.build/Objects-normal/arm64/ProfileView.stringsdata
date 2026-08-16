@@ -1,0 +1,176 @@
+{
+  "source": "/Users/nithinithilanlanmurugesan/Downloads/Pulse/Pulse/UI/Screens/ProfileView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Log out of Pulse?",
+        "location": {
+          "startingColumn": 29,
+          "startingLine": 90
+        }
+      },
+      {
+        "comment": "",
+        "key": "Settings",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 52
+        }
+      },
+      {
+        "comment": "",
+        "key": "%lld",
+        "location": {
+          "startingColumn": 38,
+          "startingLine": 71
+        }
+      },
+      {
+        "comment": "",
+        "key": "Log out",
+        "location": {
+          "startingColumn": 20,
+          "startingLine": 93
+        }
+      },
+      {
+        "comment": "",
+        "key": "Cancel",
+        "location": {
+          "startingColumn": 20,
+          "startingLine": 94
+        }
+      },
+      {
+        "comment": "",
+        "key": "You'll return to the welcome screen. Your preferences stay on this device.",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 96
+        }
+      },
+      {
+        "comment": "",
+        "key": "Dark Mode",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 166
+        }
+      },
+      {
+        "comment": "",
+        "key": "",
+        "location": {
+          "startingColumn": 24,
+          "startingLine": 172
+        }
+      },
+      {
+        "comment": "",
+        "key": "Log out",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 188
+        }
+      },
+      {
+        "comment": "",
+        "key": "Profile",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 360
+        }
+      },
+      {
+        "comment": "",
+        "key": "Password",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 422
+        }
+      },
+      {
+        "comment": "",
+        "key": "Save passcode",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 407
+        }
+      },
+      {
+        "comment": "",
+        "key": "Notifications",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 528
+        }
+      },
+      {
+        "comment": "",
+        "key": "Pulse sends local alerts for danger sounds, doorbells, and when someone calls your name. Nothing is sent to a server — all notifications are generated on-device.",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 519
+        }
+      },
+      {
+        "comment": "",
+        "key": "Sounds",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 618
+        }
+      },
+      {
+        "comment": "",
+        "key": "Choose what Pulse listens for.",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 607
+        }
+      },
+      {
+        "comment": "",
+        "key": "Awareness",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 651
+        }
+      },
+      {
+        "comment": "",
+        "key": "Transcription",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 681
+        }
+      },
+      {
+        "comment": "",
+        "key": "Adaptive Intelligence",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 709
+        }
+      },
+      {
+        "comment": "",
+        "key": "Help",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 760
+        }
+      },
+      {
+        "comment": "",
+        "key": "",
+        "location": {
+          "startingColumn": 20,
+          "startingLine": 872
+        }
+      }
+    ]
+  },
+  "version": 1
+}

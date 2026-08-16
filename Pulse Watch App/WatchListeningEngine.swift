@@ -7,6 +7,7 @@
 // builds on any SDK that happens not to vend SoundAnalysis for watchOS.
 
 import Foundation
+import Combine
 import AVFoundation
 
 #if canImport(SoundAnalysis)

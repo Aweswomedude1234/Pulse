@@ -11,29 +11,18 @@ extension SoundCategory {
     var tint: Color {
         switch self {
         case .speech:  return .cyan
-        case .alarm:   return .red
+        case .alarm:   return Color(hex: "#1E4235")
         case .impact:  return .orange
         case .alert:   return .yellow
         case .water:   return .blue
         case .animal:  return .pink
         case .vehicle: return .mint
-        case .ambient: return .purple
+        case .ambient: return Color(hex: "#5AC7A0")
         case .other:   return .gray
         }
     }
 }
 
-extension SoundEvent {
-    // -------------------------------------------------------------------------
-    // PLACEHOLDER danger flag so the map can render danger-tier events
-    // distinctly today. Feature 5 (step 8) replaces this with the single
-    // editable label→tier table; the map reads only `isDanger`, so swapping the
-    // implementation there won't touch this view.
-    // -------------------------------------------------------------------------
-    var isDanger: Bool {
-        switch category {
-        case .alarm, .impact: return true
-        default:              return false
-        }
-    }
-}
+// `RadarEvent.isDanger` / `.dangerTier` now come from the editable
+// `DangerTierTable` (Feature 5). The map reads only those, so nothing here
+// needs to know the mapping.

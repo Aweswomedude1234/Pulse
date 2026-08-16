@@ -16,7 +16,7 @@
 import Foundation
 import Accelerate
 
-struct FakeSoundClassifier: SoundClassifier {
+struct FakeSoundClassifier: SoundClassifying {
 
     /// Below this RMS we report "nothing heard" (empty result).
     let silenceRMS: Float

@@ -1,0 +1,44 @@
+{
+  "/Users/nithinithilanlanmurugesan/Downloads/Pulse/Pulse/Core/PulseSessionCoordinator.swift" : {
+    "const-values" : "/Users/nithinithilanlanmurugesan/Downloads/Pulse/PulseIOSAPP/build/PulseIOSAPP.build/Debug/Pulse Mac.build/Objects-normal/x86_64/PulseSessionCoordinator.swiftconstvalues",
+    "dependencies" : "/Users/nithinithilanlanmurugesan/Downloads/Pulse/PulseIOSAPP/build/PulseIOSAPP.build/Debug/Pulse Mac.build/Objects-normal/x86_64/PulseSessionCoordinator.d",
+    "diagnostics" : "/Users/nithinithilanlanmurugesan/Downloads/Pulse/PulseIOSAPP/build/PulseIOSAPP.build/Debug/Pulse Mac.build/Objects-normal/x86_64/PulseSessionCoordinator.dia",
+    "object" : "/Users/nithinithilanlanmurugesan/Downloads/Pulse/PulseIOSAPP/build/PulseIOSAPP.build/Debug/Pulse Mac.build/Objects-normal/x86_64/PulseSessionCoordinator.o",
+    "swift-dependencies" : "/Users/nithinithilanlanmurugesan/Downloads/Pulse/PulseIOSAPP/build/PulseIOSAPP.build/Debug/Pulse Mac.build/Objects-normal/x86_64/PulseSessionCoordinator.swiftdeps"
+  },
+  "/Users/nithinithilanlanmurugesan/Downloads/Pulse/Pulse/Core/WatchConnectivityManager.swift" : {
+    "const-values" : "/Users/nithinithilanlanmurugesan/Downloads/Pulse/PulseIOSAPP/build/PulseIOSAPP.build/Debug/Pulse Mac.build/Objects-normal/x86_64/WatchConnectivityManager.swiftconstvalues",
+    "dependencies" : "/Users/nithinithilanlanmurugesan/Downloads/Pulse/PulseIOSAPP/build/PulseIOSAPP.build/Debug/Pulse Mac.build/Objects-normal/x86_64/WatchConnectivityManager.d",
+    "diagnostics" : "/Users/nithinithilanlanmurugesan/Downloads/Pulse/PulseIOSAPP/build/PulseIOSAPP.build/Debug/Pulse Mac.build/Objects-normal/x86_64/WatchConnectivityManager.dia",
+    "object" : "/Users/nithinithilanlanmurugesan/Downloads/Pulse/PulseIOSAPP/build/PulseIOSAPP.build/Debug/Pulse Mac.build/Objects-normal/x86_64/WatchConnectivityManager.o",
+    "swift-dependencies" : "/Users/nithinithilanlanmurugesan/Downloads/Pulse/PulseIOSAPP/build/PulseIOSAPP.build/Debug/Pulse Mac.build/Objects-normal/x86_64/WatchConnectivityManager.swiftdeps"
+  },
+  "/Users/nithinithilanlanmurugesan/Downloads/Pulse/Pulse/UI/Components/PulseTheme.swift" : {
+    "const-values" : "/Users/nithinithilanlanmurugesan/Downloads/Pulse/PulseIOSAPP/build/PulseIOSAPP.build/Debug/Pulse Mac.build/Objects-normal/x86_64/PulseTheme.swiftconstvalues",
+    "dependencies" : "/Users/nithinithilanlanmurugesan/Downloads/Pulse/PulseIOSAPP/build/PulseIOSAPP.build/Debug/Pulse Mac.build/Objects-normal/x86_64/PulseTheme.d",
+    "diagnostics" : "/Users/nithinithilanlanmurugesan/Downloads/Pulse/PulseIOSAPP/build/PulseIOSAPP.build/Debug/Pulse Mac.build/Objects-normal/x86_64/PulseTheme.dia",
+    "object" : "/Users/nithinithilanlanmurugesan/Downloads/Pulse/PulseIOSAPP/build/PulseIOSAPP.build/Debug/Pulse Mac.build/Objects-normal/x86_64/PulseTheme.o",
+    "swift-dependencies" : "/Users/nithinithilanlanmurugesan/Downloads/Pulse/PulseIOSAPP/build/PulseIOSAPP.build/Debug/Pulse Mac.build/Objects-normal/x86_64/PulseTheme.swiftdeps"
+  },
+  "/Users/nithinithilanlanmurugesan/Downloads/Pulse/Pulse/UI/Screens/AmbientMapView.swift" : {
+    "const-values" : "/Users/nithinithilanlanmurugesan/Downloads/Pulse/PulseIOSAPP/build/PulseIOSAPP.build/Debug/Pulse Mac.build/Objects-normal/x86_64/AmbientMapView.swiftconstvalues",
+    "dependencies" : "/Users/nithinithilanlanmurugesan/Downloads/Pulse/PulseIOSAPP/build/PulseIOSAPP.build/Debug/Pulse Mac.build/Objects-normal/x86_64/AmbientMapView.d",
+    "diagnostics" : "/Users/nithinithilanlanmurugesan/Downloads/Pulse/PulseIOSAPP/build/PulseIOSAPP.build/Debug/Pulse Mac.build/Objects-normal/x86_64/AmbientMapView.dia",
+    "object" : "/Users/nithinithilanlanmurugesan/Downloads/Pulse/PulseIOSAPP/build/PulseIOSAPP.build/Debug/Pulse Mac.build/Objects-normal/x86_64/AmbientMapView.o",
+    "swift-dependencies" : "/Users/nithinithilanlanmurugesan/Downloads/Pulse/PulseIOSAPP/build/PulseIOSAPP.build/Debug/Pulse Mac.build/Objects-normal/x86_64/AmbientMapView.swiftdeps"
+  },
+  "/Users/nithinithilanlanmurugesan/Downloads/Pulse/Pulse/UI/Screens/HomeView.swift" : {
+    "const-values" : "/Users/nithinithilanlanmurugesan/Downloads/Pulse/PulseIOSAPP/build/PulseIOSAPP.build/Debug/Pulse Mac.build/Objects-normal/x86_64/HomeView.swiftconstvalues",
+    "dependencies" : "/Users/nithinithilanlanmurugesan/Downloads/Pulse/PulseIOSAPP/build/PulseIOSAPP.build/Debug/Pulse Mac.build/Objects-normal/x86_64/HomeView.d",
+    "diagnostics" : "/Users/nithinithilanlanmurugesan/Downloads/Pulse/PulseIOSAPP/build/PulseIOSAPP.build/Debug/Pulse Mac.build/Objects-normal/x86_64/HomeView.dia",
+    "object" : "/Users/nithinithilanlanmurugesan/Downloads/Pulse/PulseIOSAPP/build/PulseIOSAPP.build/Debug/Pulse Mac.build/Objects-normal/x86_64/HomeView.o",
+    "swift-dependencies" : "/Users/nithinithilanlanmurugesan/Downloads/Pulse/PulseIOSAPP/build/PulseIOSAPP.build/Debug/Pulse Mac.build/Objects-normal/x86_64/HomeView.swiftdeps"
+  },
+  "/Users/nithinithilanlanmurugesan/Downloads/Pulse/Pulse/UI/Screens/OnboardingView.swift" : {
+    "const-values" : "/Users/nithinithilanlanmurugesan/Downloads/Pulse/PulseIOSAPP/build/PulseIOSAPP.build/Debug/Pulse Mac.build/Objects-normal/x86_64/OnboardingView.swiftconstvalues",
+    "dependencies" : "/Users/nithinithilanlanmurugesan/Downloads/Pulse/PulseIOSAPP/build/PulseIOSAPP.build/Debug/Pulse Mac.build/Objects-normal/x86_64/OnboardingView.d",
+    "diagnostics" : "/Users/nithinithilanlanmurugesan/Downloads/Pulse/PulseIOSAPP/build/PulseIOSAPP.build/Debug/Pulse Mac.build/Objects-normal/x86_64/OnboardingView.dia",
+    "object" : "/Users/nithinithilanlanmurugesan/Downloads/Pulse/PulseIOSAPP/build/PulseIOSAPP.build/Debug/Pulse Mac.build/Objects-normal/x86_64/OnboardingView.o",
+    "swift-dependencies" : "/Users/nithinithilanlanmurugesan/Downloads/Pulse/PulseIOSAPP/build/PulseIOSAPP.build/Debug/Pulse Mac.build/Objects-normal/x86_64/OnboardingView.swiftdeps"
+  }
+}

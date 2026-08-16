@@ -1,0 +1,192 @@
+{
+  "source": "/Users/nithinithilanlanmurugesan/Downloads/Pulse/PulseMac/MacSettingsView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "General",
+        "location": {
+          "startingColumn": 34,
+          "startingLine": 18
+        }
+      },
+      {
+        "comment": "",
+        "key": "Audio",
+        "location": {
+          "startingColumn": 34,
+          "startingLine": 21
+        }
+      },
+      {
+        "comment": "",
+        "key": "Alerts",
+        "location": {
+          "startingColumn": 34,
+          "startingLine": 24
+        }
+      },
+      {
+        "comment": "",
+        "key": "Input",
+        "location": {
+          "startingColumn": 21,
+          "startingLine": 44
+        }
+      },
+      {
+        "comment": "",
+        "key": "Direction",
+        "location": {
+          "startingColumn": 21,
+          "startingLine": 66
+        }
+      },
+      {
+        "comment": "",
+        "key": "Available input devices",
+        "location": {
+          "startingColumn": 21,
+          "startingLine": 85
+        }
+      },
+      {
+        "comment": "",
+        "key": "Current device",
+        "location": {
+          "startingColumn": 32,
+          "startingLine": 45
+        }
+      },
+      {
+        "comment": "",
+        "key": "Format",
+        "location": {
+          "startingColumn": 32,
+          "startingLine": 49
+        }
+      },
+      {
+        "comment": "",
+        "key": "Open Sound Settings",
+        "location": {
+          "startingColumn": 24,
+          "startingLine": 59
+        }
+      },
+      {
+        "comment": "",
+        "key": "Channels",
+        "location": {
+          "startingColumn": 32,
+          "startingLine": 67
+        }
+      },
+      {
+        "comment": "",
+        "key": "—",
+        "location": {
+          "startingColumn": 28,
+          "startingLine": 69
+        }
+      },
+      {
+        "comment": "",
+        "key": "%lld",
+        "location": {
+          "startingColumn": 28,
+          "startingLine": 70
+        }
+      },
+      {
+        "comment": "",
+        "key": "Mono input — direction estimation is off.",
+        "location": {
+          "startingColumn": 19,
+          "startingLine": 109
+        }
+      },
+      {
+        "comment": "",
+        "key": "True stereo input — direction estimation is active.",
+        "location": {
+          "startingColumn": 19,
+          "startingLine": 120
+        }
+      },
+      {
+        "comment": "",
+        "key": "No audio input devices found.",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 87
+        }
+      },
+      {
+        "comment": "",
+        "key": "Notifications",
+        "location": {
+          "startingColumn": 21,
+          "startingLine": 151
+        }
+      },
+      {
+        "comment": "",
+        "key": "Haptics",
+        "location": {
+          "startingColumn": 21,
+          "startingLine": 164
+        }
+      },
+      {
+        "comment": "",
+        "key": "Privacy",
+        "location": {
+          "startingColumn": 21,
+          "startingLine": 180
+        }
+      },
+      {
+        "comment": "",
+        "key": "Open Notification Settings",
+        "location": {
+          "startingColumn": 24,
+          "startingLine": 157
+        }
+      },
+      {
+        "comment": "",
+        "key": "Trackpad feedback",
+        "location": {
+          "startingColumn": 32,
+          "startingLine": 165
+        }
+      },
+      {
+        "comment": "",
+        "key": "Test Danger Alert",
+        "location": {
+          "startingColumn": 24,
+          "startingLine": 175
+        }
+      },
+      {
+        "comment": "",
+        "key": "Available",
+        "location": {
+          "startingColumn": 53,
+          "startingLine": 166
+        }
+      },
+      {
+        "comment": "",
+        "key": "Unavailable",
+        "location": {
+          "startingColumn": 67,
+          "startingLine": 166
+        }
+      }
+    ]
+  },
+  "version": 1
+}

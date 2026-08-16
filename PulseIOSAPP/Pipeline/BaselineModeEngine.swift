@@ -86,6 +86,7 @@ final class BaselineModeEngine {
             try configureSession()
             try startAudioAndAnalysis()
             startSpeech()
+            DangerHaptics.prepare()
             state = .running
         } catch {
             state = .error(error.localizedDescription)
@@ -106,7 +107,9 @@ final class BaselineModeEngine {
         partialTranscript = ""
         if state == .running { state = .idle }
 
+        #if os(iOS)
         try? AVAudioSession.sharedInstance().setActive(false, options: .notifyOthersOnDeactivation)
+        #endif
     }
 
     func clear() {
@@ -131,11 +134,15 @@ final class BaselineModeEngine {
     // MARK: - Session
 
     private func configureSession() throws {
+        #if os(iOS)
         let session = AVAudioSession.sharedInstance()
         // Plain .record/.default — Baseline needs no phase fidelity, so no
         // .measurement mode (keeps normal input processing / low power).
         try session.setCategory(.record, mode: .default, options: [.duckOthers])
         try session.setActive(true, options: [])
+        #endif
+        // macOS has no audio session — the engine taps the system input device
+        // directly, so there is nothing to configure here.
     }
 
     // MARK: - Sound analysis
@@ -146,8 +153,9 @@ final class BaselineModeEngine {
 
         let analyzer = SNAudioStreamAnalyzer(format: format)
         let request = try SNClassifySoundRequest(classifierIdentifier: .version1)
-        let observer = ClassificationObserver { [weak self] result in
-            Task { @MainActor in self?.handle(result) }
+        let observer = ClassificationObserver { [weak self] label, confidence in
+            // `label`/`confidence` are Sendable value types — safe to hop.
+            Task { @MainActor in self?.handle(label: label, confidence: confidence) }
         }
         try analyzer.add(request, withObserver: observer)
 
@@ -168,22 +176,24 @@ final class BaselineModeEngine {
         try engine.start()
     }
 
-    private func handle(_ result: SNClassificationResult) {
-        guard let top = result.classifications.first,
-              top.confidence >= minConfidence else { return }
-
-        let label = top.identifier
+    private func handle(label: String, confidence: Double) {
+        guard confidence >= minConfidence else { return }
         let now = Date()
         if label == lastLabel, now.timeIntervalSince(lastLabelTime) < dedupeInterval { return }
         lastLabel = label
         lastLabelTime = now
 
+        let pretty = prettify(label)
         detections.insert(
-            BaselineDetection(label: prettify(label),
-                              confidence: Float(top.confidence),
+            BaselineDetection(label: pretty,
+                              confidence: Float(confidence),
                               timestamp: now),
             at: 0)
         if detections.count > 100 { detections.removeLast(detections.count - 100) }
+
+        // Feature 5: danger-tier sounds get a strong haptic even in Baseline.
+        let tier = DangerTierTable.tier(for: label)
+        if tier != .none { DangerHaptics.fire(for: tier) }
     }
 
     /// Turns SoundAnalysis identifiers ("smoke_detector_smoke_alarm") into a
@@ -203,18 +213,21 @@ final class BaselineModeEngine {
         speechRequest = request
 
         speechTask = recognizer.recognitionTask(with: request) { [weak self] result, error in
+            // Extract Sendable values before hopping to the main actor.
+            let text = result?.bestTranscription.formattedString
+            let isFinal = result?.isFinal ?? false
+            let failed = error != nil
             Task { @MainActor in
                 guard let self else { return }
-                if let result {
-                    let text = result.bestTranscription.formattedString
-                    if result.isFinal {
+                if let text, !failed {
+                    if isFinal {
                         if !text.isEmpty { self.transcriptLines.append(text) }
                         self.partialTranscript = ""
                         self.restartSpeechIfRunning()
                     } else {
                         self.partialTranscript = text
                     }
-                } else if error != nil {
+                } else if failed {
                     self.partialTranscript = ""
                     self.restartSpeechIfRunning()
                 }
@@ -237,14 +250,16 @@ final class BaselineModeEngine {
 /// Bridges SNResultsObserving callbacks (delivered on the analysis queue) into a
 /// closure. Must be an NSObject subclass to conform.
 private final class ClassificationObserver: NSObject, SNResultsObserving {
-    private let onResult: (SNClassificationResult) -> Void
+    private let onResult: (String, Double) -> Void
 
-    init(onResult: @escaping (SNClassificationResult) -> Void) {
+    init(onResult: @escaping (String, Double) -> Void) {
         self.onResult = onResult
     }
 
     func request(_ request: SNRequest, didProduce result: SNResult) {
-        guard let classification = result as? SNClassificationResult else { return }
-        onResult(classification)
+        guard let classification = result as? SNClassificationResult,
+              let top = classification.classifications.first else { return }
+        // Extract Sendable values here, on the analysis queue.
+        onResult(top.identifier, top.confidence)
     }
 }

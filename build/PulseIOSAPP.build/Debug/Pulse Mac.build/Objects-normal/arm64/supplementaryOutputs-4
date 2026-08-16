@@ -1,0 +1,44 @@
+{
+  "/Users/nithinithilanlanmurugesan/Downloads/Pulse/Pulse/Audio/HeavyClassifier.swift" : {
+    "const-values" : "/Users/nithinithilanlanmurugesan/Downloads/Pulse/PulseIOSAPP/build/PulseIOSAPP.build/Debug/Pulse Mac.build/Objects-normal/arm64/HeavyClassifier.swiftconstvalues",
+    "dependencies" : "/Users/nithinithilanlanmurugesan/Downloads/Pulse/PulseIOSAPP/build/PulseIOSAPP.build/Debug/Pulse Mac.build/Objects-normal/arm64/HeavyClassifier.d",
+    "diagnostics" : "/Users/nithinithilanlanmurugesan/Downloads/Pulse/PulseIOSAPP/build/PulseIOSAPP.build/Debug/Pulse Mac.build/Objects-normal/arm64/HeavyClassifier.dia",
+    "object" : "/Users/nithinithilanlanmurugesan/Downloads/Pulse/PulseIOSAPP/build/PulseIOSAPP.build/Debug/Pulse Mac.build/Objects-normal/arm64/HeavyClassifier.o",
+    "swift-dependencies" : "/Users/nithinithilanlanmurugesan/Downloads/Pulse/PulseIOSAPP/build/PulseIOSAPP.build/Debug/Pulse Mac.build/Objects-normal/arm64/HeavyClassifier.swiftdeps"
+  },
+  "/Users/nithinithilanlanmurugesan/Downloads/Pulse/Pulse/Core/AppState.swift" : {
+    "const-values" : "/Users/nithinithilanlanmurugesan/Downloads/Pulse/PulseIOSAPP/build/PulseIOSAPP.build/Debug/Pulse Mac.build/Objects-normal/arm64/AppState.swiftconstvalues",
+    "dependencies" : "/Users/nithinithilanlanmurugesan/Downloads/Pulse/PulseIOSAPP/build/PulseIOSAPP.build/Debug/Pulse Mac.build/Objects-normal/arm64/AppState.d",
+    "diagnostics" : "/Users/nithinithilanlanmurugesan/Downloads/Pulse/PulseIOSAPP/build/PulseIOSAPP.build/Debug/Pulse Mac.build/Objects-normal/arm64/AppState.dia",
+    "object" : "/Users/nithinithilanlanmurugesan/Downloads/Pulse/PulseIOSAPP/build/PulseIOSAPP.build/Debug/Pulse Mac.build/Objects-normal/arm64/AppState.o",
+    "swift-dependencies" : "/Users/nithinithilanlanmurugesan/Downloads/Pulse/PulseIOSAPP/build/PulseIOSAPP.build/Debug/Pulse Mac.build/Objects-normal/arm64/AppState.swiftdeps"
+  },
+  "/Users/nithinithilanlanmurugesan/Downloads/Pulse/Pulse/Intelligence/AdaptiveIntelligenceEngine.swift" : {
+    "const-values" : "/Users/nithinithilanlanmurugesan/Downloads/Pulse/PulseIOSAPP/build/PulseIOSAPP.build/Debug/Pulse Mac.build/Objects-normal/arm64/AdaptiveIntelligenceEngine.swiftconstvalues",
+    "dependencies" : "/Users/nithinithilanlanmurugesan/Downloads/Pulse/PulseIOSAPP/build/PulseIOSAPP.build/Debug/Pulse Mac.build/Objects-normal/arm64/AdaptiveIntelligenceEngine.d",
+    "diagnostics" : "/Users/nithinithilanlanmurugesan/Downloads/Pulse/PulseIOSAPP/build/PulseIOSAPP.build/Debug/Pulse Mac.build/Objects-normal/arm64/AdaptiveIntelligenceEngine.dia",
+    "object" : "/Users/nithinithilanlanmurugesan/Downloads/Pulse/PulseIOSAPP/build/PulseIOSAPP.build/Debug/Pulse Mac.build/Objects-normal/arm64/AdaptiveIntelligenceEngine.o",
+    "swift-dependencies" : "/Users/nithinithilanlanmurugesan/Downloads/Pulse/PulseIOSAPP/build/PulseIOSAPP.build/Debug/Pulse Mac.build/Objects-normal/arm64/AdaptiveIntelligenceEngine.swiftdeps"
+  },
+  "/Users/nithinithilanlanmurugesan/Downloads/Pulse/Pulse/UI/Components/DarkModeSupport.swift" : {
+    "const-values" : "/Users/nithinithilanlanmurugesan/Downloads/Pulse/PulseIOSAPP/build/PulseIOSAPP.build/Debug/Pulse Mac.build/Objects-normal/arm64/DarkModeSupport.swiftconstvalues",
+    "dependencies" : "/Users/nithinithilanlanmurugesan/Downloads/Pulse/PulseIOSAPP/build/PulseIOSAPP.build/Debug/Pulse Mac.build/Objects-normal/arm64/DarkModeSupport.d",
+    "diagnostics" : "/Users/nithinithilanlanmurugesan/Downloads/Pulse/PulseIOSAPP/build/PulseIOSAPP.build/Debug/Pulse Mac.build/Objects-normal/arm64/DarkModeSupport.dia",
+    "object" : "/Users/nithinithilanlanmurugesan/Downloads/Pulse/PulseIOSAPP/build/PulseIOSAPP.build/Debug/Pulse Mac.build/Objects-normal/arm64/DarkModeSupport.o",
+    "swift-dependencies" : "/Users/nithinithilanlanmurugesan/Downloads/Pulse/PulseIOSAPP/build/PulseIOSAPP.build/Debug/Pulse Mac.build/Objects-normal/arm64/DarkModeSupport.swiftdeps"
+  },
+  "/Users/nithinithilanlanmurugesan/Downloads/Pulse/Pulse/UI/Screens/StartupView.swift" : {
+    "const-values" : "/Users/nithinithilanlanmurugesan/Downloads/Pulse/PulseIOSAPP/build/PulseIOSAPP.build/Debug/Pulse Mac.build/Objects-normal/arm64/StartupView.swiftconstvalues",
+    "dependencies" : "/Users/nithinithilanlanmurugesan/Downloads/Pulse/PulseIOSAPP/build/PulseIOSAPP.build/Debug/Pulse Mac.build/Objects-normal/arm64/StartupView.d",
+    "diagnostics" : "/Users/nithinithilanlanmurugesan/Downloads/Pulse/PulseIOSAPP/build/PulseIOSAPP.build/Debug/Pulse Mac.build/Objects-normal/arm64/StartupView.dia",
+    "object" : "/Users/nithinithilanlanmurugesan/Downloads/Pulse/PulseIOSAPP/build/PulseIOSAPP.build/Debug/Pulse Mac.build/Objects-normal/arm64/StartupView.o",
+    "swift-dependencies" : "/Users/nithinithilanlanmurugesan/Downloads/Pulse/PulseIOSAPP/build/PulseIOSAPP.build/Debug/Pulse Mac.build/Objects-normal/arm64/StartupView.swiftdeps"
+  },
+  "/Users/nithinithilanlanmurugesan/Downloads/Pulse/PulseIOSAPP/Models/TranscriptionLine.swift" : {
+    "const-values" : "/Users/nithinithilanlanmurugesan/Downloads/Pulse/PulseIOSAPP/build/PulseIOSAPP.build/Debug/Pulse Mac.build/Objects-normal/arm64/TranscriptionLine.swiftconstvalues",
+    "dependencies" : "/Users/nithinithilanlanmurugesan/Downloads/Pulse/PulseIOSAPP/build/PulseIOSAPP.build/Debug/Pulse Mac.build/Objects-normal/arm64/TranscriptionLine.d",
+    "diagnostics" : "/Users/nithinithilanlanmurugesan/Downloads/Pulse/PulseIOSAPP/build/PulseIOSAPP.build/Debug/Pulse Mac.build/Objects-normal/arm64/TranscriptionLine.dia",
+    "object" : "/Users/nithinithilanlanmurugesan/Downloads/Pulse/PulseIOSAPP/build/PulseIOSAPP.build/Debug/Pulse Mac.build/Objects-normal/arm64/TranscriptionLine.o",
+    "swift-dependencies" : "/Users/nithinithilanlanmurugesan/Downloads/Pulse/PulseIOSAPP/build/PulseIOSAPP.build/Debug/Pulse Mac.build/Objects-normal/arm64/TranscriptionLine.swiftdeps"
+  }
+}

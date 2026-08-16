@@ -13,6 +13,17 @@
 
 import SwiftUI
 import Speech
+import Combine
+
+/// Shared sink for direction-estimator internals the coordinator computes off the
+/// live callback, so the diagnostics screen can display them without owning the
+/// analyzer. Updated on the main actor (the callback runs there).
+final class PipelineDiagnostics: ObservableObject {
+    static let shared = PipelineDiagnostics()
+    @Published var lastPeakLag: Double?
+    @Published var lastPSR: Float?
+    private init() {}
+}
 
 struct DiagnosticsView: View {
 
@@ -23,6 +34,7 @@ struct DiagnosticsView: View {
 
     // Shared singletons (no new ownership).
     @ObservedObject private var battery = BatteryOptimizationManager.shared
+    @ObservedObject private var direction = PipelineDiagnostics.shared
 
     var body: some View {
         NavigationStack {
@@ -89,9 +101,17 @@ struct DiagnosticsView: View {
 
     private var directionSection: some View {
         Section("Direction · GCC-PHAT") {
-            row("Peak lag", "— (pending port)", tint: .secondary)
-            row("Peak-to-sidelobe", "— (pending port)", tint: .secondary)
+            row("Peak lag",
+                direction.lastPeakLag.map { String(format: "%.2f smp", $0) } ?? "—")
+            row("Peak-to-sidelobe",
+                direction.lastPSR.map { String(format: "%.2f", $0) } ?? "—",
+                tint: psrTint)
         }
+    }
+
+    private var psrTint: Color {
+        guard let psr = direction.lastPSR else { return .secondary }
+        return psr >= 1.6 ? .green : .orange
     }
 
     // MARK: - Classifier
@@ -115,6 +135,8 @@ struct DiagnosticsView: View {
     private var transcriptionSection: some View {
         Section("Transcription") {
             row("Authorization", speechAuthText, tint: speechAuthTint)
+            row("On-device", speech.supportsOnDevice ? "yes" : "no (network)",
+                tint: speech.supportsOnDevice ? .green : .orange)
             row("Recognizing", speech.isRecognizing ? "yes" : "no",
                 tint: speech.isRecognizing ? .green : .secondary)
             row("Latest partial",

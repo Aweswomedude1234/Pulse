@@ -1,0 +1,21 @@
+{
+  "" : {
+    "const-values" : "/Users/nithinithilanlanmurugesan/Downloads/Pulse/PulseIOSAPP/build/PulseIOSAPP.build/Release/PulseWidgetMac.build/Objects-normal/x86_64/PulseWidgetMac-primary.swiftconstvalues",
+    "dependencies" : "/Users/nithinithilanlanmurugesan/Downloads/Pulse/PulseIOSAPP/build/PulseIOSAPP.build/Release/PulseWidgetMac.build/Objects-normal/x86_64/PulseWidgetMac-primary.d",
+    "diagnostics" : "/Users/nithinithilanlanmurugesan/Downloads/Pulse/PulseIOSAPP/build/PulseIOSAPP.build/Release/PulseWidgetMac.build/Objects-normal/x86_64/PulseWidgetMac-primary.dia",
+    "emit-module-dependencies" : "/Users/nithinithilanlanmurugesan/Downloads/Pulse/PulseIOSAPP/build/PulseIOSAPP.build/Release/PulseWidgetMac.build/Objects-normal/x86_64/PulseWidgetMac-primary-emit-module.d",
+    "emit-module-diagnostics" : "/Users/nithinithilanlanmurugesan/Downloads/Pulse/PulseIOSAPP/build/PulseIOSAPP.build/Release/PulseWidgetMac.build/Objects-normal/x86_64/PulseWidgetMac-primary-emit-module.dia",
+    "pch" : "/Users/nithinithilanlanmurugesan/Downloads/Pulse/PulseIOSAPP/build/PulseIOSAPP.build/Release/PulseWidgetMac.build/Objects-normal/x86_64/PulseWidgetMac-primary-Bridging-header.pch",
+    "swift-dependencies" : "/Users/nithinithilanlanmurugesan/Downloads/Pulse/PulseIOSAPP/build/PulseIOSAPP.build/Release/PulseWidgetMac.build/Objects-normal/x86_64/PulseWidgetMac-primary.swiftdeps"
+  },
+  "/Users/nithinithilanlanmurugesan/Downloads/Pulse/PulseShared/PulseWidgetState.swift" : {
+    "index-unit-output-path" : "/PulseIOSAPP.build/Release/PulseWidgetMac.build/Objects-normal/x86_64/PulseWidgetState.o",
+    "llvm-bc" : "/Users/nithinithilanlanmurugesan/Downloads/Pulse/PulseIOSAPP/build/PulseIOSAPP.build/Release/PulseWidgetMac.build/Objects-normal/x86_64/PulseWidgetState.bc",
+    "object" : "/Users/nithinithilanlanmurugesan/Downloads/Pulse/PulseIOSAPP/build/PulseIOSAPP.build/Release/PulseWidgetMac.build/Objects-normal/x86_64/PulseWidgetState.o"
+  },
+  "/Users/nithinithilanlanmurugesan/Downloads/Pulse/PulseWidget/PulseWidget.swift" : {
+    "index-unit-output-path" : "/PulseIOSAPP.build/Release/PulseWidgetMac.build/Objects-normal/x86_64/PulseWidget.o",
+    "llvm-bc" : "/Users/nithinithilanlanmurugesan/Downloads/Pulse/PulseIOSAPP/build/PulseIOSAPP.build/Release/PulseWidgetMac.build/Objects-normal/x86_64/PulseWidget.bc",
+    "object" : "/Users/nithinithilanlanmurugesan/Downloads/Pulse/PulseIOSAPP/build/PulseIOSAPP.build/Release/PulseWidgetMac.build/Objects-normal/x86_64/PulseWidget.o"
+  }
+}

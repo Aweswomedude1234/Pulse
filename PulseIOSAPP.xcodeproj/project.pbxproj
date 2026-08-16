@@ -6,20 +6,274 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		66B1AA893016A2B900136300 /* VoiceActivityDetector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66B1AA883016A2B900136300 /* VoiceActivityDetector.swift */; };
+		66B1AA8F3016A43A00136300 /* HeavyClassifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66B1AA8E3016A43A00136300 /* HeavyClassifier.swift */; };
+		66B1AA913016A44300136300 /* MelSpectrogram.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66B1AA903016A44300136300 /* MelSpectrogram.swift */; };
+		66E3D0593017DDB100DCC0AE /* Pulse Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 66E3D0583017DDB100DCC0AE /* Pulse Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		66F014A52FBFE31400A43B9A /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66F014A02FBFE31400A43B9A /* ProfileView.swift */; };
+		66F014A62FBFE31400A43B9A /* SoundClassifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66F0148C2FBFE31400A43B9A /* SoundClassifier.swift */; };
+		66F014A72FBFE31400A43B9A /* TranscriptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66F014A22FBFE31400A43B9A /* TranscriptionView.swift */; };
+		66F014A82FBFE31400A43B9A /* DirectionalAnalyzer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66F0148B2FBFE31400A43B9A /* DirectionalAnalyzer.swift */; };
+		66F014A92FBFE31400A43B9A /* AppStateExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66F014912FBFE31400A43B9A /* AppStateExtensions.swift */; };
+		66F014AA2FBFE31400A43B9A /* AdaptiveIntelligenceEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66F014972FBFE31400A43B9A /* AdaptiveIntelligenceEngine.swift */; };
+		66F014AB2FBFE31400A43B9A /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66F014902FBFE31400A43B9A /* AppState.swift */; };
+		66F014AC2FBFE31400A43B9A /* DarkModeSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66F014992FBFE31400A43B9A /* DarkModeSupport.swift */; };
+		66F014AD2FBFE31400A43B9A /* StartupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66F014A12FBFE31400A43B9A /* StartupView.swift */; };
+		66F014AE2FBFE31400A43B9A /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66F0149E2FBFE31400A43B9A /* HomeView.swift */; };
+		66F014AF2FBFE31400A43B9A /* PulseTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66F0149A2FBFE31400A43B9A /* PulseTheme.swift */; };
+		66F014B02FBFE31400A43B9A /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66F0149F2FBFE31400A43B9A /* OnboardingView.swift */; };
+		66F014B12FBFE31400A43B9A /* AmbientMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66F0149C2FBFE31400A43B9A /* AmbientMapView.swift */; };
+		66F014B22FBFE31400A43B9A /* AccessibilityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66F0148F2FBFE31400A43B9A /* AccessibilityManager.swift */; };
+		66F014B32FBFE31400A43B9A /* NotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66F014932FBFE31400A43B9A /* NotificationManager.swift */; };
+		66F014B42FBFE31400A43B9A /* PulseApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66F014882FBFE31400A43B9A /* PulseApp.swift */; };
+		66F014B52FBFE31400A43B9A /* SpeechRecognitionEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66F0148D2FBFE31400A43B9A /* SpeechRecognitionEngine.swift */; };
+		66F014B62FBFE31400A43B9A /* AudioEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66F0148A2FBFE31400A43B9A /* AudioEngine.swift */; };
+		66F014B72FBFE31400A43B9A /* HapticEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66F014952FBFE31400A43B9A /* HapticEngine.swift */; };
+		66F014B82FBFE31400A43B9A /* BatteryOptimizationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66F014922FBFE31400A43B9A /* BatteryOptimizationManager.swift */; };
+		66F014B92FBFE31400A43B9A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66F0149D2FBFE31400A43B9A /* ContentView.swift */; };
+		66F014BF2FBFE4BB00A43B9A /* WatchConnectivityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66F014BE2FBFE4BB00A43B9A /* WatchConnectivityManager.swift */; };
+		66F014C02FBFEC2D00A43B9A /* SoundModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66F014BB2FBFE49D00A43B9A /* SoundModels.swift */; };
+		66F014C12FBFEC3B00A43B9A /* TranscriptionLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66F014BC2FBFE4A700A43B9A /* TranscriptionLine.swift */; };
+		66F014C22FBFEC4000A43B9A /* UserProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66F014BD2FBFE4B200A43B9A /* UserProfile.swift */; };
+		66F014C52FC10BBF00A43B9A /* PulseSessionCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66F014C42FC10BBF00A43B9A /* PulseSessionCoordinator.swift */; };
+		AABB01112FBFE31400A43B9A /* AudioEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = AABB01012FBFE31400A43B9A /* AudioEvent.swift */; };
+		AABB01122FBFE31400A43B9A /* WhisperEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = AABB01022FBFE31400A43B9A /* WhisperEngine.swift */; };
+		AABB01132FBFE31400A43B9A /* PulseIntelligencePipeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = AABB01032FBFE31400A43B9A /* PulseIntelligencePipeline.swift */; };
+		AABB01142FBFE31400A43B9A /* AudioEventBubble.swift in Sources */ = {isa = PBXBuildFile; fileRef = AABB01042FBFE31400A43B9A /* AudioEventBubble.swift */; };
+		AABB01152FBFE31400A43B9A /* EventFeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AABB01052FBFE31400A43B9A /* EventFeedView.swift */; };
+		DD0000000000000000000011 /* PulsePlatform.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD0000000000000000000001 /* PulsePlatform.swift */; };
+		DD0000000000000000000012 /* PulseWidgetState.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD0000000000000000000002 /* PulseWidgetState.swift */; };
+		DD0000000000000000000013 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66F014A02FBFE31400A43B9A /* ProfileView.swift */; };
+		DD0000000000000000000014 /* SoundClassifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66F0148C2FBFE31400A43B9A /* SoundClassifier.swift */; };
+		DD0000000000000000000015 /* TranscriptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66F014A22FBFE31400A43B9A /* TranscriptionView.swift */; };
+		DD0000000000000000000016 /* DirectionalAnalyzer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66F0148B2FBFE31400A43B9A /* DirectionalAnalyzer.swift */; };
+		DD0000000000000000000017 /* AppStateExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66F014912FBFE31400A43B9A /* AppStateExtensions.swift */; };
+		DD0000000000000000000018 /* SoundModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66F014BB2FBFE49D00A43B9A /* SoundModels.swift */; };
+		DD0000000000000000000019 /* AdaptiveIntelligenceEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66F014972FBFE31400A43B9A /* AdaptiveIntelligenceEngine.swift */; };
+		DD000000000000000000001A /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66F014902FBFE31400A43B9A /* AppState.swift */; };
+		DD000000000000000000001B /* DarkModeSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66F014992FBFE31400A43B9A /* DarkModeSupport.swift */; };
+		DD000000000000000000001C /* StartupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66F014A12FBFE31400A43B9A /* StartupView.swift */; };
+		DD000000000000000000001D /* TranscriptionLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66F014BC2FBFE4A700A43B9A /* TranscriptionLine.swift */; };
+		DD000000000000000000001E /* HeavyClassifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66B1AA8E3016A43A00136300 /* HeavyClassifier.swift */; };
+		DD000000000000000000001F /* PulseSessionCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66F014C42FC10BBF00A43B9A /* PulseSessionCoordinator.swift */; };
+		DD0000000000000000000020 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66F0149E2FBFE31400A43B9A /* HomeView.swift */; };
+		DD0000000000000000000021 /* WatchConnectivityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66F014BE2FBFE4BB00A43B9A /* WatchConnectivityManager.swift */; };
+		DD0000000000000000000022 /* PulseTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66F0149A2FBFE31400A43B9A /* PulseTheme.swift */; };
+		DD0000000000000000000023 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66F0149F2FBFE31400A43B9A /* OnboardingView.swift */; };
+		DD0000000000000000000024 /* AmbientMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66F0149C2FBFE31400A43B9A /* AmbientMapView.swift */; };
+		DD0000000000000000000025 /* AccessibilityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66F0148F2FBFE31400A43B9A /* AccessibilityManager.swift */; };
+		DD0000000000000000000026 /* MelSpectrogram.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66B1AA903016A44300136300 /* MelSpectrogram.swift */; };
+		DD0000000000000000000027 /* NotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66F014932FBFE31400A43B9A /* NotificationManager.swift */; };
+		DD0000000000000000000028 /* VoiceActivityDetector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66B1AA883016A2B900136300 /* VoiceActivityDetector.swift */; };
+		DD0000000000000000000029 /* SpeechRecognitionEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66F0148D2FBFE31400A43B9A /* SpeechRecognitionEngine.swift */; };
+		DD000000000000000000002A /* AudioEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66F0148A2FBFE31400A43B9A /* AudioEngine.swift */; };
+		DD000000000000000000002B /* HapticEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66F014952FBFE31400A43B9A /* HapticEngine.swift */; };
+		DD000000000000000000002C /* UserProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66F014BD2FBFE4B200A43B9A /* UserProfile.swift */; };
+		DD000000000000000000002D /* BatteryOptimizationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66F014922FBFE31400A43B9A /* BatteryOptimizationManager.swift */; };
+		DD000000000000000000002E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66F0149D2FBFE31400A43B9A /* ContentView.swift */; };
+		DD000000000000000000002F /* AudioEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = AABB01012FBFE31400A43B9A /* AudioEvent.swift */; };
+		DD0000000000000000000030 /* WhisperEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = AABB01022FBFE31400A43B9A /* WhisperEngine.swift */; };
+		DD0000000000000000000031 /* PulseIntelligencePipeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = AABB01032FBFE31400A43B9A /* PulseIntelligencePipeline.swift */; };
+		DD0000000000000000000032 /* AudioEventBubble.swift in Sources */ = {isa = PBXBuildFile; fileRef = AABB01042FBFE31400A43B9A /* AudioEventBubble.swift */; };
+		DD0000000000000000000033 /* EventFeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AABB01052FBFE31400A43B9A /* EventFeedView.swift */; };
+		DD0000000000000000000034 /* PulsePlatform.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD0000000000000000000001 /* PulsePlatform.swift */; };
+		DD0000000000000000000035 /* PulseWidgetState.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD0000000000000000000002 /* PulseWidgetState.swift */; };
+		DD0000000000000000000036 /* PulseMacApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD0000000000000000000003 /* PulseMacApp.swift */; };
+		DD0000000000000000000037 /* MacRootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD0000000000000000000004 /* MacRootView.swift */; };
+		DD0000000000000000000038 /* MacMenuBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD0000000000000000000005 /* MacMenuBarView.swift */; };
+		DD0000000000000000000039 /* MacSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD0000000000000000000006 /* MacSettingsView.swift */; };
+		DD000000000000000000003A /* MacSwiftUIShims.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD0000000000000000000007 /* MacSwiftUIShims.swift */; };
+		DD000000000000000000003B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD0000000000000000000009 /* Assets.xcassets */; };
+		DD000000000000000000003C /* PulseWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD000000000000000000000A /* PulseWidget.swift */; };
+		DD000000000000000000003D /* PulseWidgetState.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD0000000000000000000002 /* PulseWidgetState.swift */; };
+		DD000000000000000000003E /* PulseWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD000000000000000000000A /* PulseWidget.swift */; };
+		DD000000000000000000003F /* PulseWidgetState.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD0000000000000000000002 /* PulseWidgetState.swift */; };
+		DD0000000000000000000040 /* PulseWidgetIOS.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = DD000000000000000000000F /* PulseWidgetIOS.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		DD0000000000000000000041 /* PulseWidgetMac.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = DD0000000000000000000010 /* PulseWidgetMac.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		66E3D05A3017DDB100DCC0AE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 66F014722FBFDB1700A43B9A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 66E3D0573017DDB100DCC0AE;
+			remoteInfo = "Pulse Watch App";
+		};
+		DD0000000000000000000055 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 66F014722FBFDB1700A43B9A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DD000000000000000000004F;
+			remoteInfo = PulseWidgetMac;
+		};
+		DD0000000000000000000057 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 66F014722FBFDB1700A43B9A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DD000000000000000000004E;
+			remoteInfo = PulseWidgetIOS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		66E3D0663017DDB200DCC0AE /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				66E3D0593017DDB100DCC0AE /* Pulse Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD000000000000000000004C /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				DD0000000000000000000040 /* PulseWidgetIOS.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD0000000000000000000045 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				DD0000000000000000000041 /* PulseWidgetMac.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		66B1AA883016A2B900136300 /* VoiceActivityDetector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoiceActivityDetector.swift; sourceTree = "<group>"; };
+		66B1AA8E3016A43A00136300 /* HeavyClassifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeavyClassifier.swift; sourceTree = "<group>"; };
+		66B1AA903016A44300136300 /* MelSpectrogram.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MelSpectrogram.swift; sourceTree = "<group>"; };
+		66E3D0533017DDB100DCC0AE /* Pulse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pulse.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		66E3D0583017DDB100DCC0AE /* Pulse Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pulse Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		66F0147A2FBFDB1700A43B9A /* PulseIOSAPP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PulseIOSAPP.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		66F014882FBFE31400A43B9A /* PulseApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PulseApp.swift; sourceTree = "<group>"; };
+		66F0148A2FBFE31400A43B9A /* AudioEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioEngine.swift; sourceTree = "<group>"; };
+		66F0148B2FBFE31400A43B9A /* DirectionalAnalyzer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DirectionalAnalyzer.swift; sourceTree = "<group>"; };
+		66F0148C2FBFE31400A43B9A /* SoundClassifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundClassifier.swift; sourceTree = "<group>"; };
+		66F0148D2FBFE31400A43B9A /* SpeechRecognitionEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechRecognitionEngine.swift; sourceTree = "<group>"; };
+		66F0148F2FBFE31400A43B9A /* AccessibilityManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessibilityManager.swift; sourceTree = "<group>"; };
+		66F014902FBFE31400A43B9A /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
+		66F014912FBFE31400A43B9A /* AppStateExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStateExtensions.swift; sourceTree = "<group>"; };
+		66F014922FBFE31400A43B9A /* BatteryOptimizationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BatteryOptimizationManager.swift; sourceTree = "<group>"; };
+		66F014932FBFE31400A43B9A /* NotificationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationManager.swift; sourceTree = "<group>"; };
+		66F014952FBFE31400A43B9A /* HapticEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticEngine.swift; sourceTree = "<group>"; };
+		66F014972FBFE31400A43B9A /* AdaptiveIntelligenceEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdaptiveIntelligenceEngine.swift; sourceTree = "<group>"; };
+		66F014992FBFE31400A43B9A /* DarkModeSupport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DarkModeSupport.swift; sourceTree = "<group>"; };
+		66F0149A2FBFE31400A43B9A /* PulseTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PulseTheme.swift; sourceTree = "<group>"; };
+		66F0149C2FBFE31400A43B9A /* AmbientMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmbientMapView.swift; sourceTree = "<group>"; };
+		66F0149D2FBFE31400A43B9A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		66F0149E2FBFE31400A43B9A /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		66F0149F2FBFE31400A43B9A /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		66F014A02FBFE31400A43B9A /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		66F014A12FBFE31400A43B9A /* StartupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartupView.swift; sourceTree = "<group>"; };
+		66F014A22FBFE31400A43B9A /* TranscriptionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TranscriptionView.swift; sourceTree = "<group>"; };
+		66F014BB2FBFE49D00A43B9A /* SoundModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundModels.swift; sourceTree = "<group>"; };
+		66F014BC2FBFE4A700A43B9A /* TranscriptionLine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TranscriptionLine.swift; sourceTree = "<group>"; };
+		66F014BD2FBFE4B200A43B9A /* UserProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfile.swift; sourceTree = "<group>"; };
+		66F014BE2FBFE4BB00A43B9A /* WatchConnectivityManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchConnectivityManager.swift; sourceTree = "<group>"; };
+		66F014C42FC10BBF00A43B9A /* PulseSessionCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PulseSessionCoordinator.swift; sourceTree = "<group>"; };
+		AABB01012FBFE31400A43B9A /* AudioEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioEvent.swift; sourceTree = "<group>"; };
+		AABB01022FBFE31400A43B9A /* WhisperEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhisperEngine.swift; sourceTree = "<group>"; };
+		AABB01032FBFE31400A43B9A /* PulseIntelligencePipeline.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PulseIntelligencePipeline.swift; sourceTree = "<group>"; };
+		AABB01042FBFE31400A43B9A /* AudioEventBubble.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioEventBubble.swift; sourceTree = "<group>"; };
+		AABB01052FBFE31400A43B9A /* EventFeedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventFeedView.swift; sourceTree = "<group>"; };
+		DD0000000000000000000001 /* PulsePlatform.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PulsePlatform.swift; sourceTree = "<group>"; };
+		DD0000000000000000000002 /* PulseWidgetState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PulseWidgetState.swift; sourceTree = "<group>"; };
+		DD0000000000000000000003 /* PulseMacApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PulseMacApp.swift; sourceTree = "<group>"; };
+		DD0000000000000000000004 /* MacRootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacRootView.swift; sourceTree = "<group>"; };
+		DD0000000000000000000005 /* MacMenuBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacMenuBarView.swift; sourceTree = "<group>"; };
+		DD0000000000000000000006 /* MacSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacSettingsView.swift; sourceTree = "<group>"; };
+		DD0000000000000000000007 /* MacSwiftUIShims.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacSwiftUIShims.swift; sourceTree = "<group>"; };
+		DD0000000000000000000008 /* PulseMac.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PulseMac.entitlements; sourceTree = "<group>"; };
+		DD0000000000000000000009 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DD000000000000000000000A /* PulseWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PulseWidget.swift; sourceTree = "<group>"; };
+		DD000000000000000000000B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD000000000000000000000C /* PulseWidgetIOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PulseWidgetIOS.entitlements; sourceTree = "<group>"; };
+		DD000000000000000000000D /* PulseWidgetMac.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PulseWidgetMac.entitlements; sourceTree = "<group>"; };
+		DD000000000000000000000E /* PulseMac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PulseMac.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD000000000000000000000F /* PulseWidgetIOS.appex */ = {isa = PBXFileReference; explicitFileType = wrapper.app-extension; includeInIndex = 0; path = PulseWidgetIOS.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD0000000000000000000010 /* PulseWidgetMac.appex */ = {isa = PBXFileReference; explicitFileType = wrapper.app-extension; includeInIndex = 0; path = PulseWidgetMac.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		66F014C72FC111F100A43B9A /* Exceptions for "PulseIOSAPP" folder in "PulseIOSAPP" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 66F014792FBFDB1700A43B9A /* PulseIOSAPP */;
+		};
+		DD0000000000000000000053 /* Exceptions for "PulseIOSAPP" folder in "Pulse Mac" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+				PulseIOSAPP.entitlements,
+			);
+			target = DD000000000000000000004D /* Pulse Mac */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
+		66E3D05C3017DDB100DCC0AE /* Pulse Watch App */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Pulse Watch App";
+			sourceTree = "<group>";
+		};
 		66F0147C2FBFDB1700A43B9A /* PulseIOSAPP */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				66F014C72FC111F100A43B9A /* Exceptions for "PulseIOSAPP" folder in "PulseIOSAPP" target */,
+				DD0000000000000000000053 /* Exceptions for "PulseIOSAPP" folder in "Pulse Mac" target */,
+			);
 			path = PulseIOSAPP;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		66E3D0553017DDB100DCC0AE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		66F014772FBFDB1700A43B9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD0000000000000000000043 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD0000000000000000000047 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD000000000000000000004A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -33,7 +287,19 @@
 			isa = PBXGroup;
 			children = (
 				66F0147C2FBFDB1700A43B9A /* PulseIOSAPP */,
+				66E3D05C3017DDB100DCC0AE /* Pulse Watch App */,
 				66F0147B2FBFDB1700A43B9A /* Products */,
+				66F014892FBFE31400A43B9A /* App */,
+				66F0148E2FBFE31400A43B9A /* Audio */,
+				66F014942FBFE31400A43B9A /* Core */,
+				66F014962FBFE31400A43B9A /* Haptics */,
+				66F014982FBFE31400A43B9A /* Intelligence */,
+				66F014A42FBFE31400A43B9A /* UI */,
+				66F014BA2FBFE49C00A43B9A /* Models */,
+				AABB01212FBFE31400A43B9A /* PulseModels */,
+				DD0000000000000000000050 /* PulseShared */,
+				DD0000000000000000000051 /* PulseMac */,
+				DD0000000000000000000052 /* PulseWidget */,
 			);
 			sourceTree = "<group>";
 		};
@@ -41,13 +307,209 @@
 			isa = PBXGroup;
 			children = (
 				66F0147A2FBFDB1700A43B9A /* PulseIOSAPP.app */,
+				66E3D0533017DDB100DCC0AE /* Pulse.app */,
+				66E3D0583017DDB100DCC0AE /* Pulse Watch App.app */,
+				DD000000000000000000000E /* PulseMac.app */,
+				DD000000000000000000000F /* PulseWidgetIOS.appex */,
+				DD0000000000000000000010 /* PulseWidgetMac.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
+		66F014892FBFE31400A43B9A /* App */ = {
+			isa = PBXGroup;
+			children = (
+				66F014882FBFE31400A43B9A /* PulseApp.swift */,
+			);
+			name = App;
+			path = ../Pulse/App;
+			sourceTree = SOURCE_ROOT;
+		};
+		66F0148E2FBFE31400A43B9A /* Audio */ = {
+			isa = PBXGroup;
+			children = (
+				66B1AA903016A44300136300 /* MelSpectrogram.swift */,
+				66B1AA8E3016A43A00136300 /* HeavyClassifier.swift */,
+				66B1AA883016A2B900136300 /* VoiceActivityDetector.swift */,
+				66F0148A2FBFE31400A43B9A /* AudioEngine.swift */,
+				66F0148B2FBFE31400A43B9A /* DirectionalAnalyzer.swift */,
+				66F0148C2FBFE31400A43B9A /* SoundClassifier.swift */,
+				66F0148D2FBFE31400A43B9A /* SpeechRecognitionEngine.swift */,
+				AABB01022FBFE31400A43B9A /* WhisperEngine.swift */,
+				AABB01032FBFE31400A43B9A /* PulseIntelligencePipeline.swift */,
+			);
+			name = Audio;
+			path = ../Pulse/Audio;
+			sourceTree = SOURCE_ROOT;
+		};
+		66F014942FBFE31400A43B9A /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				66F0148F2FBFE31400A43B9A /* AccessibilityManager.swift */,
+				66F014902FBFE31400A43B9A /* AppState.swift */,
+				66F014912FBFE31400A43B9A /* AppStateExtensions.swift */,
+				66F014922FBFE31400A43B9A /* BatteryOptimizationManager.swift */,
+				66F014932FBFE31400A43B9A /* NotificationManager.swift */,
+				66F014BE2FBFE4BB00A43B9A /* WatchConnectivityManager.swift */,
+				66F014C42FC10BBF00A43B9A /* PulseSessionCoordinator.swift */,
+			);
+			name = Core;
+			path = ../Pulse/Core;
+			sourceTree = SOURCE_ROOT;
+		};
+		66F014962FBFE31400A43B9A /* Haptics */ = {
+			isa = PBXGroup;
+			children = (
+				66F014952FBFE31400A43B9A /* HapticEngine.swift */,
+			);
+			name = Haptics;
+			path = ../Pulse/Haptics;
+			sourceTree = SOURCE_ROOT;
+		};
+		66F014982FBFE31400A43B9A /* Intelligence */ = {
+			isa = PBXGroup;
+			children = (
+				66F014972FBFE31400A43B9A /* AdaptiveIntelligenceEngine.swift */,
+			);
+			name = Intelligence;
+			path = ../Pulse/Intelligence;
+			sourceTree = SOURCE_ROOT;
+		};
+		66F0149B2FBFE31400A43B9A /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				66F014992FBFE31400A43B9A /* DarkModeSupport.swift */,
+				66F0149A2FBFE31400A43B9A /* PulseTheme.swift */,
+				AABB01042FBFE31400A43B9A /* AudioEventBubble.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		66F014A32FBFE31400A43B9A /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				66F0149C2FBFE31400A43B9A /* AmbientMapView.swift */,
+				66F0149D2FBFE31400A43B9A /* ContentView.swift */,
+				66F0149E2FBFE31400A43B9A /* HomeView.swift */,
+				66F0149F2FBFE31400A43B9A /* OnboardingView.swift */,
+				66F014A02FBFE31400A43B9A /* ProfileView.swift */,
+				66F014A12FBFE31400A43B9A /* StartupView.swift */,
+				66F014A22FBFE31400A43B9A /* TranscriptionView.swift */,
+				AABB01052FBFE31400A43B9A /* EventFeedView.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		66F014A42FBFE31400A43B9A /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				66F0149B2FBFE31400A43B9A /* Components */,
+				66F014A32FBFE31400A43B9A /* Screens */,
+			);
+			name = UI;
+			path = ../Pulse/UI;
+			sourceTree = SOURCE_ROOT;
+		};
+		66F014BA2FBFE49C00A43B9A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				66F014BB2FBFE49D00A43B9A /* SoundModels.swift */,
+				66F014BC2FBFE4A700A43B9A /* TranscriptionLine.swift */,
+				66F014BD2FBFE4B200A43B9A /* UserProfile.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		AABB01212FBFE31400A43B9A /* PulseModels */ = {
+			isa = PBXGroup;
+			children = (
+				AABB01012FBFE31400A43B9A /* AudioEvent.swift */,
+			);
+			name = PulseModels;
+			path = ../Pulse/Models;
+			sourceTree = SOURCE_ROOT;
+		};
+		DD0000000000000000000050 /* PulseShared */ = {
+			isa = PBXGroup;
+			children = (
+				DD0000000000000000000001 /* PulsePlatform.swift */,
+				DD0000000000000000000002 /* PulseWidgetState.swift */,
+			);
+			name = PulseShared;
+			path = ../PulseShared;
+			sourceTree = SOURCE_ROOT;
+		};
+		DD0000000000000000000051 /* PulseMac */ = {
+			isa = PBXGroup;
+			children = (
+				DD0000000000000000000003 /* PulseMacApp.swift */,
+				DD0000000000000000000004 /* MacRootView.swift */,
+				DD0000000000000000000005 /* MacMenuBarView.swift */,
+				DD0000000000000000000006 /* MacSettingsView.swift */,
+				DD0000000000000000000007 /* MacSwiftUIShims.swift */,
+				DD0000000000000000000008 /* PulseMac.entitlements */,
+				DD0000000000000000000009 /* Assets.xcassets */,
+			);
+			name = PulseMac;
+			path = ../PulseMac;
+			sourceTree = SOURCE_ROOT;
+		};
+		DD0000000000000000000052 /* PulseWidget */ = {
+			isa = PBXGroup;
+			children = (
+				DD000000000000000000000A /* PulseWidget.swift */,
+				DD000000000000000000000B /* Info.plist */,
+				DD000000000000000000000C /* PulseWidgetIOS.entitlements */,
+				DD000000000000000000000D /* PulseWidgetMac.entitlements */,
+			);
+			name = PulseWidget;
+			path = ../PulseWidget;
+			sourceTree = SOURCE_ROOT;
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		66E3D0523017DDB100DCC0AE /* Pulse */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 66E3D0673017DDB200DCC0AE /* Build configuration list for PBXNativeTarget "Pulse" */;
+			buildPhases = (
+				66E3D0513017DDB100DCC0AE /* Resources */,
+				66E3D0663017DDB200DCC0AE /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				66E3D05B3017DDB100DCC0AE /* PBXTargetDependency */,
+			);
+			name = Pulse;
+			packageProductDependencies = (
+			);
+			productName = Pulse;
+			productReference = 66E3D0533017DDB100DCC0AE /* Pulse.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		66E3D0573017DDB100DCC0AE /* Pulse Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 66E3D0633017DDB200DCC0AE /* Build configuration list for PBXNativeTarget "Pulse Watch App" */;
+			buildPhases = (
+				66E3D0543017DDB100DCC0AE /* Sources */,
+				66E3D0553017DDB100DCC0AE /* Frameworks */,
+				66E3D0563017DDB100DCC0AE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				66E3D05C3017DDB100DCC0AE /* Pulse Watch App */,
+			);
+			name = "Pulse Watch App";
+			packageProductDependencies = (
+			);
+			productName = "Pulse Watch App";
+			productReference = 66E3D0583017DDB100DCC0AE /* Pulse Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
 		66F014792FBFDB1700A43B9A /* PulseIOSAPP */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 66F014852FBFDB1800A43B9A /* Build configuration list for PBXNativeTarget "PulseIOSAPP" */;
@@ -55,10 +517,12 @@
 				66F014762FBFDB1700A43B9A /* Sources */,
 				66F014772FBFDB1700A43B9A /* Frameworks */,
 				66F014782FBFDB1700A43B9A /* Resources */,
+				DD000000000000000000004C /* Embed Foundation Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				DD0000000000000000000056 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
 				66F0147C2FBFDB1700A43B9A /* PulseIOSAPP */,
@@ -70,6 +534,68 @@
 			productReference = 66F0147A2FBFDB1700A43B9A /* PulseIOSAPP.app */;
 			productType = "com.apple.product-type.application";
 		};
+		DD000000000000000000004D /* Pulse Mac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD0000000000000000000058 /* Build configuration list for PBXNativeTarget "Pulse Mac" */;
+			buildPhases = (
+				DD0000000000000000000042 /* Sources */,
+				DD0000000000000000000043 /* Frameworks */,
+				DD0000000000000000000044 /* Resources */,
+				DD0000000000000000000045 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DD0000000000000000000054 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				66F0147C2FBFDB1700A43B9A /* PulseIOSAPP */,
+			);
+			name = "Pulse Mac";
+			packageProductDependencies = (
+			);
+			productName = PulseMac;
+			productReference = DD000000000000000000000E /* PulseMac.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DD000000000000000000004E /* PulseWidgetIOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD000000000000000000005B /* Build configuration list for PBXNativeTarget "PulseWidgetIOS" */;
+			buildPhases = (
+				DD0000000000000000000046 /* Sources */,
+				DD0000000000000000000047 /* Frameworks */,
+				DD0000000000000000000048 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PulseWidgetIOS;
+			packageProductDependencies = (
+			);
+			productName = PulseWidgetIOS;
+			productReference = DD000000000000000000000F /* PulseWidgetIOS.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		DD000000000000000000004F /* PulseWidgetMac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD000000000000000000005E /* Build configuration list for PBXNativeTarget "PulseWidgetMac" */;
+			buildPhases = (
+				DD0000000000000000000049 /* Sources */,
+				DD000000000000000000004A /* Frameworks */,
+				DD000000000000000000004B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PulseWidgetMac;
+			packageProductDependencies = (
+			);
+			productName = PulseWidgetMac;
+			productReference = DD0000000000000000000010 /* PulseWidgetMac.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -77,10 +603,25 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 2650;
+				LastSwiftUpdateCheck = 2660;
 				LastUpgradeCheck = 2650;
 				TargetAttributes = {
+					66E3D0523017DDB100DCC0AE = {
+						CreatedOnToolsVersion = 26.6;
+					};
+					66E3D0573017DDB100DCC0AE = {
+						CreatedOnToolsVersion = 26.6;
+					};
 					66F014792FBFDB1700A43B9A = {
+						CreatedOnToolsVersion = 26.5;
+					};
+					DD000000000000000000004D = {
+						CreatedOnToolsVersion = 26.5;
+					};
+					DD000000000000000000004E = {
+						CreatedOnToolsVersion = 26.5;
+					};
+					DD000000000000000000004F = {
 						CreatedOnToolsVersion = 26.5;
 					};
 				};
@@ -100,12 +641,53 @@
 			projectRoot = "";
 			targets = (
 				66F014792FBFDB1700A43B9A /* PulseIOSAPP */,
+				66E3D0523017DDB100DCC0AE /* Pulse */,
+				66E3D0573017DDB100DCC0AE /* Pulse Watch App */,
+				DD000000000000000000004D /* Pulse Mac */,
+				DD000000000000000000004E /* PulseWidgetIOS */,
+				DD000000000000000000004F /* PulseWidgetMac */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		66E3D0513017DDB100DCC0AE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66E3D0563017DDB100DCC0AE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		66F014782FBFDB1700A43B9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD0000000000000000000044 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD000000000000000000003B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD0000000000000000000048 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD000000000000000000004B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -115,16 +697,240 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		66F014762FBFDB1700A43B9A /* Sources */ = {
+		66E3D0543017DDB100DCC0AE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		66F014762FBFDB1700A43B9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66F014A52FBFE31400A43B9A /* ProfileView.swift in Sources */,
+				66F014A62FBFE31400A43B9A /* SoundClassifier.swift in Sources */,
+				66F014A72FBFE31400A43B9A /* TranscriptionView.swift in Sources */,
+				66F014A82FBFE31400A43B9A /* DirectionalAnalyzer.swift in Sources */,
+				66F014A92FBFE31400A43B9A /* AppStateExtensions.swift in Sources */,
+				66F014C02FBFEC2D00A43B9A /* SoundModels.swift in Sources */,
+				66F014AA2FBFE31400A43B9A /* AdaptiveIntelligenceEngine.swift in Sources */,
+				66F014AB2FBFE31400A43B9A /* AppState.swift in Sources */,
+				66F014AC2FBFE31400A43B9A /* DarkModeSupport.swift in Sources */,
+				66F014AD2FBFE31400A43B9A /* StartupView.swift in Sources */,
+				66F014C12FBFEC3B00A43B9A /* TranscriptionLine.swift in Sources */,
+				66B1AA8F3016A43A00136300 /* HeavyClassifier.swift in Sources */,
+				66F014C52FC10BBF00A43B9A /* PulseSessionCoordinator.swift in Sources */,
+				66F014AE2FBFE31400A43B9A /* HomeView.swift in Sources */,
+				66F014BF2FBFE4BB00A43B9A /* WatchConnectivityManager.swift in Sources */,
+				66F014AF2FBFE31400A43B9A /* PulseTheme.swift in Sources */,
+				66F014B02FBFE31400A43B9A /* OnboardingView.swift in Sources */,
+				66F014B12FBFE31400A43B9A /* AmbientMapView.swift in Sources */,
+				66F014B22FBFE31400A43B9A /* AccessibilityManager.swift in Sources */,
+				66B1AA913016A44300136300 /* MelSpectrogram.swift in Sources */,
+				66F014B32FBFE31400A43B9A /* NotificationManager.swift in Sources */,
+				66B1AA893016A2B900136300 /* VoiceActivityDetector.swift in Sources */,
+				66F014B42FBFE31400A43B9A /* PulseApp.swift in Sources */,
+				66F014B52FBFE31400A43B9A /* SpeechRecognitionEngine.swift in Sources */,
+				66F014B62FBFE31400A43B9A /* AudioEngine.swift in Sources */,
+				66F014B72FBFE31400A43B9A /* HapticEngine.swift in Sources */,
+				66F014C22FBFEC4000A43B9A /* UserProfile.swift in Sources */,
+				66F014B82FBFE31400A43B9A /* BatteryOptimizationManager.swift in Sources */,
+				66F014B92FBFE31400A43B9A /* ContentView.swift in Sources */,
+				AABB01112FBFE31400A43B9A /* AudioEvent.swift in Sources */,
+				AABB01122FBFE31400A43B9A /* WhisperEngine.swift in Sources */,
+				AABB01132FBFE31400A43B9A /* PulseIntelligencePipeline.swift in Sources */,
+				AABB01142FBFE31400A43B9A /* AudioEventBubble.swift in Sources */,
+				AABB01152FBFE31400A43B9A /* EventFeedView.swift in Sources */,
+				DD0000000000000000000011 /* PulsePlatform.swift in Sources */,
+				DD0000000000000000000012 /* PulseWidgetState.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD0000000000000000000042 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD0000000000000000000013 /* ProfileView.swift in Sources */,
+				DD0000000000000000000014 /* SoundClassifier.swift in Sources */,
+				DD0000000000000000000015 /* TranscriptionView.swift in Sources */,
+				DD0000000000000000000016 /* DirectionalAnalyzer.swift in Sources */,
+				DD0000000000000000000017 /* AppStateExtensions.swift in Sources */,
+				DD0000000000000000000018 /* SoundModels.swift in Sources */,
+				DD0000000000000000000019 /* AdaptiveIntelligenceEngine.swift in Sources */,
+				DD000000000000000000001A /* AppState.swift in Sources */,
+				DD000000000000000000001B /* DarkModeSupport.swift in Sources */,
+				DD000000000000000000001C /* StartupView.swift in Sources */,
+				DD000000000000000000001D /* TranscriptionLine.swift in Sources */,
+				DD000000000000000000001E /* HeavyClassifier.swift in Sources */,
+				DD000000000000000000001F /* PulseSessionCoordinator.swift in Sources */,
+				DD0000000000000000000020 /* HomeView.swift in Sources */,
+				DD0000000000000000000021 /* WatchConnectivityManager.swift in Sources */,
+				DD0000000000000000000022 /* PulseTheme.swift in Sources */,
+				DD0000000000000000000023 /* OnboardingView.swift in Sources */,
+				DD0000000000000000000024 /* AmbientMapView.swift in Sources */,
+				DD0000000000000000000025 /* AccessibilityManager.swift in Sources */,
+				DD0000000000000000000026 /* MelSpectrogram.swift in Sources */,
+				DD0000000000000000000027 /* NotificationManager.swift in Sources */,
+				DD0000000000000000000028 /* VoiceActivityDetector.swift in Sources */,
+				DD0000000000000000000029 /* SpeechRecognitionEngine.swift in Sources */,
+				DD000000000000000000002A /* AudioEngine.swift in Sources */,
+				DD000000000000000000002B /* HapticEngine.swift in Sources */,
+				DD000000000000000000002C /* UserProfile.swift in Sources */,
+				DD000000000000000000002D /* BatteryOptimizationManager.swift in Sources */,
+				DD000000000000000000002E /* ContentView.swift in Sources */,
+				DD000000000000000000002F /* AudioEvent.swift in Sources */,
+				DD0000000000000000000030 /* WhisperEngine.swift in Sources */,
+				DD0000000000000000000031 /* PulseIntelligencePipeline.swift in Sources */,
+				DD0000000000000000000032 /* AudioEventBubble.swift in Sources */,
+				DD0000000000000000000033 /* EventFeedView.swift in Sources */,
+				DD0000000000000000000034 /* PulsePlatform.swift in Sources */,
+				DD0000000000000000000035 /* PulseWidgetState.swift in Sources */,
+				DD0000000000000000000036 /* PulseMacApp.swift in Sources */,
+				DD0000000000000000000037 /* MacRootView.swift in Sources */,
+				DD0000000000000000000038 /* MacMenuBarView.swift in Sources */,
+				DD0000000000000000000039 /* MacSettingsView.swift in Sources */,
+				DD000000000000000000003A /* MacSwiftUIShims.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD0000000000000000000046 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD000000000000000000003C /* PulseWidget.swift in Sources */,
+				DD000000000000000000003D /* PulseWidgetState.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD0000000000000000000049 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD000000000000000000003E /* PulseWidget.swift in Sources */,
+				DD000000000000000000003F /* PulseWidgetState.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		66E3D05B3017DDB100DCC0AE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 66E3D0573017DDB100DCC0AE /* Pulse Watch App */;
+			targetProxy = 66E3D05A3017DDB100DCC0AE /* PBXContainerItemProxy */;
+		};
+		DD0000000000000000000054 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DD000000000000000000004F /* PulseWidgetMac */;
+			targetProxy = DD0000000000000000000055 /* PBXContainerItemProxy */;
+		};
+		DD0000000000000000000056 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DD000000000000000000004E /* PulseWidgetIOS */;
+			targetProxy = DD0000000000000000000057 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
+		66E3D0643017DDB200DCC0AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 38R82RX5Z2;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Pulse;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nithilan.Pulse.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 26.5;
+			};
+			name = Debug;
+		};
+		66E3D0653017DDB200DCC0AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 38R82RX5Z2;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Pulse;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nithilan.Pulse.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 26.5;
+			};
+			name = Release;
+		};
+		66E3D0683017DDB200DCC0AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 38R82RX5Z2;
+				INFOPLIST_KEY_CFBundleDisplayName = Pulse;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nithilan.Pulse;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		66E3D0693017DDB200DCC0AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 38R82RX5Z2;
+				INFOPLIST_KEY_CFBundleDisplayName = Pulse;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nithilan.Pulse;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
 		66F014832FBFDB1800A43B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -251,11 +1057,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = PulseIOSAPP/PulseIOSAPP.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 38R82RX5Z2;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PulseIOSAPP/Info.plist;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "This feature is required in order to detect dangers in the environment.";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "This feature is required in order to detect dangers in the environment.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -283,11 +1093,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = PulseIOSAPP/PulseIOSAPP.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 38R82RX5Z2;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PulseIOSAPP/Info.plist;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "This feature is required in order to detect dangers in the environment.";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "This feature is required in order to detect dangers in the environment.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -310,9 +1124,219 @@
 			};
 			name = Release;
 		};
+		DD0000000000000000000059 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 38R82RX5Z2;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				ASSETCATALOG_COMPILER_APPICON_NAME = MacAppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "../PulseMac/PulseMac.entitlements";
+				COMBINE_HIDPI_IMAGES = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Pulse;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.healthcare-fitness";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Pulse listens to your surroundings on-device to identify sounds and show their direction. Audio never leaves your Mac.";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "Pulse transcribes nearby speech on-device. Audio and transcripts never leave your Mac.";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nithilan.PulseIOSAPP.mac;
+				PRODUCT_NAME = PulseMac;
+				SDKROOT = macosx;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = macosx;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+			};
+			name = Debug;
+		};
+		DD000000000000000000005A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 38R82RX5Z2;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				ASSETCATALOG_COMPILER_APPICON_NAME = MacAppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "../PulseMac/PulseMac.entitlements";
+				COMBINE_HIDPI_IMAGES = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Pulse;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.healthcare-fitness";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Pulse listens to your surroundings on-device to identify sounds and show their direction. Audio never leaves your Mac.";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "Pulse transcribes nearby speech on-device. Audio and transcripts never leave your Mac.";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nithilan.PulseIOSAPP.mac;
+				PRODUCT_NAME = PulseMac;
+				SDKROOT = macosx;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = macosx;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+			};
+			name = Release;
+		};
+		DD000000000000000000005C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 38R82RX5Z2;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				CODE_SIGN_ENTITLEMENTS = "../PulseWidget/PulseWidgetIOS.entitlements";
+				INFOPLIST_FILE = "../PulseWidget/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = Pulse;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = nithilan.PulseIOSAPP.widget;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DD000000000000000000005D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 38R82RX5Z2;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				CODE_SIGN_ENTITLEMENTS = "../PulseWidget/PulseWidgetIOS.entitlements";
+				INFOPLIST_FILE = "../PulseWidget/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = Pulse;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = nithilan.PulseIOSAPP.widget;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DD000000000000000000005F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 38R82RX5Z2;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				CODE_SIGN_ENTITLEMENTS = "../PulseWidget/PulseWidgetMac.entitlements";
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = "../PulseWidget/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = Pulse;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nithilan.PulseIOSAPP.mac.widget;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = macosx;
+			};
+			name = Debug;
+		};
+		DD0000000000000000000060 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 38R82RX5Z2;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				CODE_SIGN_ENTITLEMENTS = "../PulseWidget/PulseWidgetMac.entitlements";
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = "../PulseWidget/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = Pulse;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nithilan.PulseIOSAPP.mac.widget;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = macosx;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		66E3D0633017DDB200DCC0AE /* Build configuration list for PBXNativeTarget "Pulse Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66E3D0643017DDB200DCC0AE /* Debug */,
+				66E3D0653017DDB200DCC0AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		66E3D0673017DDB200DCC0AE /* Build configuration list for PBXNativeTarget "Pulse" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66E3D0683017DDB200DCC0AE /* Debug */,
+				66E3D0693017DDB200DCC0AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		66F014752FBFDB1700A43B9A /* Build configuration list for PBXProject "PulseIOSAPP" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -327,6 +1351,33 @@
 			buildConfigurations = (
 				66F014862FBFDB1800A43B9A /* Debug */,
 				66F014872FBFDB1800A43B9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD0000000000000000000058 /* Build configuration list for PBXNativeTarget "Pulse Mac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD0000000000000000000059 /* Debug */,
+				DD000000000000000000005A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD000000000000000000005B /* Build configuration list for PBXNativeTarget "PulseWidgetIOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD000000000000000000005C /* Debug */,
+				DD000000000000000000005D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD000000000000000000005E /* Build configuration list for PBXNativeTarget "PulseWidgetMac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD000000000000000000005F /* Debug */,
+				DD0000000000000000000060 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

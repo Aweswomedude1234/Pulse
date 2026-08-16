@@ -2,9 +2,89 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>CFBundleIcons</key>
+	<dict>
+		<key>CFBundleAlternateIcons</key>
+		<dict>
+			<key>Icon4</key>
+			<dict>
+				<key>CFBundleIconFiles</key>
+				<array>
+					<string>Icon4</string>
+				</array>
+				<key>UIPrerenderedIcon</key>
+				<false/>
+			</dict>
+			<key>Icon5</key>
+			<dict>
+				<key>CFBundleIconFiles</key>
+				<array>
+					<string>Icon5</string>
+				</array>
+				<key>UIPrerenderedIcon</key>
+				<false/>
+			</dict>
+			<key>Icon6</key>
+			<dict>
+				<key>CFBundleIconFiles</key>
+				<array>
+					<string>Icon6</string>
+				</array>
+				<key>UIPrerenderedIcon</key>
+				<false/>
+			</dict>
+		</dict>
+		<key>CFBundlePrimaryIcon</key>
+		<dict>
+			<key>CFBundleIconName</key>
+			<string>AppIcon</string>
+		</dict>
+	</dict>
+	<key>CFBundleIcons~ipad</key>
+	<dict>
+		<key>CFBundleAlternateIcons</key>
+		<dict>
+			<key>Icon4</key>
+			<dict>
+				<key>CFBundleIconFiles</key>
+				<array>
+					<string>Icon4</string>
+				</array>
+				<key>UIPrerenderedIcon</key>
+				<false/>
+			</dict>
+			<key>Icon5</key>
+			<dict>
+				<key>CFBundleIconFiles</key>
+				<array>
+					<string>Icon5</string>
+				</array>
+				<key>UIPrerenderedIcon</key>
+				<false/>
+			</dict>
+			<key>Icon6</key>
+			<dict>
+				<key>CFBundleIconFiles</key>
+				<array>
+					<string>Icon6</string>
+				</array>
+				<key>UIPrerenderedIcon</key>
+				<false/>
+			</dict>
+		</dict>
+		<key>CFBundlePrimaryIcon</key>
+		<dict>
+			<key>CFBundleIconName</key>
+			<string>AppIcon</string>
+		</dict>
+	</dict>
 	<key>UIBackgroundModes</key>
 	<array>
 		<string>audio</string>
 	</array>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>Pulse listens to your surroundings on-device to identify sounds and show their direction. Audio never leaves your phone.</string>
+	<key>NSSpeechRecognitionUsageDescription</key>
+	<string>Pulse transcribes nearby speech on-device. Audio and transcripts never leave your phone.</string>
 </dict>
 </plist>

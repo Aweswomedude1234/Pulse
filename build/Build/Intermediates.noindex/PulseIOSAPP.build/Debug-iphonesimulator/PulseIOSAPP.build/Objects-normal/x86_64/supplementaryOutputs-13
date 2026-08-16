@@ -1,0 +1,30 @@
+{
+  "/Users/nithinithilanlanmurugesan/Downloads/Pulse/Pulse/Audio/HeavyClassifier.swift" : {
+    "const-values" : "/Users/nithinithilanlanmurugesan/Downloads/Pulse/PulseIOSAPP/build/Build/Intermediates.noindex/PulseIOSAPP.build/Debug-iphonesimulator/PulseIOSAPP.build/Objects-normal/x86_64/HeavyClassifier.swiftconstvalues",
+    "dependencies" : "/Users/nithinithilanlanmurugesan/Downloads/Pulse/PulseIOSAPP/build/Build/Intermediates.noindex/PulseIOSAPP.build/Debug-iphonesimulator/PulseIOSAPP.build/Objects-normal/x86_64/HeavyClassifier.d",
+    "diagnostics" : "/Users/nithinithilanlanmurugesan/Downloads/Pulse/PulseIOSAPP/build/Build/Intermediates.noindex/PulseIOSAPP.build/Debug-iphonesimulator/PulseIOSAPP.build/Objects-normal/x86_64/HeavyClassifier.dia",
+    "object" : "/Users/nithinithilanlanmurugesan/Downloads/Pulse/PulseIOSAPP/build/Build/Intermediates.noindex/PulseIOSAPP.build/Debug-iphonesimulator/PulseIOSAPP.build/Objects-normal/x86_64/HeavyClassifier.o",
+    "swift-dependencies" : "/Users/nithinithilanlanmurugesan/Downloads/Pulse/PulseIOSAPP/build/Build/Intermediates.noindex/PulseIOSAPP.build/Debug-iphonesimulator/PulseIOSAPP.build/Objects-normal/x86_64/HeavyClassifier.swiftdeps"
+  },
+  "/Users/nithinithilanlanmurugesan/Downloads/Pulse/Pulse/UI/Components/DarkModeSupport.swift" : {
+    "const-values" : "/Users/nithinithilanlanmurugesan/Downloads/Pulse/PulseIOSAPP/build/Build/Intermediates.noindex/PulseIOSAPP.build/Debug-iphonesimulator/PulseIOSAPP.build/Objects-normal/x86_64/DarkModeSupport.swiftconstvalues",
+    "dependencies" : "/Users/nithinithilanlanmurugesan/Downloads/Pulse/PulseIOSAPP/build/Build/Intermediates.noindex/PulseIOSAPP.build/Debug-iphonesimulator/PulseIOSAPP.build/Objects-normal/x86_64/DarkModeSupport.d",
+    "diagnostics" : "/Users/nithinithilanlanmurugesan/Downloads/Pulse/PulseIOSAPP/build/Build/Intermediates.noindex/PulseIOSAPP.build/Debug-iphonesimulator/PulseIOSAPP.build/Objects-normal/x86_64/DarkModeSupport.dia",
+    "object" : "/Users/nithinithilanlanmurugesan/Downloads/Pulse/PulseIOSAPP/build/Build/Intermediates.noindex/PulseIOSAPP.build/Debug-iphonesimulator/PulseIOSAPP.build/Objects-normal/x86_64/DarkModeSupport.o",
+    "swift-dependencies" : "/Users/nithinithilanlanmurugesan/Downloads/Pulse/PulseIOSAPP/build/Build/Intermediates.noindex/PulseIOSAPP.build/Debug-iphonesimulator/PulseIOSAPP.build/Objects-normal/x86_64/DarkModeSupport.swiftdeps"
+  },
+  "/Users/nithinithilanlanmurugesan/Downloads/Pulse/Pulse/UI/Screens/StartupView.swift" : {
+    "const-values" : "/Users/nithinithilanlanmurugesan/Downloads/Pulse/PulseIOSAPP/build/Build/Intermediates.noindex/PulseIOSAPP.build/Debug-iphonesimulator/PulseIOSAPP.build/Objects-normal/x86_64/StartupView.swiftconstvalues",
+    "dependencies" : "/Users/nithinithilanlanmurugesan/Downloads/Pulse/PulseIOSAPP/build/Build/Intermediates.noindex/PulseIOSAPP.build/Debug-iphonesimulator/PulseIOSAPP.build/Objects-normal/x86_64/StartupView.d",
+    "diagnostics" : "/Users/nithinithilanlanmurugesan/Downloads/Pulse/PulseIOSAPP/build/Build/Intermediates.noindex/PulseIOSAPP.build/Debug-iphonesimulator/PulseIOSAPP.build/Objects-normal/x86_64/StartupView.dia",
+    "object" : "/Users/nithinithilanlanmurugesan/Downloads/Pulse/PulseIOSAPP/build/Build/Intermediates.noindex/PulseIOSAPP.build/Debug-iphonesimulator/PulseIOSAPP.build/Objects-normal/x86_64/StartupView.o",
+    "swift-dependencies" : "/Users/nithinithilanlanmurugesan/Downloads/Pulse/PulseIOSAPP/build/Build/Intermediates.noindex/PulseIOSAPP.build/Debug-iphonesimulator/PulseIOSAPP.build/Objects-normal/x86_64/StartupView.swiftdeps"
+  },
+  "/Users/nithinithilanlanmurugesan/Downloads/Pulse/PulseIOSAPP/Models/TranscriptionLine.swift" : {
+    "const-values" : "/Users/nithinithilanlanmurugesan/Downloads/Pulse/PulseIOSAPP/build/Build/Intermediates.noindex/PulseIOSAPP.build/Debug-iphonesimulator/PulseIOSAPP.build/Objects-normal/x86_64/TranscriptionLine.swiftconstvalues",
+    "dependencies" : "/Users/nithinithilanlanmurugesan/Downloads/Pulse/PulseIOSAPP/build/Build/Intermediates.noindex/PulseIOSAPP.build/Debug-iphonesimulator/PulseIOSAPP.build/Objects-normal/x86_64/TranscriptionLine.d",
+    "diagnostics" : "/Users/nithinithilanlanmurugesan/Downloads/Pulse/PulseIOSAPP/build/Build/Intermediates.noindex/PulseIOSAPP.build/Debug-iphonesimulator/PulseIOSAPP.build/Objects-normal/x86_64/TranscriptionLine.dia",
+    "object" : "/Users/nithinithilanlanmurugesan/Downloads/Pulse/PulseIOSAPP/build/Build/Intermediates.noindex/PulseIOSAPP.build/Debug-iphonesimulator/PulseIOSAPP.build/Objects-normal/x86_64/TranscriptionLine.o",
+    "swift-dependencies" : "/Users/nithinithilanlanmurugesan/Downloads/Pulse/PulseIOSAPP/build/Build/Intermediates.noindex/PulseIOSAPP.build/Debug-iphonesimulator/PulseIOSAPP.build/Objects-normal/x86_64/TranscriptionLine.swiftdeps"
+  }
+}

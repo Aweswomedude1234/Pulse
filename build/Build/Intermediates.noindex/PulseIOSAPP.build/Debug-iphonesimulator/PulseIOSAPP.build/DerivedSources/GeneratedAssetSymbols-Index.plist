@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>colors</key>
+	<array/>
+	<key>images</key>
+	<array>
+		<dict>
+			<key>catalogPath</key>
+			<string>/Users/nithinithilanlanmurugesan/Downloads/Pulse/PulseIOSAPP/PulseIOSAPP/Assets.xcassets</string>
+			<key>objcSymbol</key>
+			<string>ACImageNamePulseAppIcon</string>
+			<key>relativePath</key>
+			<string>./PulseAppIcon.imageset</string>
+			<key>swiftSymbol</key>
+			<string>pulseAppIcon</string>
+		</dict>
+		<dict>
+			<key>catalogPath</key>
+			<string>/Users/nithinithilanlanmurugesan/Downloads/Pulse/PulseIOSAPP/PulseIOSAPP/Assets.xcassets</string>
+			<key>objcSymbol</key>
+			<string>ACImageNamePulseLogo</string>
+			<key>relativePath</key>
+			<string>./PulseLogo.imageset</string>
+			<key>swiftSymbol</key>
+			<string>pulseLogo</string>
+		</dict>
+		<dict>
+			<key>catalogPath</key>
+			<string>/Users/nithinithilanlanmurugesan/Downloads/Pulse/PulseIOSAPP/PulseIOSAPP/Assets.xcassets</string>
+			<key>objcSymbol</key>
+			<string>ACImageNamePulseLogoMark</string>
+			<key>relativePath</key>
+			<string>./PulseLogoMark.imageset</string>
+			<key>swiftSymbol</key>
+			<string>pulseLogoMark</string>
+		</dict>
+	</array>
+	<key>symbols</key>
+	<array/>
+</dict>
+</plist>

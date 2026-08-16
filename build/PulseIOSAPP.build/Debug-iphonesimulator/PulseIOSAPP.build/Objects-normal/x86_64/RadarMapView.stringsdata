@@ -1,0 +1,16 @@
+{
+  "source": "/Users/nithinithilanlanmurugesan/Downloads/Pulse/PulseIOSAPP/PulseIOSAPP/UI/RadarMapView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Emit event",
+        "location": {
+          "startingColumn": 27,
+          "startingLine": 221
+        }
+      }
+    ]
+  },
+  "version": 1
+}

@@ -1,0 +1,30 @@
+{
+  "/Users/nithinithilanlanmurugesan/Downloads/Pulse/Pulse/App/PulseApp.swift" : {
+    "const-values" : "/Users/nithinithilanlanmurugesan/Downloads/Pulse/PulseIOSAPP/build/Build/Intermediates.noindex/PulseIOSAPP.build/Debug-iphonesimulator/PulseIOSAPP.build/Objects-normal/x86_64/PulseApp.swiftconstvalues",
+    "dependencies" : "/Users/nithinithilanlanmurugesan/Downloads/Pulse/PulseIOSAPP/build/Build/Intermediates.noindex/PulseIOSAPP.build/Debug-iphonesimulator/PulseIOSAPP.build/Objects-normal/x86_64/PulseApp.d",
+    "diagnostics" : "/Users/nithinithilanlanmurugesan/Downloads/Pulse/PulseIOSAPP/build/Build/Intermediates.noindex/PulseIOSAPP.build/Debug-iphonesimulator/PulseIOSAPP.build/Objects-normal/x86_64/PulseApp.dia",
+    "object" : "/Users/nithinithilanlanmurugesan/Downloads/Pulse/PulseIOSAPP/build/Build/Intermediates.noindex/PulseIOSAPP.build/Debug-iphonesimulator/PulseIOSAPP.build/Objects-normal/x86_64/PulseApp.o",
+    "swift-dependencies" : "/Users/nithinithilanlanmurugesan/Downloads/Pulse/PulseIOSAPP/build/Build/Intermediates.noindex/PulseIOSAPP.build/Debug-iphonesimulator/PulseIOSAPP.build/Objects-normal/x86_64/PulseApp.swiftdeps"
+  },
+  "/Users/nithinithilanlanmurugesan/Downloads/Pulse/Pulse/Audio/SpeechRecognitionEngine.swift" : {
+    "const-values" : "/Users/nithinithilanlanmurugesan/Downloads/Pulse/PulseIOSAPP/build/Build/Intermediates.noindex/PulseIOSAPP.build/Debug-iphonesimulator/PulseIOSAPP.build/Objects-normal/x86_64/SpeechRecognitionEngine.swiftconstvalues",
+    "dependencies" : "/Users/nithinithilanlanmurugesan/Downloads/Pulse/PulseIOSAPP/build/Build/Intermediates.noindex/PulseIOSAPP.build/Debug-iphonesimulator/PulseIOSAPP.build/Objects-normal/x86_64/SpeechRecognitionEngine.d",
+    "diagnostics" : "/Users/nithinithilanlanmurugesan/Downloads/Pulse/PulseIOSAPP/build/Build/Intermediates.noindex/PulseIOSAPP.build/Debug-iphonesimulator/PulseIOSAPP.build/Objects-normal/x86_64/SpeechRecognitionEngine.dia",
+    "object" : "/Users/nithinithilanlanmurugesan/Downloads/Pulse/PulseIOSAPP/build/Build/Intermediates.noindex/PulseIOSAPP.build/Debug-iphonesimulator/PulseIOSAPP.build/Objects-normal/x86_64/SpeechRecognitionEngine.o",
+    "swift-dependencies" : "/Users/nithinithilanlanmurugesan/Downloads/Pulse/PulseIOSAPP/build/Build/Intermediates.noindex/PulseIOSAPP.build/Debug-iphonesimulator/PulseIOSAPP.build/Objects-normal/x86_64/SpeechRecognitionEngine.swiftdeps"
+  },
+  "/Users/nithinithilanlanmurugesan/Downloads/Pulse/Pulse/Audio/VoiceActivityDetector.swift" : {
+    "const-values" : "/Users/nithinithilanlanmurugesan/Downloads/Pulse/PulseIOSAPP/build/Build/Intermediates.noindex/PulseIOSAPP.build/Debug-iphonesimulator/PulseIOSAPP.build/Objects-normal/x86_64/VoiceActivityDetector.swiftconstvalues",
+    "dependencies" : "/Users/nithinithilanlanmurugesan/Downloads/Pulse/PulseIOSAPP/build/Build/Intermediates.noindex/PulseIOSAPP.build/Debug-iphonesimulator/PulseIOSAPP.build/Objects-normal/x86_64/VoiceActivityDetector.d",
+    "diagnostics" : "/Users/nithinithilanlanmurugesan/Downloads/Pulse/PulseIOSAPP/build/Build/Intermediates.noindex/PulseIOSAPP.build/Debug-iphonesimulator/PulseIOSAPP.build/Objects-normal/x86_64/VoiceActivityDetector.dia",
+    "object" : "/Users/nithinithilanlanmurugesan/Downloads/Pulse/PulseIOSAPP/build/Build/Intermediates.noindex/PulseIOSAPP.build/Debug-iphonesimulator/PulseIOSAPP.build/Objects-normal/x86_64/VoiceActivityDetector.o",
+    "swift-dependencies" : "/Users/nithinithilanlanmurugesan/Downloads/Pulse/PulseIOSAPP/build/Build/Intermediates.noindex/PulseIOSAPP.build/Debug-iphonesimulator/PulseIOSAPP.build/Objects-normal/x86_64/VoiceActivityDetector.swiftdeps"
+  },
+  "/Users/nithinithilanlanmurugesan/Downloads/Pulse/Pulse/Core/NotificationManager.swift" : {
+    "const-values" : "/Users/nithinithilanlanmurugesan/Downloads/Pulse/PulseIOSAPP/build/Build/Intermediates.noindex/PulseIOSAPP.build/Debug-iphonesimulator/PulseIOSAPP.build/Objects-normal/x86_64/NotificationManager.swiftconstvalues",
+    "dependencies" : "/Users/nithinithilanlanmurugesan/Downloads/Pulse/PulseIOSAPP/build/Build/Intermediates.noindex/PulseIOSAPP.build/Debug-iphonesimulator/PulseIOSAPP.build/Objects-normal/x86_64/NotificationManager.d",
+    "diagnostics" : "/Users/nithinithilanlanmurugesan/Downloads/Pulse/PulseIOSAPP/build/Build/Intermediates.noindex/PulseIOSAPP.build/Debug-iphonesimulator/PulseIOSAPP.build/Objects-normal/x86_64/NotificationManager.dia",
+    "object" : "/Users/nithinithilanlanmurugesan/Downloads/Pulse/PulseIOSAPP/build/Build/Intermediates.noindex/PulseIOSAPP.build/Debug-iphonesimulator/PulseIOSAPP.build/Objects-normal/x86_64/NotificationManager.o",
+    "swift-dependencies" : "/Users/nithinithilanlanmurugesan/Downloads/Pulse/PulseIOSAPP/build/Build/Intermediates.noindex/PulseIOSAPP.build/Debug-iphonesimulator/PulseIOSAPP.build/Objects-normal/x86_64/NotificationManager.swiftdeps"
+  }
+}

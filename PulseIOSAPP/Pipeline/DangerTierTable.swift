@@ -27,7 +27,7 @@ enum DangerTier: Int, Sendable, Comparable, CaseIterable {
         switch self {
         case .none:     return .clear
         case .warning:  return .orange
-        case .critical: return .red
+        case .critical: return Color(hex: "#1E4235")
         }
     }
 
@@ -69,9 +69,9 @@ enum DangerTierTable {
     }
 }
 
-// MARK: - SoundEvent danger classification
+// MARK: - RadarEvent danger classification
 
-extension SoundEvent {
+extension RadarEvent {
     /// Danger tier resolved from the editable table (label first).
     var dangerTier: DangerTier { DangerTierTable.tier(for: label) }
 

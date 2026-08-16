@@ -8,20 +8,25 @@ struct TranscriptionLine: Identifiable, Equatable {
     let id: UUID
     let text: String
     let confidence: Float
-    let keywords: [String]
+    var keywords: [String]
     let timestamp: Date
     var direction: SoundDirection?
+    /// Snapshot of the live microphone spectrum when the line was captured,
+    /// used to draw the volume waveform in caption bubbles.
+    var levels: [Float]
 
     init(text: String,
          confidence: Float,
          keywords: [String] = [],
          direction: SoundDirection? = nil,
+         levels: [Float] = [],
          timestamp: Date = Date()) {
         self.id = UUID()
         self.text = text
         self.confidence = confidence
         self.keywords = keywords
         self.direction = direction
+        self.levels = levels
         self.timestamp = timestamp
     }
 

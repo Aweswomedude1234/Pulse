@@ -40,7 +40,7 @@ struct BaselineModeView: View {
                 .padding()
             }
             .frame(height: 160)
-            .background(.quaternary.opacity(0.3))
+            .background(PulseTheme.surface)
             .onChange(of: engine.partialTranscript) { _, _ in
                 withAnimation { proxy.scrollTo("partial", anchor: .bottom) }
             }
@@ -88,7 +88,7 @@ struct BaselineModeView: View {
                 Task { engine.isRunning ? await engine.stop() : await engine.start() }
             }
             .buttonStyle(.borderedProminent)
-            .tint(engine.isRunning ? .red : .green)
+            .tint(engine.isRunning ? PulseTheme.danger : PulseTheme.accent)
 
             Spacer()
 
@@ -105,9 +105,9 @@ struct BaselineModeView: View {
         switch engine.state {
         case .permissionDenied:
             banner("Microphone access denied. Enable it in Settings.",
-                   icon: "mic.slash.fill", color: .red)
+                   icon: "mic.slash.fill", color: Color(hex: "#1E4235"))
         case .error(let message):
-            banner("Couldn't start: \(message)", icon: "exclamationmark.triangle.fill", color: .red)
+            banner("Couldn't start: \(message)", icon: "exclamationmark.triangle.fill", color: Color(hex: "#1E4235"))
         default:
             EmptyView()
         }

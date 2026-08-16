@@ -106,7 +106,7 @@ private struct ListeningPlaceholder: View {
         VStack(spacing: 8) {
             Image(systemName: source == .idle ? "ear" : "waveform")
                 .font(.system(size: 28))
-                .foregroundStyle(source == .idle ? Color.secondary : Color(hex: "#2E69F2"))
+                .foregroundStyle(source == .idle ? Color.secondary : Color(hex: "#22B573"))
                 .symbolEffect(.variableColor.iterative, isActive: source != .idle)
             Text(text)
                 .font(.footnote)

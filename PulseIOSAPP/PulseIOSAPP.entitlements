@@ -2,15 +2,23 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<!-- Shared container the app writes widget snapshots into. Must match
+	     PulseWidgetStore.appGroupID and the widget extension's entitlement. -->
+	<key>com.apple.security.application-groups</key>
+	<array>
+		<string>group.nithilan.pulse</string>
+	</array>
 	<!--
 	  Critical Alerts break through the mute switch, volume, and Focus/Do Not
 	  Disturb at full volume — essential for a deaf-accessibility safety app.
-	  This entitlement ONLY takes effect after Apple approves the request at
+	  DISABLED for the testing phase: a personal team can't sign this entitlement,
+	  so it breaks device builds. The code already falls back to `.timeSensitive`
+	  when the entitlement isn't granted (see NotificationManager). Re-enable the
+	  key below once Apple approves the request, before publishing:
 	  https://developer.apple.com/contact/request/notifications-critical-alerts-entitlement
-	  Until then, device code-signing will FAIL with a provisioning error.
-	  If you need to build to a device before approval, remove this key.
+
+	  <key>com.apple.developer.usernotifications.critical-alerts</key>
+	  <true/>
 	-->
-	<key>com.apple.developer.usernotifications.critical-alerts</key>
-	<true/>
 </dict>
 </plist>

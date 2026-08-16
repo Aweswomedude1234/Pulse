@@ -1,0 +1,96 @@
+{
+  "source": "/Users/nithinithilanlanmurugesan/Downloads/Pulse/Pulse/Core/AccessibilityManager.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "No active danger detections",
+        "location": {
+          "startingColumn": 19,
+          "startingLine": 120
+        }
+      },
+      {
+        "comment": "",
+        "key": "%@ danger alert. %lld active alerts.",
+        "location": {
+          "startingColumn": 19,
+          "startingLine": 121
+        }
+      },
+      {
+        "comment": "",
+        "key": "Tap to acknowledge and dismiss alert.",
+        "location": {
+          "startingColumn": 55,
+          "startingLine": 123
+        }
+      },
+      {
+        "comment": "",
+        "key": "",
+        "location": {
+          "startingColumn": 97,
+          "startingLine": 123
+        }
+      },
+      {
+        "comment": "",
+        "key": "%@. %@. %lld percent confidence.",
+        "location": {
+          "startingColumn": 33,
+          "startingLine": 137
+        }
+      },
+      {
+        "comment": "",
+        "key": "Danger sound. Tap to acknowledge.",
+        "location": {
+          "startingColumn": 61,
+          "startingLine": 138
+        }
+      },
+      {
+        "comment": "",
+        "key": "",
+        "location": {
+          "startingColumn": 99,
+          "startingLine": 138
+        }
+      },
+      {
+        "comment": "",
+        "key": "Accessibility Audit",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 180
+        }
+      },
+      {
+        "comment": "",
+        "key": "Active Accessibility Features",
+        "location": {
+          "startingColumn": 21,
+          "startingLine": 171
+        }
+      },
+      {
+        "comment": "",
+        "key": "Active",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 194
+        }
+      },
+      {
+        "comment": "",
+        "key": "Off",
+        "location": {
+          "startingColumn": 41,
+          "startingLine": 194
+        }
+      }
+    ]
+  },
+  "version": 1
+}

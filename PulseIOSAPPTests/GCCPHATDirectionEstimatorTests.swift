@@ -40,9 +40,13 @@ struct GCCPHATDirectionEstimatorTests {
     /// samples — i.e. the right mic hears the source first (source to the right,
     /// positive bearing by convention).
     private func stereoBuffer(delaySamples D: Int, frames N: Int) -> AudioBuffer {
+        // Keep both slice starts non-negative while preserving rightStart -
+        // leftStart == D, so a positive D means the right channel leads.
         let source = noise(count: N + abs(D) + 1, seed: 0xC0FFEE)
-        let left  = Array(source[0..<N])
-        let right = Array(source[D..<(D + N)])
+        let leftStart  = max(0, -D)
+        let rightStart = max(0, D)
+        let left  = Array(source[leftStart..<(leftStart + N)])
+        let right = Array(source[rightStart..<(rightStart + N)])
         return AudioBuffer(channels: [left, right],
                            sampleRate: sampleRate,
                            frameCount: N,

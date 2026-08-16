@@ -1,0 +1,44 @@
+{
+  "/Users/nithinithilanlanmurugesan/Downloads/Pulse/PulseIOSAPP/PulseIOSAPP/Pipeline/BaselineModeEngine.swift" : {
+    "const-values" : "/Users/nithinithilanlanmurugesan/Downloads/Pulse/PulseIOSAPP/build/PulseIOSAPP.build/Debug-iphonesimulator/PulseIOSAPP.build/Objects-normal/x86_64/BaselineModeEngine.swiftconstvalues",
+    "dependencies" : "/Users/nithinithilanlanmurugesan/Downloads/Pulse/PulseIOSAPP/build/PulseIOSAPP.build/Debug-iphonesimulator/PulseIOSAPP.build/Objects-normal/x86_64/BaselineModeEngine.d",
+    "diagnostics" : "/Users/nithinithilanlanmurugesan/Downloads/Pulse/PulseIOSAPP/build/PulseIOSAPP.build/Debug-iphonesimulator/PulseIOSAPP.build/Objects-normal/x86_64/BaselineModeEngine.dia",
+    "object" : "/Users/nithinithilanlanmurugesan/Downloads/Pulse/PulseIOSAPP/build/PulseIOSAPP.build/Debug-iphonesimulator/PulseIOSAPP.build/Objects-normal/x86_64/BaselineModeEngine.o",
+    "swift-dependencies" : "/Users/nithinithilanlanmurugesan/Downloads/Pulse/PulseIOSAPP/build/PulseIOSAPP.build/Debug-iphonesimulator/PulseIOSAPP.build/Objects-normal/x86_64/BaselineModeEngine.swiftdeps"
+  },
+  "/Users/nithinithilanlanmurugesan/Downloads/Pulse/PulseIOSAPP/PulseIOSAPP/Pipeline/CoreMLSoundClassifier.swift" : {
+    "const-values" : "/Users/nithinithilanlanmurugesan/Downloads/Pulse/PulseIOSAPP/build/PulseIOSAPP.build/Debug-iphonesimulator/PulseIOSAPP.build/Objects-normal/x86_64/CoreMLSoundClassifier.swiftconstvalues",
+    "dependencies" : "/Users/nithinithilanlanmurugesan/Downloads/Pulse/PulseIOSAPP/build/PulseIOSAPP.build/Debug-iphonesimulator/PulseIOSAPP.build/Objects-normal/x86_64/CoreMLSoundClassifier.d",
+    "diagnostics" : "/Users/nithinithilanlanmurugesan/Downloads/Pulse/PulseIOSAPP/build/PulseIOSAPP.build/Debug-iphonesimulator/PulseIOSAPP.build/Objects-normal/x86_64/CoreMLSoundClassifier.dia",
+    "object" : "/Users/nithinithilanlanmurugesan/Downloads/Pulse/PulseIOSAPP/build/PulseIOSAPP.build/Debug-iphonesimulator/PulseIOSAPP.build/Objects-normal/x86_64/CoreMLSoundClassifier.o",
+    "swift-dependencies" : "/Users/nithinithilanlanmurugesan/Downloads/Pulse/PulseIOSAPP/build/PulseIOSAPP.build/Debug-iphonesimulator/PulseIOSAPP.build/Objects-normal/x86_64/CoreMLSoundClassifier.swiftdeps"
+  },
+  "/Users/nithinithilanlanmurugesan/Downloads/Pulse/PulseIOSAPP/PulseIOSAPP/Pipeline/DangerHaptics.swift" : {
+    "const-values" : "/Users/nithinithilanlanmurugesan/Downloads/Pulse/PulseIOSAPP/build/PulseIOSAPP.build/Debug-iphonesimulator/PulseIOSAPP.build/Objects-normal/x86_64/DangerHaptics.swiftconstvalues",
+    "dependencies" : "/Users/nithinithilanlanmurugesan/Downloads/Pulse/PulseIOSAPP/build/PulseIOSAPP.build/Debug-iphonesimulator/PulseIOSAPP.build/Objects-normal/x86_64/DangerHaptics.d",
+    "diagnostics" : "/Users/nithinithilanlanmurugesan/Downloads/Pulse/PulseIOSAPP/build/PulseIOSAPP.build/Debug-iphonesimulator/PulseIOSAPP.build/Objects-normal/x86_64/DangerHaptics.dia",
+    "object" : "/Users/nithinithilanlanmurugesan/Downloads/Pulse/PulseIOSAPP/build/PulseIOSAPP.build/Debug-iphonesimulator/PulseIOSAPP.build/Objects-normal/x86_64/DangerHaptics.o",
+    "swift-dependencies" : "/Users/nithinithilanlanmurugesan/Downloads/Pulse/PulseIOSAPP/build/PulseIOSAPP.build/Debug-iphonesimulator/PulseIOSAPP.build/Objects-normal/x86_64/DangerHaptics.swiftdeps"
+  },
+  "/Users/nithinithilanlanmurugesan/Downloads/Pulse/PulseIOSAPP/PulseIOSAPP/Pipeline/DangerTierTable.swift" : {
+    "const-values" : "/Users/nithinithilanlanmurugesan/Downloads/Pulse/PulseIOSAPP/build/PulseIOSAPP.build/Debug-iphonesimulator/PulseIOSAPP.build/Objects-normal/x86_64/DangerTierTable.swiftconstvalues",
+    "dependencies" : "/Users/nithinithilanlanmurugesan/Downloads/Pulse/PulseIOSAPP/build/PulseIOSAPP.build/Debug-iphonesimulator/PulseIOSAPP.build/Objects-normal/x86_64/DangerTierTable.d",
+    "diagnostics" : "/Users/nithinithilanlanmurugesan/Downloads/Pulse/PulseIOSAPP/build/PulseIOSAPP.build/Debug-iphonesimulator/PulseIOSAPP.build/Objects-normal/x86_64/DangerTierTable.dia",
+    "object" : "/Users/nithinithilanlanmurugesan/Downloads/Pulse/PulseIOSAPP/build/PulseIOSAPP.build/Debug-iphonesimulator/PulseIOSAPP.build/Objects-normal/x86_64/DangerTierTable.o",
+    "swift-dependencies" : "/Users/nithinithilanlanmurugesan/Downloads/Pulse/PulseIOSAPP/build/PulseIOSAPP.build/Debug-iphonesimulator/PulseIOSAPP.build/Objects-normal/x86_64/DangerTierTable.swiftdeps"
+  },
+  "/Users/nithinithilanlanmurugesan/Downloads/Pulse/PulseIOSAPP/PulseIOSAPP/Pipeline/FakeSoundClassifier.swift" : {
+    "const-values" : "/Users/nithinithilanlanmurugesan/Downloads/Pulse/PulseIOSAPP/build/PulseIOSAPP.build/Debug-iphonesimulator/PulseIOSAPP.build/Objects-normal/x86_64/FakeSoundClassifier.swiftconstvalues",
+    "dependencies" : "/Users/nithinithilanlanmurugesan/Downloads/Pulse/PulseIOSAPP/build/PulseIOSAPP.build/Debug-iphonesimulator/PulseIOSAPP.build/Objects-normal/x86_64/FakeSoundClassifier.d",
+    "diagnostics" : "/Users/nithinithilanlanmurugesan/Downloads/Pulse/PulseIOSAPP/build/PulseIOSAPP.build/Debug-iphonesimulator/PulseIOSAPP.build/Objects-normal/x86_64/FakeSoundClassifier.dia",
+    "object" : "/Users/nithinithilanlanmurugesan/Downloads/Pulse/PulseIOSAPP/build/PulseIOSAPP.build/Debug-iphonesimulator/PulseIOSAPP.build/Objects-normal/x86_64/FakeSoundClassifier.o",
+    "swift-dependencies" : "/Users/nithinithilanlanmurugesan/Downloads/Pulse/PulseIOSAPP/build/PulseIOSAPP.build/Debug-iphonesimulator/PulseIOSAPP.build/Objects-normal/x86_64/FakeSoundClassifier.swiftdeps"
+  },
+  "/Users/nithinithilanlanmurugesan/Downloads/Pulse/PulseIOSAPP/PulseIOSAPP/Pipeline/GCCPHATDirectionEstimator.swift" : {
+    "const-values" : "/Users/nithinithilanlanmurugesan/Downloads/Pulse/PulseIOSAPP/build/PulseIOSAPP.build/Debug-iphonesimulator/PulseIOSAPP.build/Objects-normal/x86_64/GCCPHATDirectionEstimator.swiftconstvalues",
+    "dependencies" : "/Users/nithinithilanlanmurugesan/Downloads/Pulse/PulseIOSAPP/build/PulseIOSAPP.build/Debug-iphonesimulator/PulseIOSAPP.build/Objects-normal/x86_64/GCCPHATDirectionEstimator.d",
+    "diagnostics" : "/Users/nithinithilanlanmurugesan/Downloads/Pulse/PulseIOSAPP/build/PulseIOSAPP.build/Debug-iphonesimulator/PulseIOSAPP.build/Objects-normal/x86_64/GCCPHATDirectionEstimator.dia",
+    "object" : "/Users/nithinithilanlanmurugesan/Downloads/Pulse/PulseIOSAPP/build/PulseIOSAPP.build/Debug-iphonesimulator/PulseIOSAPP.build/Objects-normal/x86_64/GCCPHATDirectionEstimator.o",
+    "swift-dependencies" : "/Users/nithinithilanlanmurugesan/Downloads/Pulse/PulseIOSAPP/build/PulseIOSAPP.build/Debug-iphonesimulator/PulseIOSAPP.build/Objects-normal/x86_64/GCCPHATDirectionEstimator.swiftdeps"
+  }
+}

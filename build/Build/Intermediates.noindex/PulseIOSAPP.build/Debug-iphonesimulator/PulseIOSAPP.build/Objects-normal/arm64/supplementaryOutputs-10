@@ -1,0 +1,23 @@
+{
+  "/Users/nithinithilanlanmurugesan/Downloads/Pulse/Pulse/UI/Components/AudioEventBubble.swift" : {
+    "const-values" : "/Users/nithinithilanlanmurugesan/Downloads/Pulse/PulseIOSAPP/build/Build/Intermediates.noindex/PulseIOSAPP.build/Debug-iphonesimulator/PulseIOSAPP.build/Objects-normal/arm64/AudioEventBubble.swiftconstvalues",
+    "dependencies" : "/Users/nithinithilanlanmurugesan/Downloads/Pulse/PulseIOSAPP/build/Build/Intermediates.noindex/PulseIOSAPP.build/Debug-iphonesimulator/PulseIOSAPP.build/Objects-normal/arm64/AudioEventBubble.d",
+    "diagnostics" : "/Users/nithinithilanlanmurugesan/Downloads/Pulse/PulseIOSAPP/build/Build/Intermediates.noindex/PulseIOSAPP.build/Debug-iphonesimulator/PulseIOSAPP.build/Objects-normal/arm64/AudioEventBubble.dia",
+    "object" : "/Users/nithinithilanlanmurugesan/Downloads/Pulse/PulseIOSAPP/build/Build/Intermediates.noindex/PulseIOSAPP.build/Debug-iphonesimulator/PulseIOSAPP.build/Objects-normal/arm64/AudioEventBubble.o",
+    "swift-dependencies" : "/Users/nithinithilanlanmurugesan/Downloads/Pulse/PulseIOSAPP/build/Build/Intermediates.noindex/PulseIOSAPP.build/Debug-iphonesimulator/PulseIOSAPP.build/Objects-normal/arm64/AudioEventBubble.swiftdeps"
+  },
+  "/Users/nithinithilanlanmurugesan/Downloads/Pulse/Pulse/UI/Screens/EventFeedView.swift" : {
+    "const-values" : "/Users/nithinithilanlanmurugesan/Downloads/Pulse/PulseIOSAPP/build/Build/Intermediates.noindex/PulseIOSAPP.build/Debug-iphonesimulator/PulseIOSAPP.build/Objects-normal/arm64/EventFeedView.swiftconstvalues",
+    "dependencies" : "/Users/nithinithilanlanmurugesan/Downloads/Pulse/PulseIOSAPP/build/Build/Intermediates.noindex/PulseIOSAPP.build/Debug-iphonesimulator/PulseIOSAPP.build/Objects-normal/arm64/EventFeedView.d",
+    "diagnostics" : "/Users/nithinithilanlanmurugesan/Downloads/Pulse/PulseIOSAPP/build/Build/Intermediates.noindex/PulseIOSAPP.build/Debug-iphonesimulator/PulseIOSAPP.build/Objects-normal/arm64/EventFeedView.dia",
+    "object" : "/Users/nithinithilanlanmurugesan/Downloads/Pulse/PulseIOSAPP/build/Build/Intermediates.noindex/PulseIOSAPP.build/Debug-iphonesimulator/PulseIOSAPP.build/Objects-normal/arm64/EventFeedView.o",
+    "swift-dependencies" : "/Users/nithinithilanlanmurugesan/Downloads/Pulse/PulseIOSAPP/build/Build/Intermediates.noindex/PulseIOSAPP.build/Debug-iphonesimulator/PulseIOSAPP.build/Objects-normal/arm64/EventFeedView.swiftdeps"
+  },
+  "/Users/nithinithilanlanmurugesan/Downloads/Pulse/PulseIOSAPP/build/Build/Intermediates.noindex/PulseIOSAPP.build/Debug-iphonesimulator/PulseIOSAPP.build/DerivedSources/GeneratedAssetSymbols.swift" : {
+    "const-values" : "/Users/nithinithilanlanmurugesan/Downloads/Pulse/PulseIOSAPP/build/Build/Intermediates.noindex/PulseIOSAPP.build/Debug-iphonesimulator/PulseIOSAPP.build/Objects-normal/arm64/GeneratedAssetSymbols.swiftconstvalues",
+    "dependencies" : "/Users/nithinithilanlanmurugesan/Downloads/Pulse/PulseIOSAPP/build/Build/Intermediates.noindex/PulseIOSAPP.build/Debug-iphonesimulator/PulseIOSAPP.build/Objects-normal/arm64/GeneratedAssetSymbols.d",
+    "diagnostics" : "/Users/nithinithilanlanmurugesan/Downloads/Pulse/PulseIOSAPP/build/Build/Intermediates.noindex/PulseIOSAPP.build/Debug-iphonesimulator/PulseIOSAPP.build/Objects-normal/arm64/GeneratedAssetSymbols.dia",
+    "object" : "/Users/nithinithilanlanmurugesan/Downloads/Pulse/PulseIOSAPP/build/Build/Intermediates.noindex/PulseIOSAPP.build/Debug-iphonesimulator/PulseIOSAPP.build/Objects-normal/arm64/GeneratedAssetSymbols.o",
+    "swift-dependencies" : "/Users/nithinithilanlanmurugesan/Downloads/Pulse/PulseIOSAPP/build/Build/Intermediates.noindex/PulseIOSAPP.build/Debug-iphonesimulator/PulseIOSAPP.build/Objects-normal/arm64/GeneratedAssetSymbols.swiftdeps"
+  }
+}

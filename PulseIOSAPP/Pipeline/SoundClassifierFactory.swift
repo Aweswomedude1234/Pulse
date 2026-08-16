@@ -13,7 +13,7 @@ enum SoundClassifierFactory {
 
     /// Returns the best available classifier. Prefers the on-device Core ML
     /// model; falls back to `FakeSoundClassifier` when no model is bundled.
-    static func make(modelName: String = "YAMNet") -> any SoundClassifier {
+    static func make(modelName: String = "YAMNet") -> any SoundClassifying {
         if let coreML = CoreMLSoundClassifier(modelName: modelName) {
             return coreML
         }

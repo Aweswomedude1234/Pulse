@@ -10,10 +10,9 @@ import SwiftUI
 struct PowerModeView: View {
     @State private var orchestrator = PowerModeOrchestrator()
     @State private var keepOn = false
-    @State private var selected: SoundEvent?
-    @State private var burstStarted: Date?
+    @State private var selected: RadarEvent?
 
-    /// Burst length, mirrored here for the progress ring.
+    /// Burst length.
     private let burstDuration: TimeInterval = 10
 
     var body: some View {
@@ -28,7 +27,7 @@ struct PowerModeView: View {
             }
             .padding()
         }
-        .sheet(item: $selected) { SoundEventDetailSheet(event: $0) }
+        .sheet(item: $selected) { RadarEventDetailSheet(event: $0) }
         .onChange(of: keepOn) { _, on in
             Task { on ? await orchestrator.startContinuous() : await orchestrator.stop() }
         }
@@ -44,8 +43,9 @@ struct PowerModeView: View {
 
             Toggle(isOn: $keepOn) {
                 Label("Keep listening", systemImage: "infinity")
+                    .foregroundStyle(PulseTheme.ink)
             }
-            .tint(.green)
+            .tint(PulseTheme.accent)
             .padding(.horizontal)
             .disabled(orchestrator.state == .permissionDenied)
 
@@ -55,7 +55,11 @@ struct PowerModeView: View {
             }
         }
         .padding()
-        .background(.ultraThinMaterial, in: RoundedRectangle(cornerRadius: 20))
+        .background(
+            RoundedRectangle(cornerRadius: 24, style: .continuous)
+                .fill(PulseTheme.surface)
+                .shadow(color: Color.black.opacity(0.06), radius: 16, x: 0, y: 8)
+        )
     }
 
     @ViewBuilder
@@ -65,11 +69,8 @@ struct PowerModeView: View {
             Task {
                 if orchestrator.isRunning {
                     await orchestrator.stop()
-                    burstStarted = nil
                 } else {
-                    burstStarted = Date()
                     await orchestrator.startBurst(duration: burstDuration)
-                    burstStarted = nil
                 }
             }
         } label: {
@@ -80,7 +81,7 @@ struct PowerModeView: View {
             }
             .frame(maxWidth: .infinity)
             .padding()
-            .background(running ? Color.red : Color.green, in: Capsule())
+            .background(running ? PulseTheme.danger : PulseTheme.accent, in: Capsule())
             .foregroundStyle(.white)
         }
         .disabled(keepOn)
@@ -94,9 +95,9 @@ struct PowerModeView: View {
             switch orchestrator.state {
             case .permissionDenied:
                 banner("Microphone access denied. Enable it in Settings to use Power Mode.",
-                       icon: "mic.slash.fill", color: .red)
+                       icon: "mic.slash.fill", color: Color(hex: "#1E4235"))
             case .error(let message):
-                banner("Couldn't start: \(message)", icon: "exclamationmark.triangle.fill", color: .red)
+                banner("Couldn't start: \(message)", icon: "exclamationmark.triangle.fill", color: Color(hex: "#1E4235"))
             case .running where !orchestrator.isStereo:
                 banner("Mono input — direction estimation disabled on this device.",
                        icon: "arrow.left.and.right", color: .orange)

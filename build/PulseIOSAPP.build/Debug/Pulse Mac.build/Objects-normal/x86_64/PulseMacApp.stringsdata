@@ -1,0 +1,24 @@
+{
+  "source": "/Users/nithinithilanlanmurugesan/Downloads/Pulse/PulseMac/PulseMacApp.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Stop Listening",
+        "location": {
+          "startingColumn": 43,
+          "startingLine": 156
+        }
+      },
+      {
+        "comment": "",
+        "key": "Start Listening",
+        "location": {
+          "startingColumn": 62,
+          "startingLine": 156
+        }
+      }
+    ]
+  },
+  "version": 1
+}

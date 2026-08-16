@@ -2,7 +2,7 @@
 // =============================================================================
 // PRIVACY BANNER — NO NETWORKING IN THE AUDIO PATH.
 // Audio stays in-memory: captured buffers are analysed and discarded; only the
-// resulting SoundEvents (label/bearing/proximity) are retained.
+// resulting RadarEvents (label/bearing/proximity) are retained.
 // =============================================================================
 //
 // Feature 2 — Power Mode. Burst-oriented high-fidelity analysis:
@@ -11,7 +11,7 @@
 //
 // Pipeline per analysis window (~0.96 s, non-overlapping):
 //   capture buffers -> accumulate a window -> classify + direction + proximity
-//   -> SoundEvent -> publish to `events` (which the radar renders).
+//   -> RadarEvent -> publish to `events` (which the radar renders).
 //
 // Heavy DSP / Core ML runs OFF the main actor (`analyze` is nonisolated); only
 // the light accumulation and the final publish touch main-actor state.
@@ -33,7 +33,7 @@ final class PowerModeOrchestrator {
 
     // MARK: Published state
 
-    private(set) var events: [SoundEvent] = []
+    private(set) var events: [RadarEvent] = []
     private(set) var state: State = .idle
     /// True stereo capture active (direction available). Mono => no bearings.
     private(set) var isStereo = false
@@ -56,7 +56,7 @@ final class PowerModeOrchestrator {
     private let source: any AudioSource
     private let direction: any DirectionEstimator
     private let proximity: any ProximityEstimator
-    private let classifier: any SoundClassifier
+    private let classifier: any SoundClassifying
 
     // MARK: Private state
 
@@ -68,7 +68,7 @@ final class PowerModeOrchestrator {
     init(source: any AudioSource = StereoAudioCapture(),
          direction: any DirectionEstimator = GCCPHATDirectionEstimator(),
          proximity: any ProximityEstimator = OnsetProximityEstimator(),
-         classifier: (any SoundClassifier)? = nil) {
+         classifier: (any SoundClassifying)? = nil) {
         self.source = source
         self.direction = direction
         self.proximity = proximity
@@ -113,6 +113,7 @@ final class PowerModeOrchestrator {
             let stream = try await source.start()
             isStereo = await source.isStereo
             state = .running
+            DangerHaptics.prepare()
             consume(stream)
             return true
         } catch {
@@ -131,15 +132,15 @@ final class PowerModeOrchestrator {
         consumeTask = Task { [weak self] in
             guard let self else { return }
             for await buffer in stream {
-                guard let window = await self.accumulate(buffer) else { continue }
+                guard let window = self.accumulate(buffer) else { continue }
                 let event = await Self.analyze(
                     window,
                     direction: self.direction,
                     proximity: self.proximity,
                     classifier: self.classifier,
-                    isStereo: await self.isStereo,
+                    isStereo: self.isStereo,
                     minConfidence: self.minConfidence)
-                if let event { await self.publish(event) }
+                if let event { self.publish(event) }
             }
         }
     }
@@ -171,11 +172,13 @@ final class PowerModeOrchestrator {
                            sampleTime: 0)
     }
 
-    private func publish(_ event: SoundEvent) {
+    private func publish(_ event: RadarEvent) {
         events.append(event)
         if events.count > maxEvents {
             events.removeFirst(events.count - maxEvents)
         }
+        // Feature 5: strong haptic on danger-tier detections.
+        if event.isDanger { DangerHaptics.fire(for: event.dangerTier) }
     }
 
     // MARK: - Analysis (off main actor)
@@ -183,9 +186,9 @@ final class PowerModeOrchestrator {
     private nonisolated static func analyze(_ window: AudioBuffer,
                                             direction: any DirectionEstimator,
                                             proximity: any ProximityEstimator,
-                                            classifier: any SoundClassifier,
+                                            classifier: any SoundClassifying,
                                             isStereo: Bool,
-                                            minConfidence: Float) async -> SoundEvent? {
+                                            minConfidence: Float) async -> RadarEvent? {
         let results = await classifier.classify(window)
         guard let top = results.first, top.confidence >= minConfidence else { return nil }
 
@@ -193,7 +196,7 @@ final class PowerModeOrchestrator {
         let bearing = isStereo ? direction.estimateBearing(window) : nil
         let prox = proximity.estimateProximity(window)
 
-        return SoundEvent(timestamp: window.captureTime,
+        return RadarEvent(timestamp: window.captureTime,
                           label: top.label,
                           category: top.category,
                           confidence: top.confidence,

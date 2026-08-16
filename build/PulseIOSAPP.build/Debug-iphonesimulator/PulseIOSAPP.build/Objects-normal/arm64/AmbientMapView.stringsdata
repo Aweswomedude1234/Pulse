@@ -1,0 +1,40 @@
+{
+  "source": "/Users/nithinithilanlanmurugesan/Downloads/Pulse/Pulse/UI/Screens/AmbientMapView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Choose what Pulse listens for.",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 55
+        }
+      },
+      {
+        "comment": "",
+        "key": "Sounds",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 46
+        }
+      },
+      {
+        "comment": "",
+        "key": "Done",
+        "location": {
+          "startingColumn": 24,
+          "startingLine": 51
+        }
+      },
+      {
+        "comment": "",
+        "key": "",
+        "location": {
+          "startingColumn": 20,
+          "startingLine": 155
+        }
+      }
+    ]
+  },
+  "version": 1
+}

@@ -1,0 +1,160 @@
+{
+  "source": "/Users/nithinithilanlanmurugesan/Downloads/Pulse/Pulse/UI/Screens/OnboardingView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Skip for now",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 241
+        }
+      },
+      {
+        "comment": "",
+        "key": "Pulse",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 301
+        }
+      },
+      {
+        "comment": "",
+        "key": "Let's get you set up",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 307
+        }
+      },
+      {
+        "comment": "",
+        "key": "Your Privacy",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 347
+        }
+      },
+      {
+        "comment": "",
+        "key": "is non-negotiable.",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 350
+        }
+      },
+      {
+        "comment": "",
+        "key": "What's your name?",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 535
+        }
+      },
+      {
+        "comment": "",
+        "key": "Pulse will listen for your name and nicknames, and alert you when someone says them nearby.",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 540
+        }
+      },
+      {
+        "comment": "",
+        "key": "YOUR NAME",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 547
+        }
+      },
+      {
+        "comment": "",
+        "key": "e.g. Alex",
+        "location": {
+          "startingColumn": 44,
+          "startingLine": 552
+        }
+      },
+      {
+        "comment": "",
+        "key": "",
+        "location": {
+          "startingColumn": 31,
+          "startingLine": 551
+        }
+      },
+      {
+        "comment": "",
+        "key": "NICKNAMES",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 565
+        }
+      },
+      {
+        "comment": "",
+        "key": "e.g. Al",
+        "location": {
+          "startingColumn": 48,
+          "startingLine": 571
+        }
+      },
+      {
+        "comment": "",
+        "key": "",
+        "location": {
+          "startingColumn": 35,
+          "startingLine": 570
+        }
+      },
+      {
+        "comment": "",
+        "key": "Add",
+        "location": {
+          "startingColumn": 34,
+          "startingLine": 581
+        }
+      },
+      {
+        "comment": "",
+        "key": "Feel the Alerts",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 729
+        }
+      },
+      {
+        "comment": "",
+        "key": "Tap each alert type to feel the vibration pattern Pulse uses to get your attention.",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 733
+        }
+      },
+      {
+        "comment": "",
+        "key": "You're all set.",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 810
+        }
+      },
+      {
+        "comment": "",
+        "key": "Pulse is ready to listen. You can enable, disable, or adjust anything at any time from **Settings**.",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 815
+        }
+      },
+      {
+        "comment": "",
+        "key": "Built by Outpost. — always on-device, always yours.",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 821
+        }
+      }
+    ]
+  },
+  "version": 1
+}

@@ -146,7 +146,7 @@ private struct AlwaysOnConfirmationFlow: View {
         VStack(spacing: 20) {
             Spacer()
             Image(systemName: "checkmark.shield")
-                .font(.system(size: 52)).foregroundStyle(.green)
+                .font(.system(size: 52)).foregroundStyle(PulseTheme.accent)
             Text("You can turn Always-On off at any time in Settings.")
                 .multilineTextAlignment(.center)
             Spacer()
@@ -155,7 +155,7 @@ private struct AlwaysOnConfirmationFlow: View {
                 dismiss()
             }
             .buttonStyle(.borderedProminent)
-            .tint(.green)
+            .tint(PulseTheme.accent)
         }
     }
 }

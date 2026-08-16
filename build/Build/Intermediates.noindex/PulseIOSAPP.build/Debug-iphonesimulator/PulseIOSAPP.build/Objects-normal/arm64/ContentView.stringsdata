@@ -1,0 +1,40 @@
+{
+  "source": "/Users/nithinithilanlanmurugesan/Downloads/Pulse/Pulse/UI/Screens/ContentView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Home",
+        "location": {
+          "startingColumn": 27,
+          "startingLine": 55
+        }
+      },
+      {
+        "comment": "",
+        "key": "Voice",
+        "location": {
+          "startingColumn": 27,
+          "startingLine": 61
+        }
+      },
+      {
+        "comment": "",
+        "key": "Settings",
+        "location": {
+          "startingColumn": 27,
+          "startingLine": 67
+        }
+      },
+      {
+        "comment": "",
+        "key": "TAP TO DISMISS",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 102
+        }
+      }
+    ]
+  },
+  "version": 1
+}

@@ -94,14 +94,28 @@ enum SoundType: String, Codable, Hashable, CaseIterable {
     }
 
     var categoryColor: Color {
-        if isDangerous {
-            return Color(red: 0.91, green: 0.23, blue: 0.10)  // #e83b1a
-        } else if isSpeech {
-            return Color(red: 0.91, green: 0.39, blue: 0.10)  // #e8631a
-        } else if isAlert {
-            return Color(red: 0.10, green: 0.43, blue: 0.91)  // #1a6ee8
-        } else {
-            return Color(red: 0.53, green: 0.52, blue: 0.50).opacity(0.7)
+        // Maps each sound to the design system's category palette.
+        switch self {
+        case .siren, .fireAlarm, .explosion, .crash, .glassBreaking:
+            return PulseTheme.catSmoke         // Alarm      #1E4235
+        case .aggressiveYelling:
+            return PulseTheme.catSmoke
+        case .carHorn, .trafficNoise:
+            return PulseTheme.catCar           // Vehicle    #F0921B
+        case .doorbell, .knocking:
+            return PulseTheme.catDoor          // Doorbell   #16A88B
+        case .babyCrying:
+            return PulseTheme.catBaby          // Baby       #F0589B
+        case .dogBarking:
+            return PulseTheme.catDog           // Animal     #5AC7A0
+        case .phoneRinging:
+            return PulseTheme.catDoor
+        case .nearbyConversation:
+            return PulseTheme.catSpeech        // Speech     accent
+        case .nameDetected:
+            return PulseTheme.accent           // Name       accent
+        case .musicPlaying:
+            return PulseTheme.catDog
         }
     }
 }

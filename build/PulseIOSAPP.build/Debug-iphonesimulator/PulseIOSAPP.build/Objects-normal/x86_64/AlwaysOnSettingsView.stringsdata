@@ -1,0 +1,168 @@
+{
+  "source": "/Users/nithinithilanlanmurugesan/Downloads/Pulse/PulseIOSAPP/PulseIOSAPP/UI/AlwaysOnSettingsView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Always-On",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 44
+        }
+      },
+      {
+        "comment": "",
+        "key": "What to expect",
+        "location": {
+          "startingColumn": 21,
+          "startingLine": 37
+        }
+      },
+      {
+        "comment": "",
+        "key": "Turn Off Always-On",
+        "location": {
+          "startingColumn": 28,
+          "startingLine": 20
+        }
+      },
+      {
+        "comment": "",
+        "key": "Enable Always-On (Beta)",
+        "location": {
+          "startingColumn": 31,
+          "startingLine": 28
+        }
+      },
+      {
+        "comment": "",
+        "key": "Always-On Power Mode",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 32
+        }
+      },
+      {
+        "comment": "",
+        "key": "Beta. Monitors continuously with the screen off. Off by default.",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 34
+        }
+      },
+      {
+        "comment": "",
+        "key": "Monitoring",
+        "location": {
+          "startingColumn": 19,
+          "startingLine": 59
+        }
+      },
+      {
+        "comment": "",
+        "key": "Enable Always-On",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 101
+        }
+      },
+      {
+        "comment": "",
+        "key": "Cancel",
+        "location": {
+          "startingColumn": 28,
+          "startingLine": 105
+        }
+      },
+      {
+        "comment": "",
+        "key": "Always-On keeps listening with the screen off so you don't miss important sounds — alarms, knocking, someone calling out.",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 116
+        }
+      },
+      {
+        "comment": "",
+        "key": "This is a beta feature.",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 118
+        }
+      },
+      {
+        "comment": "",
+        "key": "Continue",
+        "location": {
+          "startingColumn": 20,
+          "startingLine": 121
+        }
+      },
+      {
+        "comment": "",
+        "key": "It will drain your battery noticeably and may warm the device.",
+        "location": {
+          "startingColumn": 19,
+          "startingLine": 128
+        }
+      },
+      {
+        "comment": "",
+        "key": "The orange microphone indicator stays on the whole time.",
+        "location": {
+          "startingColumn": 19,
+          "startingLine": 130
+        }
+      },
+      {
+        "comment": "",
+        "key": "If iOS terminates the app, monitoring won't restart on its own — you'll get a notification.",
+        "location": {
+          "startingColumn": 19,
+          "startingLine": 132
+        }
+      },
+      {
+        "comment": "",
+        "key": "I understand the battery and heat impact.",
+        "location": {
+          "startingColumn": 20,
+          "startingLine": 135
+        }
+      },
+      {
+        "comment": "",
+        "key": "I understand this is beta and may stop unexpectedly.",
+        "location": {
+          "startingColumn": 20,
+          "startingLine": 136
+        }
+      },
+      {
+        "comment": "",
+        "key": "Continue",
+        "location": {
+          "startingColumn": 20,
+          "startingLine": 138
+        }
+      },
+      {
+        "comment": "",
+        "key": "You can turn Always-On off at any time in Settings.",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 150
+        }
+      },
+      {
+        "comment": "",
+        "key": "Enable Always-On",
+        "location": {
+          "startingColumn": 20,
+          "startingLine": 153
+        }
+      }
+    ]
+  },
+  "version": 1
+}

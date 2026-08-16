@@ -1,0 +1,176 @@
+{
+  "source": "/Users/nithinithilanlanmurugesan/Downloads/Pulse/Pulse/UI/Screens/HomeView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Welcome back",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 94
+        }
+      },
+      {
+        "comment": "",
+        "key": "%lld",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 116
+        }
+      },
+      {
+        "comment": "",
+        "key": "%@,",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 139
+        }
+      },
+      {
+        "comment": "",
+        "key": "Stay Aware.",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 143
+        }
+      },
+      {
+        "comment": "",
+        "key": "Pulse is monitoring and protecting you.",
+        "location": {
+          "startingColumn": 20,
+          "startingLine": 148
+        }
+      },
+      {
+        "comment": "",
+        "key": "Monitoring is paused — tap the card below to resume.",
+        "location": {
+          "startingColumn": 20,
+          "startingLine": 149
+        }
+      },
+      {
+        "comment": "",
+        "key": "SYSTEM STATUS",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 177
+        }
+      },
+      {
+        "comment": "",
+        "key": "Active",
+        "location": {
+          "startingColumn": 53,
+          "startingLine": 182
+        }
+      },
+      {
+        "comment": "",
+        "key": "Paused",
+        "location": {
+          "startingColumn": 64,
+          "startingLine": 182
+        }
+      },
+      {
+        "comment": "",
+        "key": "Monitoring in real time",
+        "location": {
+          "startingColumn": 57,
+          "startingLine": 192
+        }
+      },
+      {
+        "comment": "",
+        "key": "Tap to resume monitoring",
+        "location": {
+          "startingColumn": 85,
+          "startingLine": 192
+        }
+      },
+      {
+        "comment": "",
+        "key": "Recent Alerts",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 283
+        }
+      },
+      {
+        "comment": "",
+        "key": "View all",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 291
+        }
+      },
+      {
+        "comment": "",
+        "key": "No alerts yet — Pulse is listening.",
+        "location": {
+          "startingColumn": 28,
+          "startingLine": 318
+        }
+      },
+      {
+        "comment": "",
+        "key": "No alerts. Activate Pulse to start monitoring.",
+        "location": {
+          "startingColumn": 28,
+          "startingLine": 319
+        }
+      },
+      {
+        "comment": "",
+        "key": "Transcribe Voice",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 355
+        }
+      },
+      {
+        "comment": "",
+        "key": "Convert speech to text in real time",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 358
+        }
+      },
+      {
+        "comment": "",
+        "key": "·",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 447
+        }
+      },
+      {
+        "comment": "",
+        "key": "%lld%%",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 456
+        }
+      },
+      {
+        "comment": "",
+        "key": "Pause listening for…",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 529
+        }
+      },
+      {
+        "comment": "",
+        "key": "Cancel",
+        "location": {
+          "startingColumn": 20,
+          "startingLine": 556
+        }
+      }
+    ]
+  },
+  "version": 1
+}

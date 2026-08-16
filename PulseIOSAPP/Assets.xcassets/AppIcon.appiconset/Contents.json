@@ -1,31 +1,7 @@
 {
   "images" : [
     {
-      "filename" : "PulseAppIcon.png",
-      "idiom" : "universal",
-      "platform" : "ios",
-      "size" : "1024x1024"
-    },
-    {
-      "appearances" : [
-        {
-          "appearance" : "luminosity",
-          "value" : "dark"
-        }
-      ],
-      "filename" : "PulseAppIcon.png",
-      "idiom" : "universal",
-      "platform" : "ios",
-      "size" : "1024x1024"
-    },
-    {
-      "appearances" : [
-        {
-          "appearance" : "luminosity",
-          "value" : "tinted"
-        }
-      ],
-      "filename" : "PulseAppIcon.png",
+      "filename" : "5.png",
       "idiom" : "universal",
       "platform" : "ios",
       "size" : "1024x1024"

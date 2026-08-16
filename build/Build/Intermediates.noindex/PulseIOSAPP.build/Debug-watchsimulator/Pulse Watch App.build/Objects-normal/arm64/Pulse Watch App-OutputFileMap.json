@@ -1,0 +1,69 @@
+{
+  "" : {
+    "diagnostics" : "/Users/nithinithilanlanmurugesan/Downloads/Pulse/PulseIOSAPP/build/Build/Intermediates.noindex/PulseIOSAPP.build/Debug-watchsimulator/Pulse Watch App.build/Objects-normal/arm64/Pulse Watch App-primary.dia",
+    "emit-module-dependencies" : "/Users/nithinithilanlanmurugesan/Downloads/Pulse/PulseIOSAPP/build/Build/Intermediates.noindex/PulseIOSAPP.build/Debug-watchsimulator/Pulse Watch App.build/Objects-normal/arm64/Pulse Watch App-primary-emit-module.d",
+    "emit-module-diagnostics" : "/Users/nithinithilanlanmurugesan/Downloads/Pulse/PulseIOSAPP/build/Build/Intermediates.noindex/PulseIOSAPP.build/Debug-watchsimulator/Pulse Watch App.build/Objects-normal/arm64/Pulse Watch App-primary-emit-module.dia",
+    "pch" : "/Users/nithinithilanlanmurugesan/Downloads/Pulse/PulseIOSAPP/build/Build/Intermediates.noindex/PulseIOSAPP.build/Debug-watchsimulator/Pulse Watch App.build/Objects-normal/arm64/Pulse Watch App-primary-Bridging-header.pch",
+    "swift-dependencies" : "/Users/nithinithilanlanmurugesan/Downloads/Pulse/PulseIOSAPP/build/Build/Intermediates.noindex/PulseIOSAPP.build/Debug-watchsimulator/Pulse Watch App.build/Objects-normal/arm64/Pulse Watch App-primary.swiftdeps"
+  },
+  "/Users/nithinithilanlanmurugesan/Downloads/Pulse/PulseIOSAPP/Pulse Watch App/PulseWatchApp.swift" : {
+    "const-values" : "/Users/nithinithilanlanmurugesan/Downloads/Pulse/PulseIOSAPP/build/Build/Intermediates.noindex/PulseIOSAPP.build/Debug-watchsimulator/Pulse Watch App.build/Objects-normal/arm64/PulseWatchApp.swiftconstvalues",
+    "dependencies" : "/Users/nithinithilanlanmurugesan/Downloads/Pulse/PulseIOSAPP/build/Build/Intermediates.noindex/PulseIOSAPP.build/Debug-watchsimulator/Pulse Watch App.build/Objects-normal/arm64/PulseWatchApp.d",
+    "diagnostics" : "/Users/nithinithilanlanmurugesan/Downloads/Pulse/PulseIOSAPP/build/Build/Intermediates.noindex/PulseIOSAPP.build/Debug-watchsimulator/Pulse Watch App.build/Objects-normal/arm64/PulseWatchApp.dia",
+    "index-unit-output-path" : "/PulseIOSAPP.build/Debug-watchsimulator/Pulse Watch App.build/Objects-normal/arm64/PulseWatchApp.o",
+    "llvm-bc" : "/Users/nithinithilanlanmurugesan/Downloads/Pulse/PulseIOSAPP/build/Build/Intermediates.noindex/PulseIOSAPP.build/Debug-watchsimulator/Pulse Watch App.build/Objects-normal/arm64/PulseWatchApp.bc",
+    "object" : "/Users/nithinithilanlanmurugesan/Downloads/Pulse/PulseIOSAPP/build/Build/Intermediates.noindex/PulseIOSAPP.build/Debug-watchsimulator/Pulse Watch App.build/Objects-normal/arm64/PulseWatchApp.o",
+    "swift-dependencies" : "/Users/nithinithilanlanmurugesan/Downloads/Pulse/PulseIOSAPP/build/Build/Intermediates.noindex/PulseIOSAPP.build/Debug-watchsimulator/Pulse Watch App.build/Objects-normal/arm64/PulseWatchApp.swiftdeps",
+    "swiftmodule" : "/Users/nithinithilanlanmurugesan/Downloads/Pulse/PulseIOSAPP/build/Build/Intermediates.noindex/PulseIOSAPP.build/Debug-watchsimulator/Pulse Watch App.build/Objects-normal/arm64/PulseWatchApp~partial.swiftmodule"
+  },
+  "/Users/nithinithilanlanmurugesan/Downloads/Pulse/PulseIOSAPP/Pulse Watch App/WatchListeningEngine.swift" : {
+    "const-values" : "/Users/nithinithilanlanmurugesan/Downloads/Pulse/PulseIOSAPP/build/Build/Intermediates.noindex/PulseIOSAPP.build/Debug-watchsimulator/Pulse Watch App.build/Objects-normal/arm64/WatchListeningEngine.swiftconstvalues",
+    "dependencies" : "/Users/nithinithilanlanmurugesan/Downloads/Pulse/PulseIOSAPP/build/Build/Intermediates.noindex/PulseIOSAPP.build/Debug-watchsimulator/Pulse Watch App.build/Objects-normal/arm64/WatchListeningEngine.d",
+    "diagnostics" : "/Users/nithinithilanlanmurugesan/Downloads/Pulse/PulseIOSAPP/build/Build/Intermediates.noindex/PulseIOSAPP.build/Debug-watchsimulator/Pulse Watch App.build/Objects-normal/arm64/WatchListeningEngine.dia",
+    "index-unit-output-path" : "/PulseIOSAPP.build/Debug-watchsimulator/Pulse Watch App.build/Objects-normal/arm64/WatchListeningEngine.o",
+    "llvm-bc" : "/Users/nithinithilanlanmurugesan/Downloads/Pulse/PulseIOSAPP/build/Build/Intermediates.noindex/PulseIOSAPP.build/Debug-watchsimulator/Pulse Watch App.build/Objects-normal/arm64/WatchListeningEngine.bc",
+    "object" : "/Users/nithinithilanlanmurugesan/Downloads/Pulse/PulseIOSAPP/build/Build/Intermediates.noindex/PulseIOSAPP.build/Debug-watchsimulator/Pulse Watch App.build/Objects-normal/arm64/WatchListeningEngine.o",
+    "swift-dependencies" : "/Users/nithinithilanlanmurugesan/Downloads/Pulse/PulseIOSAPP/build/Build/Intermediates.noindex/PulseIOSAPP.build/Debug-watchsimulator/Pulse Watch App.build/Objects-normal/arm64/WatchListeningEngine.swiftdeps",
+    "swiftmodule" : "/Users/nithinithilanlanmurugesan/Downloads/Pulse/PulseIOSAPP/build/Build/Intermediates.noindex/PulseIOSAPP.build/Debug-watchsimulator/Pulse Watch App.build/Objects-normal/arm64/WatchListeningEngine~partial.swiftmodule"
+  },
+  "/Users/nithinithilanlanmurugesan/Downloads/Pulse/PulseIOSAPP/Pulse Watch App/WatchModels.swift" : {
+    "const-values" : "/Users/nithinithilanlanmurugesan/Downloads/Pulse/PulseIOSAPP/build/Build/Intermediates.noindex/PulseIOSAPP.build/Debug-watchsimulator/Pulse Watch App.build/Objects-normal/arm64/WatchModels.swiftconstvalues",
+    "dependencies" : "/Users/nithinithilanlanmurugesan/Downloads/Pulse/PulseIOSAPP/build/Build/Intermediates.noindex/PulseIOSAPP.build/Debug-watchsimulator/Pulse Watch App.build/Objects-normal/arm64/WatchModels.d",
+    "diagnostics" : "/Users/nithinithilanlanmurugesan/Downloads/Pulse/PulseIOSAPP/build/Build/Intermediates.noindex/PulseIOSAPP.build/Debug-watchsimulator/Pulse Watch App.build/Objects-normal/arm64/WatchModels.dia",
+    "index-unit-output-path" : "/PulseIOSAPP.build/Debug-watchsimulator/Pulse Watch App.build/Objects-normal/arm64/WatchModels.o",
+    "llvm-bc" : "/Users/nithinithilanlanmurugesan/Downloads/Pulse/PulseIOSAPP/build/Build/Intermediates.noindex/PulseIOSAPP.build/Debug-watchsimulator/Pulse Watch App.build/Objects-normal/arm64/WatchModels.bc",
+    "object" : "/Users/nithinithilanlanmurugesan/Downloads/Pulse/PulseIOSAPP/build/Build/Intermediates.noindex/PulseIOSAPP.build/Debug-watchsimulator/Pulse Watch App.build/Objects-normal/arm64/WatchModels.o",
+    "swift-dependencies" : "/Users/nithinithilanlanmurugesan/Downloads/Pulse/PulseIOSAPP/build/Build/Intermediates.noindex/PulseIOSAPP.build/Debug-watchsimulator/Pulse Watch App.build/Objects-normal/arm64/WatchModels.swiftdeps",
+    "swiftmodule" : "/Users/nithinithilanlanmurugesan/Downloads/Pulse/PulseIOSAPP/build/Build/Intermediates.noindex/PulseIOSAPP.build/Debug-watchsimulator/Pulse Watch App.build/Objects-normal/arm64/WatchModels~partial.swiftmodule"
+  },
+  "/Users/nithinithilanlanmurugesan/Downloads/Pulse/PulseIOSAPP/Pulse Watch App/WatchSessionManager.swift" : {
+    "const-values" : "/Users/nithinithilanlanmurugesan/Downloads/Pulse/PulseIOSAPP/build/Build/Intermediates.noindex/PulseIOSAPP.build/Debug-watchsimulator/Pulse Watch App.build/Objects-normal/arm64/WatchSessionManager.swiftconstvalues",
+    "dependencies" : "/Users/nithinithilanlanmurugesan/Downloads/Pulse/PulseIOSAPP/build/Build/Intermediates.noindex/PulseIOSAPP.build/Debug-watchsimulator/Pulse Watch App.build/Objects-normal/arm64/WatchSessionManager.d",
+    "diagnostics" : "/Users/nithinithilanlanmurugesan/Downloads/Pulse/PulseIOSAPP/build/Build/Intermediates.noindex/PulseIOSAPP.build/Debug-watchsimulator/Pulse Watch App.build/Objects-normal/arm64/WatchSessionManager.dia",
+    "index-unit-output-path" : "/PulseIOSAPP.build/Debug-watchsimulator/Pulse Watch App.build/Objects-normal/arm64/WatchSessionManager.o",
+    "llvm-bc" : "/Users/nithinithilanlanmurugesan/Downloads/Pulse/PulseIOSAPP/build/Build/Intermediates.noindex/PulseIOSAPP.build/Debug-watchsimulator/Pulse Watch App.build/Objects-normal/arm64/WatchSessionManager.bc",
+    "object" : "/Users/nithinithilanlanmurugesan/Downloads/Pulse/PulseIOSAPP/build/Build/Intermediates.noindex/PulseIOSAPP.build/Debug-watchsimulator/Pulse Watch App.build/Objects-normal/arm64/WatchSessionManager.o",
+    "swift-dependencies" : "/Users/nithinithilanlanmurugesan/Downloads/Pulse/PulseIOSAPP/build/Build/Intermediates.noindex/PulseIOSAPP.build/Debug-watchsimulator/Pulse Watch App.build/Objects-normal/arm64/WatchSessionManager.swiftdeps",
+    "swiftmodule" : "/Users/nithinithilanlanmurugesan/Downloads/Pulse/PulseIOSAPP/build/Build/Intermediates.noindex/PulseIOSAPP.build/Debug-watchsimulator/Pulse Watch App.build/Objects-normal/arm64/WatchSessionManager~partial.swiftmodule"
+  },
+  "/Users/nithinithilanlanmurugesan/Downloads/Pulse/PulseIOSAPP/Pulse Watch App/WatchViews.swift" : {
+    "const-values" : "/Users/nithinithilanlanmurugesan/Downloads/Pulse/PulseIOSAPP/build/Build/Intermediates.noindex/PulseIOSAPP.build/Debug-watchsimulator/Pulse Watch App.build/Objects-normal/arm64/WatchViews.swiftconstvalues",
+    "dependencies" : "/Users/nithinithilanlanmurugesan/Downloads/Pulse/PulseIOSAPP/build/Build/Intermediates.noindex/PulseIOSAPP.build/Debug-watchsimulator/Pulse Watch App.build/Objects-normal/arm64/WatchViews.d",
+    "diagnostics" : "/Users/nithinithilanlanmurugesan/Downloads/Pulse/PulseIOSAPP/build/Build/Intermediates.noindex/PulseIOSAPP.build/Debug-watchsimulator/Pulse Watch App.build/Objects-normal/arm64/WatchViews.dia",
+    "index-unit-output-path" : "/PulseIOSAPP.build/Debug-watchsimulator/Pulse Watch App.build/Objects-normal/arm64/WatchViews.o",
+    "llvm-bc" : "/Users/nithinithilanlanmurugesan/Downloads/Pulse/PulseIOSAPP/build/Build/Intermediates.noindex/PulseIOSAPP.build/Debug-watchsimulator/Pulse Watch App.build/Objects-normal/arm64/WatchViews.bc",
+    "object" : "/Users/nithinithilanlanmurugesan/Downloads/Pulse/PulseIOSAPP/build/Build/Intermediates.noindex/PulseIOSAPP.build/Debug-watchsimulator/Pulse Watch App.build/Objects-normal/arm64/WatchViews.o",
+    "swift-dependencies" : "/Users/nithinithilanlanmurugesan/Downloads/Pulse/PulseIOSAPP/build/Build/Intermediates.noindex/PulseIOSAPP.build/Debug-watchsimulator/Pulse Watch App.build/Objects-normal/arm64/WatchViews.swiftdeps",
+    "swiftmodule" : "/Users/nithinithilanlanmurugesan/Downloads/Pulse/PulseIOSAPP/build/Build/Intermediates.noindex/PulseIOSAPP.build/Debug-watchsimulator/Pulse Watch App.build/Objects-normal/arm64/WatchViews~partial.swiftmodule"
+  },
+  "/Users/nithinithilanlanmurugesan/Downloads/Pulse/PulseIOSAPP/build/Build/Intermediates.noindex/PulseIOSAPP.build/Debug-watchsimulator/Pulse Watch App.build/DerivedSources/GeneratedAssetSymbols.swift" : {
+    "const-values" : "/Users/nithinithilanlanmurugesan/Downloads/Pulse/PulseIOSAPP/build/Build/Intermediates.noindex/PulseIOSAPP.build/Debug-watchsimulator/Pulse Watch App.build/Objects-normal/arm64/GeneratedAssetSymbols.swiftconstvalues",
+    "dependencies" : "/Users/nithinithilanlanmurugesan/Downloads/Pulse/PulseIOSAPP/build/Build/Intermediates.noindex/PulseIOSAPP.build/Debug-watchsimulator/Pulse Watch App.build/Objects-normal/arm64/GeneratedAssetSymbols.d",
+    "diagnostics" : "/Users/nithinithilanlanmurugesan/Downloads/Pulse/PulseIOSAPP/build/Build/Intermediates.noindex/PulseIOSAPP.build/Debug-watchsimulator/Pulse Watch App.build/Objects-normal/arm64/GeneratedAssetSymbols.dia",
+    "index-unit-output-path" : "/PulseIOSAPP.build/Debug-watchsimulator/Pulse Watch App.build/Objects-normal/arm64/GeneratedAssetSymbols.o",
+    "llvm-bc" : "/Users/nithinithilanlanmurugesan/Downloads/Pulse/PulseIOSAPP/build/Build/Intermediates.noindex/PulseIOSAPP.build/Debug-watchsimulator/Pulse Watch App.build/Objects-normal/arm64/GeneratedAssetSymbols.bc",
+    "object" : "/Users/nithinithilanlanmurugesan/Downloads/Pulse/PulseIOSAPP/build/Build/Intermediates.noindex/PulseIOSAPP.build/Debug-watchsimulator/Pulse Watch App.build/Objects-normal/arm64/GeneratedAssetSymbols.o",
+    "swift-dependencies" : "/Users/nithinithilanlanmurugesan/Downloads/Pulse/PulseIOSAPP/build/Build/Intermediates.noindex/PulseIOSAPP.build/Debug-watchsimulator/Pulse Watch App.build/Objects-normal/arm64/GeneratedAssetSymbols.swiftdeps",
+    "swiftmodule" : "/Users/nithinithilanlanmurugesan/Downloads/Pulse/PulseIOSAPP/build/Build/Intermediates.noindex/PulseIOSAPP.build/Debug-watchsimulator/Pulse Watch App.build/Objects-normal/arm64/GeneratedAssetSymbols~partial.swiftmodule"
+  }
+}

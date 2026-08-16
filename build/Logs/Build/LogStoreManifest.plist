@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>logFormatVersion</key>
+	<integer>12</integer>
+	<key>logs</key>
+	<dict>
+		<key>76D51A4A-D3F9-4856-A830-C37C1607874A</key>
+		<dict>
+			<key>className</key>
+			<string>IDECommandLineBuildLog</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>76D51A4A-D3F9-4856-A830-C37C1607874A.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+				<key>totalNumberOfAnalyzerIssues</key>
+				<integer>0</integer>
+				<key>totalNumberOfErrors</key>
+				<integer>6</integer>
+				<key>totalNumberOfTestFailures</key>
+				<integer>0</integer>
+				<key>totalNumberOfWarnings</key>
+				<integer>0</integer>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>PulseIOSAPP project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Pulse Watch App</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Building project PulseIOSAPP with scheme Pulse Watch App and configuration Debug</string>
+			<key>timeStartedRecording</key>
+			<real>806958040.29194403</real>
+			<key>timeStoppedRecording</key>
+			<real>806958047.82223594</real>
+			<key>title</key>
+			<string>Building project PulseIOSAPP with scheme Pulse Watch App and configuration Debug</string>
+			<key>uniqueIdentifier</key>
+			<string>76D51A4A-D3F9-4856-A830-C37C1607874A</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

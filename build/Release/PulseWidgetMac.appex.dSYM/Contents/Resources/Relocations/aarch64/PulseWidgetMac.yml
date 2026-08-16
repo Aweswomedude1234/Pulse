@@ -1,0 +1,5 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/nithinithilanlanmurugesan/Downloads/Pulse/PulseIOSAPP/build/Release/PulseWidgetMac.appex/Contents/MacOS/PulseWidgetMac'
+relocations:     []
+...

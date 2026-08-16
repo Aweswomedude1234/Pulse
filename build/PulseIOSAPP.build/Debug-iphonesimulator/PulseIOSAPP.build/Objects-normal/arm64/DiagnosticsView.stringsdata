@@ -1,0 +1,80 @@
+{
+  "source": "/Users/nithinithilanlanmurugesan/Downloads/Pulse/PulseIOSAPP/PulseIOSAPP/UI/DiagnosticsView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Diagnostics",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 48
+        }
+      },
+      {
+        "comment": "",
+        "key": "Direction · GCC-PHAT",
+        "location": {
+          "startingColumn": 17,
+          "startingLine": 103
+        }
+      },
+      {
+        "comment": "",
+        "key": "Classifier · top 3",
+        "location": {
+          "startingColumn": 17,
+          "startingLine": 120
+        }
+      },
+      {
+        "comment": "",
+        "key": "Transcription",
+        "location": {
+          "startingColumn": 17,
+          "startingLine": 136
+        }
+      },
+      {
+        "comment": "",
+        "key": "Power · thermal",
+        "location": {
+          "startingColumn": 17,
+          "startingLine": 164
+        }
+      },
+      {
+        "comment": "",
+        "key": "Done",
+        "location": {
+          "startingColumn": 28,
+          "startingLine": 52
+        }
+      },
+      {
+        "comment": "",
+        "key": "Engine not running — activate listening to see live data.",
+        "location": {
+          "startingColumn": 23,
+          "startingLine": 63
+        }
+      },
+      {
+        "comment": "",
+        "key": "Capture",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 76
+        }
+      },
+      {
+        "comment": "",
+        "key": "No classifications yet.",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 122
+        }
+      }
+    ]
+  },
+  "version": 1
+}

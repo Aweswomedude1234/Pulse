@@ -22,7 +22,7 @@ import Foundation
 import CoreML
 import Accelerate
 
-actor CoreMLSoundClassifier: SoundClassifier {
+actor CoreMLSoundClassifier: SoundClassifying {
 
     /// How audio is presented to the model.
     enum InputMode {

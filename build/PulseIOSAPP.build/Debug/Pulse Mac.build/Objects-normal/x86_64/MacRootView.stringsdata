@@ -1,0 +1,88 @@
+{
+  "source": "/Users/nithinithilanlanmurugesan/Downloads/Pulse/PulseMac/MacRootView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "%lld dB · %@",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 101
+        }
+      },
+      {
+        "comment": "",
+        "key": "Listening",
+        "location": {
+          "startingColumn": 45,
+          "startingLine": 91
+        }
+      },
+      {
+        "comment": "",
+        "key": "Paused",
+        "location": {
+          "startingColumn": 59,
+          "startingLine": 91
+        }
+      },
+      {
+        "comment": "",
+        "key": "On-device only",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 109
+        }
+      },
+      {
+        "comment": "",
+        "key": "Stop analysing microphone input (⌘L)",
+        "location": {
+          "startingColumn": 21,
+          "startingLine": 145
+        }
+      },
+      {
+        "comment": "",
+        "key": "Start analysing microphone input (⌘L)",
+        "location": {
+          "startingColumn": 21,
+          "startingLine": 146
+        }
+      },
+      {
+        "comment": "",
+        "key": "Stop Listening",
+        "location": {
+          "startingColumn": 46,
+          "startingLine": 141
+        }
+      },
+      {
+        "comment": "",
+        "key": "Start Listening",
+        "location": {
+          "startingColumn": 65,
+          "startingLine": 141
+        }
+      },
+      {
+        "comment": "",
+        "key": "Switch between light and dark appearance",
+        "location": {
+          "startingColumn": 19,
+          "startingLine": 156
+        }
+      },
+      {
+        "comment": "",
+        "key": "Toggle Appearance",
+        "location": {
+          "startingColumn": 23,
+          "startingLine": 153
+        }
+      }
+    ]
+  },
+  "version": 1
+}

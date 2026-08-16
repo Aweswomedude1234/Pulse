@@ -1,0 +1,72 @@
+{
+  "source": "/Users/nithinithilanlanmurugesan/Downloads/Pulse/PulseIOSAPP/PulseIOSAPP/UI/BaselineModeView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "On-device transcription appears here.",
+        "location": {
+          "startingColumn": 62,
+          "startingLine": 51
+        }
+      },
+      {
+        "comment": "",
+        "key": "No speech yet",
+        "location": {
+          "startingColumn": 44,
+          "startingLine": 49
+        }
+      },
+      {
+        "comment": "",
+        "key": "Detected sounds",
+        "location": {
+          "startingColumn": 21,
+          "startingLine": 61
+        }
+      },
+      {
+        "comment": "",
+        "key": "Listening…",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 63
+        }
+      },
+      {
+        "comment": "",
+        "key": "%lld%%",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 73
+        }
+      },
+      {
+        "comment": "",
+        "key": "Stop",
+        "location": {
+          "startingColumn": 39,
+          "startingLine": 87
+        }
+      },
+      {
+        "comment": "",
+        "key": "Start Listening",
+        "location": {
+          "startingColumn": 48,
+          "startingLine": 87
+        }
+      },
+      {
+        "comment": "",
+        "key": "Clear",
+        "location": {
+          "startingColumn": 20,
+          "startingLine": 95
+        }
+      }
+    ]
+  },
+  "version": 1
+}

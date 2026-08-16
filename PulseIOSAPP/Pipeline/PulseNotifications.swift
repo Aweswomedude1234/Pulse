@@ -19,7 +19,7 @@ enum PulseNotifications {
     }
 
     /// Fires a local alert for a danger-tier event detected in Always-On mode.
-    static func postDanger(_ event: SoundEvent) {
+    static func postDanger(_ event: RadarEvent) {
         let content = UNMutableNotificationContent()
         content.title = event.dangerTier == .critical ? "⚠️ Danger detected" : "Heads up"
         content.body = event.label

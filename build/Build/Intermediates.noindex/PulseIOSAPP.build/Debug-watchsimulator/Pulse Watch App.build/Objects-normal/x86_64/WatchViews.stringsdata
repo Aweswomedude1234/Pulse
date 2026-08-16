@@ -1,0 +1,96 @@
+{
+  "source": "/Users/nithinithilanlanmurugesan/Downloads/Pulse/PulseIOSAPP/Pulse Watch App/WatchViews.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Pulse",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 48
+        }
+      },
+      {
+        "comment": "",
+        "key": "Alerts",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 176
+        }
+      },
+      {
+        "comment": "",
+        "key": "No alerts",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 167
+        }
+      },
+      {
+        "comment": "",
+        "key": "DANGER",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 194
+        }
+      },
+      {
+        "comment": "",
+        "key": "Phone",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 241
+        }
+      },
+      {
+        "comment": "",
+        "key": "Live Captions",
+        "location": {
+          "startingColumn": 21,
+          "startingLine": 223
+        }
+      },
+      {
+        "comment": "",
+        "key": "iPhone",
+        "location": {
+          "startingColumn": 27,
+          "startingLine": 215
+        }
+      },
+      {
+        "comment": "",
+        "key": "Connected",
+        "location": {
+          "startingColumn": 48,
+          "startingLine": 217
+        }
+      },
+      {
+        "comment": "",
+        "key": "Not reachable",
+        "location": {
+          "startingColumn": 62,
+          "startingLine": 217
+        }
+      },
+      {
+        "comment": "",
+        "key": "No speech captured",
+        "location": {
+          "startingColumn": 48,
+          "startingLine": 225
+        }
+      },
+      {
+        "comment": "",
+        "key": "Captions require iPhone",
+        "location": {
+          "startingColumn": 71,
+          "startingLine": 225
+        }
+      }
+    ]
+  },
+  "version": 1
+}

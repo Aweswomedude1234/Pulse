@@ -1,7 +1,7 @@
 // AlwaysOnEngine.swift
 // =============================================================================
 // PRIVACY BANNER — NO NETWORKING IN THE AUDIO PATH.
-// Audio stays in an in-memory rolling window; only SoundEvents are retained.
+// Audio stays in an in-memory rolling window; only RadarEvents are retained.
 // =============================================================================
 //
 // Feature 3 — Always-On Power Mode (BETA, settings-gated). Runs with the screen
@@ -44,7 +44,7 @@ final class AlwaysOnEngine {
 
     private(set) var state: State = .idle
     private(set) var stage: Stage = .idle
-    private(set) var events: [SoundEvent] = []
+    private(set) var events: [RadarEvent] = []
     private(set) var policy: PowerPolicy = .full
 
     var isRunning: Bool { state == .running }
@@ -69,7 +69,7 @@ final class AlwaysOnEngine {
     private let source: any AudioSource
     private let direction: any DirectionEstimator
     private let proximity: any ProximityEstimator
-    private let classifier: any SoundClassifier
+    private let classifier: any SoundClassifying
     private let governor: ThermalPowerGovernor
 
     // MARK: Private state
@@ -86,13 +86,15 @@ final class AlwaysOnEngine {
     init(source: any AudioSource = StereoAudioCapture(),
          direction: any DirectionEstimator = GCCPHATDirectionEstimator(),
          proximity: any ProximityEstimator = OnsetProximityEstimator(),
-         classifier: (any SoundClassifier)? = nil,
-         governor: ThermalPowerGovernor = ThermalPowerGovernor()) {
+         classifier: (any SoundClassifying)? = nil,
+         governor: ThermalPowerGovernor? = nil) {
         self.source = source
         self.direction = direction
         self.proximity = proximity
         self.classifier = classifier ?? SoundClassifierFactory.make()
-        self.governor = governor
+        // `ThermalPowerGovernor` is @MainActor, so it can't be a default arg
+        // (defaults evaluate in a nonisolated context) — build it here instead.
+        self.governor = governor ?? ThermalPowerGovernor()
     }
 
     // MARK: - Control
@@ -153,15 +155,14 @@ final class AlwaysOnEngine {
 
     private func observeInterruptions() {
         interruptionObserver = NotificationCenter.default.addObserver(
-            forName: AVAudioSession.interruptionNotification,
+            forName: PulseAudioInterruption.notificationName,
             object: nil, queue: .main) { [weak self] note in
             Task { @MainActor in self?.handleInterruption(note) }
         }
     }
 
     private func handleInterruption(_ note: Notification) {
-        guard let raw = note.userInfo?[AVAudioSessionInterruptionTypeKey] as? UInt,
-              let type = AVAudioSession.InterruptionType(rawValue: raw) else { return }
+        guard let type = PulseAudioInterruption.type(of: note) else { return }
         if type == .began {
             // Recording was interrupted; monitoring is no longer live.
             PulseNotifications.postMonitoringStopped(reason: "Audio was interrupted.")
@@ -255,7 +256,7 @@ final class AlwaysOnEngine {
 
     // MARK: Publish
 
-    private func publish(_ event: SoundEvent) {
+    private func publish(_ event: RadarEvent) {
         events.append(event)
         if events.count > maxEvents { events.removeFirst(events.count - maxEvents) }
         if event.isDanger {
@@ -269,10 +270,10 @@ final class AlwaysOnEngine {
     private nonisolated static func analyze(_ window: AudioBuffer,
                                             direction: any DirectionEstimator,
                                             proximity: any ProximityEstimator,
-                                            classifier: any SoundClassifier,
+                                            classifier: any SoundClassifying,
                                             isStereo: Bool,
                                             lightConfidence: Float,
-                                            transcriptionEnabled: Bool) async -> SoundEvent? {
+                                            transcriptionEnabled: Bool) async -> RadarEvent? {
         // Stage (b): light classifier.
         let results = await classifier.classify(window)
         guard let top = results.first, top.confidence >= lightConfidence else { return nil }
@@ -283,7 +284,7 @@ final class AlwaysOnEngine {
         // transcriptionEnabled gates the (future) WhisperKit stage; nil for now.
         _ = transcriptionEnabled
 
-        return SoundEvent(timestamp: window.captureTime,
+        return RadarEvent(timestamp: window.captureTime,
                           label: top.label,
                           category: top.category,
                           confidence: top.confidence,

@@ -10,10 +10,10 @@
 // and assert on the outputs.
 //
 //   AudioSource          -> AsyncStream<AudioBuffer>
-//   SoundClassifier      -> [ClassificationResult]
+//   SoundClassifying     -> [ClassificationResult]
 //   DirectionEstimator   -> BearingEstimate (angle, uncertainty, ambiguity)
 //   ProximityEstimator   -> ProximityEstimate (bucket + confidence)
-//   EventStore           -> SoundEvent persistence
+//   EventStore           -> RadarEvent persistence
 //   PowerGovernor        -> current tier + thermal/battery reactions
 //
 // Swift 6: all value types crossing an actor/async boundary are `Sendable`.
@@ -113,7 +113,7 @@ struct ClassificationResult: Sendable, Identifiable, Hashable {
 
 /// Model-agnostic classifier seam. Default target is a YAMNet-class 521-label
 /// Core ML model; AST/BEATs can be dropped in behind the same interface.
-protocol SoundClassifier: Sendable {
+protocol SoundClassifying: Sendable {
     /// Return ranked label hypotheses for a buffer (best first, may be empty).
     func classify(_ buffer: AudioBuffer) async -> [ClassificationResult]
 }
@@ -168,8 +168,8 @@ protocol ProximityEstimator: Sendable {
 
 /// Local-only persistence for events. Implementations use SwiftData; no sync.
 protocol EventStore: Sendable {
-    func save(_ event: SoundEvent) async
-    func recent(within window: TimeInterval) async -> [SoundEvent]
+    func save(_ event: RadarEvent) async
+    func recent(within window: TimeInterval) async -> [RadarEvent]
     func deleteAll() async
 }
 

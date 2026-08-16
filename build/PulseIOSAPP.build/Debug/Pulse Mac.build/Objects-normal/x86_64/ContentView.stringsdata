@@ -1,0 +1,104 @@
+{
+  "source": "/Users/nithinithilanlanmurugesan/Downloads/Pulse/Pulse/UI/Screens/ContentView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Sound Map",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 129
+        }
+      },
+      {
+        "comment": "",
+        "key": "Listening to your surroundings",
+        "location": {
+          "startingColumn": 28,
+          "startingLine": 134
+        }
+      },
+      {
+        "comment": "",
+        "key": "Paused — activate to see live sound",
+        "location": {
+          "startingColumn": 28,
+          "startingLine": 135
+        }
+      },
+      {
+        "comment": "",
+        "key": "Sound Map paused",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 162
+        }
+      },
+      {
+        "comment": "",
+        "key": "Battery is critically low. Fire and siren detection is still running.",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 165
+        }
+      },
+      {
+        "comment": "",
+        "key": "%lld",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 290
+        }
+      },
+      {
+        "comment": "",
+        "key": "dB",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 294
+        }
+      },
+      {
+        "comment": "",
+        "key": "Activate",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 307
+        }
+      },
+      {
+        "comment": "",
+        "key": "NEARBY SOUNDS",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 322
+        }
+      },
+      {
+        "comment": "",
+        "key": "No sounds detected yet.",
+        "location": {
+          "startingColumn": 24,
+          "startingLine": 329
+        }
+      },
+      {
+        "comment": "",
+        "key": "Activate Pulse to start mapping sound.",
+        "location": {
+          "startingColumn": 24,
+          "startingLine": 330
+        }
+      },
+      {
+        "comment": "",
+        "key": "TAP TO DISMISS",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 475
+        }
+      }
+    ]
+  },
+  "version": 1
+}

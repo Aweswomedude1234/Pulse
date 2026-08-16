@@ -6,7 +6,7 @@
 // events get a mirrored ghost wedge). Tappable blips are overlaid as positioned
 // views so hit-testing and SF Symbols stay simple.
 //
-// Driven purely by an injected `[SoundEvent]` — no pipeline dependency — so it
+// Driven purely by an injected `[RadarEvent]` — no pipeline dependency — so it
 // renders from fakes today and from the real pipeline later without changes.
 // =============================================================================
 
@@ -16,14 +16,14 @@ struct RadarMapView: View {
 
     /// Events to plot. Only events with a bearing appear on the radar; the rest
     /// belong to the scrolling feed.
-    let events: [SoundEvent]
+    let events: [RadarEvent]
 
     /// Seconds over which a normal event fades to nothing. Danger-tier events
     /// ignore this and stay pinned.
     var decayWindow: TimeInterval = 30
 
     /// Callback when a blip is tapped (host presents the detail sheet).
-    var onSelect: (SoundEvent) -> Void = { _ in }
+    var onSelect: (RadarEvent) -> Void = { _ in }
 
     var body: some View {
         GeometryReader { geo in
@@ -31,7 +31,9 @@ struct RadarMapView: View {
             let center = CGPoint(x: geo.size.width / 2, y: geo.size.height / 2)
             let maxRadius = side / 2 * 0.9
 
-            TimelineView(.animation) { timeline in
+            // Throttle Canvas redraws to ~12 Hz — plenty for the sweep + decay,
+            // and far cheaper than driving it at the display refresh rate.
+            TimelineView(.periodic(from: .now, by: 1.0 / 12.0)) { timeline in
                 let now = timeline.date
                 let placed = placedEvents(now: now, center: center, maxRadius: maxRadius)
 
@@ -45,7 +47,7 @@ struct RadarMapView: View {
                     // Center device icon, oriented "ahead" = up.
                     Image(systemName: "iphone.gen3")
                         .font(.system(size: 26, weight: .semibold))
-                        .foregroundStyle(.white.opacity(0.85))
+                        .foregroundStyle(PulseTheme.ink.opacity(0.85))
                         .position(center)
 
                     // Tappable blips.
@@ -57,13 +59,19 @@ struct RadarMapView: View {
                 }
             }
         }
-        .background(Color.black)
+        .background(
+            ZStack {
+                PulseTheme.background
+                RadialGradient(colors: [PulseTheme.mint.opacity(0.18), .clear],
+                               center: .center, startRadius: 8, endRadius: 320)
+            }
+        )
     }
 
     // MARK: - Layout
 
     private struct Placed {
-        let event: SoundEvent
+        let event: RadarEvent
         let point: CGPoint
         let opacity: Double
         let ringFraction: CGFloat
@@ -83,7 +91,7 @@ struct RadarMapView: View {
     }
 
     /// Confidence-driven opacity that decays with age; danger events don't fade.
-    private func opacity(for event: SoundEvent, now: Date) -> Double {
+    private func opacity(for event: RadarEvent, now: Date) -> Double {
         let base = max(0.3, min(1.0, Double(event.confidence)))
         if event.isDanger { return max(base, 0.9) }
         let age = now.timeIntervalSince(event.timestamp)
@@ -99,11 +107,11 @@ struct RadarMapView: View {
             let r = maxRadius * RadarGeometry.ringFraction(for: bucket)
             let rect = CGRect(x: center.x - r, y: center.y - r, width: r * 2, height: r * 2)
             ctx.stroke(Path(ellipseIn: rect),
-                       with: .color(.green.opacity(0.25)),
+                       with: .color(PulseTheme.accent.opacity(0.30)),
                        lineWidth: 1)
             ctx.draw(Text(ringLabel(bucket))
                         .font(.caption2)
-                        .foregroundStyle(.green.opacity(0.5)),
+                        .foregroundStyle(PulseTheme.inkSoft.opacity(0.7)),
                      at: CGPoint(x: center.x, y: center.y - r + 8))
         }
         // Cross axes.
@@ -112,7 +120,7 @@ struct RadarMapView: View {
         axes.addLine(to: CGPoint(x: center.x + maxRadius, y: center.y))
         axes.move(to: CGPoint(x: center.x, y: center.y - maxRadius))
         axes.addLine(to: CGPoint(x: center.x, y: center.y + maxRadius))
-        ctx.stroke(axes, with: .color(.green.opacity(0.15)), lineWidth: 1)
+        ctx.stroke(axes, with: .color(PulseTheme.accent.opacity(0.15)), lineWidth: 1)
     }
 
     private func drawSweep(_ ctx: GraphicsContext, center: CGPoint, maxRadius: CGFloat, now: Date) {
@@ -123,7 +131,7 @@ struct RadarMapView: View {
         var line = Path()
         line.move(to: center)
         line.addLine(to: tip)
-        ctx.stroke(line, with: .color(.green.opacity(0.35)), lineWidth: 2)
+        ctx.stroke(line, with: .color(PulseTheme.accent.opacity(0.45)), lineWidth: 2)
     }
 
     private func drawWedges(_ ctx: GraphicsContext, placed: [Placed],
@@ -166,7 +174,7 @@ struct RadarMapView: View {
 // MARK: - Blip
 
 private struct RadarBlip: View {
-    let event: SoundEvent
+    let event: RadarEvent
     let opacity: Double
 
     var body: some View {
@@ -177,7 +185,7 @@ private struct RadarBlip: View {
                     .frame(width: 30, height: 30)
                 if event.isDanger {
                     Circle()
-                        .stroke(Color.white, lineWidth: 2)
+                        .stroke(event.dangerTier.accent, lineWidth: 2.5)
                         .frame(width: 34, height: 34)
                 }
                 Image(systemName: event.category.systemImageName)
@@ -185,13 +193,13 @@ private struct RadarBlip: View {
                     .foregroundStyle(.white)
             }
             Text(event.label)
-                .font(.system(size: 9, weight: .medium))
-                .foregroundStyle(.white)
+                .font(.system(size: 9, weight: .semibold))
+                .foregroundStyle(PulseTheme.ink)
                 .lineLimit(1)
                 .fixedSize()
         }
         .opacity(opacity)
-        .shadow(color: event.isDanger ? .red.opacity(0.8) : .clear, radius: 6)
+        .shadow(color: event.isDanger ? event.dangerTier.accent.opacity(0.8) : .clear, radius: 6)
     }
 }
 
@@ -200,8 +208,8 @@ private struct RadarBlip: View {
 /// Standalone demo used during development (build order step 5): plots fake
 /// events and lets you emit more, with live decay and the rotating sweep.
 struct RadarMapDemoView: View {
-    @State private var events: [SoundEvent] = RadarMapDemoView.seed()
-    @State private var selected: SoundEvent?
+    @State private var events: [RadarEvent] = RadarMapDemoView.seed()
+    @State private var selected: RadarEvent?
 
     var body: some View {
         RadarMapView(events: events) { selected = $0 }
@@ -216,10 +224,10 @@ struct RadarMapDemoView: View {
                 }
                 .padding(.bottom, 24)
             }
-            .sheet(item: $selected) { SoundEventDetailSheet(event: $0) }
+            .sheet(item: $selected) { RadarEventDetailSheet(event: $0) }
     }
 
-    private static func seed() -> [SoundEvent] {
+    private static func seed() -> [RadarEvent] {
         [
             makeEvent(label: "Speech", category: .speech, bearing: -0.5, unc: 0.25,
                       bucket: .near, confidence: 0.8, transcript: "hey, are you there?"),
@@ -230,7 +238,7 @@ struct RadarMapDemoView: View {
         ]
     }
 
-    private static func randomEvent() -> SoundEvent {
+    private static func randomEvent() -> RadarEvent {
         let cats: [SoundCategory] = [.speech, .alarm, .impact, .alert, .water, .animal, .vehicle]
         let cat = cats.randomElement()!
         return makeEvent(label: cat.displayName,
@@ -245,8 +253,8 @@ struct RadarMapDemoView: View {
     private static func makeEvent(label: String, category: SoundCategory,
                                   bearing: Double, unc: Double, bucket: ProximityBucket,
                                   confidence: Float, ambiguous: Bool = false,
-                                  transcript: String? = nil) -> SoundEvent {
-        SoundEvent(
+                                  transcript: String? = nil) -> RadarEvent {
+        RadarEvent(
             label: label, category: category, confidence: confidence,
             bearing: BearingEstimate(angle: bearing, uncertainty: unc,
                                      frontBackAmbiguous: ambiguous, confidence: confidence),

@@ -1,0 +1,40 @@
+{
+  "source": "/Users/nithinithilanlanmurugesan/Downloads/Pulse/Pulse/UI/Screens/StartupView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "BUILT BY",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 44
+        }
+      },
+      {
+        "comment": "",
+        "key": "Outpost",
+        "location": {
+          "startingColumn": 34,
+          "startingLine": 49
+        }
+      },
+      {
+        "comment": "",
+        "key": "Pulse",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 82
+        }
+      },
+      {
+        "comment": "",
+        "key": "Get started now",
+        "location": {
+          "startingColumn": 46,
+          "startingLine": 113
+        }
+      }
+    ]
+  },
+  "version": 1
+}

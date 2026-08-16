@@ -1,0 +1,51 @@
+{
+  "/Users/nithinithilanlanmurugesan/Downloads/Pulse/Pulse/Audio/DirectionalAnalyzer.swift" : {
+    "const-values" : "/Users/nithinithilanlanmurugesan/Downloads/Pulse/PulseIOSAPP/build/PulseIOSAPP.build/Debug-iphonesimulator/PulseIOSAPP.build/Objects-normal/arm64/DirectionalAnalyzer.swiftconstvalues",
+    "dependencies" : "/Users/nithinithilanlanmurugesan/Downloads/Pulse/PulseIOSAPP/build/PulseIOSAPP.build/Debug-iphonesimulator/PulseIOSAPP.build/Objects-normal/arm64/DirectionalAnalyzer.d",
+    "diagnostics" : "/Users/nithinithilanlanmurugesan/Downloads/Pulse/PulseIOSAPP/build/PulseIOSAPP.build/Debug-iphonesimulator/PulseIOSAPP.build/Objects-normal/arm64/DirectionalAnalyzer.dia",
+    "object" : "/Users/nithinithilanlanmurugesan/Downloads/Pulse/PulseIOSAPP/build/PulseIOSAPP.build/Debug-iphonesimulator/PulseIOSAPP.build/Objects-normal/arm64/DirectionalAnalyzer.o",
+    "swift-dependencies" : "/Users/nithinithilanlanmurugesan/Downloads/Pulse/PulseIOSAPP/build/PulseIOSAPP.build/Debug-iphonesimulator/PulseIOSAPP.build/Objects-normal/arm64/DirectionalAnalyzer.swiftdeps"
+  },
+  "/Users/nithinithilanlanmurugesan/Downloads/Pulse/Pulse/Audio/SoundClassifier.swift" : {
+    "const-values" : "/Users/nithinithilanlanmurugesan/Downloads/Pulse/PulseIOSAPP/build/PulseIOSAPP.build/Debug-iphonesimulator/PulseIOSAPP.build/Objects-normal/arm64/SoundClassifier.swiftconstvalues",
+    "dependencies" : "/Users/nithinithilanlanmurugesan/Downloads/Pulse/PulseIOSAPP/build/PulseIOSAPP.build/Debug-iphonesimulator/PulseIOSAPP.build/Objects-normal/arm64/SoundClassifier.d",
+    "diagnostics" : "/Users/nithinithilanlanmurugesan/Downloads/Pulse/PulseIOSAPP/build/PulseIOSAPP.build/Debug-iphonesimulator/PulseIOSAPP.build/Objects-normal/arm64/SoundClassifier.dia",
+    "object" : "/Users/nithinithilanlanmurugesan/Downloads/Pulse/PulseIOSAPP/build/PulseIOSAPP.build/Debug-iphonesimulator/PulseIOSAPP.build/Objects-normal/arm64/SoundClassifier.o",
+    "swift-dependencies" : "/Users/nithinithilanlanmurugesan/Downloads/Pulse/PulseIOSAPP/build/PulseIOSAPP.build/Debug-iphonesimulator/PulseIOSAPP.build/Objects-normal/arm64/SoundClassifier.swiftdeps"
+  },
+  "/Users/nithinithilanlanmurugesan/Downloads/Pulse/Pulse/Core/AppStateExtensions.swift" : {
+    "const-values" : "/Users/nithinithilanlanmurugesan/Downloads/Pulse/PulseIOSAPP/build/PulseIOSAPP.build/Debug-iphonesimulator/PulseIOSAPP.build/Objects-normal/arm64/AppStateExtensions.swiftconstvalues",
+    "dependencies" : "/Users/nithinithilanlanmurugesan/Downloads/Pulse/PulseIOSAPP/build/PulseIOSAPP.build/Debug-iphonesimulator/PulseIOSAPP.build/Objects-normal/arm64/AppStateExtensions.d",
+    "diagnostics" : "/Users/nithinithilanlanmurugesan/Downloads/Pulse/PulseIOSAPP/build/PulseIOSAPP.build/Debug-iphonesimulator/PulseIOSAPP.build/Objects-normal/arm64/AppStateExtensions.dia",
+    "object" : "/Users/nithinithilanlanmurugesan/Downloads/Pulse/PulseIOSAPP/build/PulseIOSAPP.build/Debug-iphonesimulator/PulseIOSAPP.build/Objects-normal/arm64/AppStateExtensions.o",
+    "swift-dependencies" : "/Users/nithinithilanlanmurugesan/Downloads/Pulse/PulseIOSAPP/build/PulseIOSAPP.build/Debug-iphonesimulator/PulseIOSAPP.build/Objects-normal/arm64/AppStateExtensions.swiftdeps"
+  },
+  "/Users/nithinithilanlanmurugesan/Downloads/Pulse/Pulse/UI/Screens/ProfileView.swift" : {
+    "const-values" : "/Users/nithinithilanlanmurugesan/Downloads/Pulse/PulseIOSAPP/build/PulseIOSAPP.build/Debug-iphonesimulator/PulseIOSAPP.build/Objects-normal/arm64/ProfileView.swiftconstvalues",
+    "dependencies" : "/Users/nithinithilanlanmurugesan/Downloads/Pulse/PulseIOSAPP/build/PulseIOSAPP.build/Debug-iphonesimulator/PulseIOSAPP.build/Objects-normal/arm64/ProfileView.d",
+    "diagnostics" : "/Users/nithinithilanlanmurugesan/Downloads/Pulse/PulseIOSAPP/build/PulseIOSAPP.build/Debug-iphonesimulator/PulseIOSAPP.build/Objects-normal/arm64/ProfileView.dia",
+    "object" : "/Users/nithinithilanlanmurugesan/Downloads/Pulse/PulseIOSAPP/build/PulseIOSAPP.build/Debug-iphonesimulator/PulseIOSAPP.build/Objects-normal/arm64/ProfileView.o",
+    "swift-dependencies" : "/Users/nithinithilanlanmurugesan/Downloads/Pulse/PulseIOSAPP/build/PulseIOSAPP.build/Debug-iphonesimulator/PulseIOSAPP.build/Objects-normal/arm64/ProfileView.swiftdeps"
+  },
+  "/Users/nithinithilanlanmurugesan/Downloads/Pulse/Pulse/UI/Screens/TranscriptionView.swift" : {
+    "const-values" : "/Users/nithinithilanlanmurugesan/Downloads/Pulse/PulseIOSAPP/build/PulseIOSAPP.build/Debug-iphonesimulator/PulseIOSAPP.build/Objects-normal/arm64/TranscriptionView.swiftconstvalues",
+    "dependencies" : "/Users/nithinithilanlanmurugesan/Downloads/Pulse/PulseIOSAPP/build/PulseIOSAPP.build/Debug-iphonesimulator/PulseIOSAPP.build/Objects-normal/arm64/TranscriptionView.d",
+    "diagnostics" : "/Users/nithinithilanlanmurugesan/Downloads/Pulse/PulseIOSAPP/build/PulseIOSAPP.build/Debug-iphonesimulator/PulseIOSAPP.build/Objects-normal/arm64/TranscriptionView.dia",
+    "object" : "/Users/nithinithilanlanmurugesan/Downloads/Pulse/PulseIOSAPP/build/PulseIOSAPP.build/Debug-iphonesimulator/PulseIOSAPP.build/Objects-normal/arm64/TranscriptionView.o",
+    "swift-dependencies" : "/Users/nithinithilanlanmurugesan/Downloads/Pulse/PulseIOSAPP/build/PulseIOSAPP.build/Debug-iphonesimulator/PulseIOSAPP.build/Objects-normal/arm64/TranscriptionView.swiftdeps"
+  },
+  "/Users/nithinithilanlanmurugesan/Downloads/Pulse/PulseIOSAPP/Models/SoundModels.swift" : {
+    "const-values" : "/Users/nithinithilanlanmurugesan/Downloads/Pulse/PulseIOSAPP/build/PulseIOSAPP.build/Debug-iphonesimulator/PulseIOSAPP.build/Objects-normal/arm64/SoundModels.swiftconstvalues",
+    "dependencies" : "/Users/nithinithilanlanmurugesan/Downloads/Pulse/PulseIOSAPP/build/PulseIOSAPP.build/Debug-iphonesimulator/PulseIOSAPP.build/Objects-normal/arm64/SoundModels.d",
+    "diagnostics" : "/Users/nithinithilanlanmurugesan/Downloads/Pulse/PulseIOSAPP/build/PulseIOSAPP.build/Debug-iphonesimulator/PulseIOSAPP.build/Objects-normal/arm64/SoundModels.dia",
+    "object" : "/Users/nithinithilanlanmurugesan/Downloads/Pulse/PulseIOSAPP/build/PulseIOSAPP.build/Debug-iphonesimulator/PulseIOSAPP.build/Objects-normal/arm64/SoundModels.o",
+    "swift-dependencies" : "/Users/nithinithilanlanmurugesan/Downloads/Pulse/PulseIOSAPP/build/PulseIOSAPP.build/Debug-iphonesimulator/PulseIOSAPP.build/Objects-normal/arm64/SoundModels.swiftdeps"
+  },
+  "/Users/nithinithilanlanmurugesan/Downloads/Pulse/PulseIOSAPP/PulseIOSAPP/Pipeline/AlwaysOnEngine.swift" : {
+    "const-values" : "/Users/nithinithilanlanmurugesan/Downloads/Pulse/PulseIOSAPP/build/PulseIOSAPP.build/Debug-iphonesimulator/PulseIOSAPP.build/Objects-normal/arm64/AlwaysOnEngine.swiftconstvalues",
+    "dependencies" : "/Users/nithinithilanlanmurugesan/Downloads/Pulse/PulseIOSAPP/build/PulseIOSAPP.build/Debug-iphonesimulator/PulseIOSAPP.build/Objects-normal/arm64/AlwaysOnEngine.d",
+    "diagnostics" : "/Users/nithinithilanlanmurugesan/Downloads/Pulse/PulseIOSAPP/build/PulseIOSAPP.build/Debug-iphonesimulator/PulseIOSAPP.build/Objects-normal/arm64/AlwaysOnEngine.dia",
+    "object" : "/Users/nithinithilanlanmurugesan/Downloads/Pulse/PulseIOSAPP/build/PulseIOSAPP.build/Debug-iphonesimulator/PulseIOSAPP.build/Objects-normal/arm64/AlwaysOnEngine.o",
+    "swift-dependencies" : "/Users/nithinithilanlanmurugesan/Downloads/Pulse/PulseIOSAPP/build/PulseIOSAPP.build/Debug-iphonesimulator/PulseIOSAPP.build/Objects-normal/arm64/AlwaysOnEngine.swiftdeps"
+  }
+}
